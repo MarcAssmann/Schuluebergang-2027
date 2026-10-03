@@ -2,6 +2,7 @@
 """Erzeugt aus schulen_2026-2027.yaml eine Excel-Arbeitsmappe für die Eltern der Klasse.
 
 Blätter: Schulen (Übersicht mit Filtern), Steckbriefe (Volltext je Schule, druckbar), Anleitung.
+Schulweg-Spalten ab der Haltestelle Lincoln-Siedlung kommen aus WEGE (nur wenn die Datei existiert).
 
 Aufruf: .venv/bin/python build_excel.py [ausgabe.xlsx]
 """
@@ -18,6 +19,7 @@ from openpyxl.utils import get_column_letter
 BASE = Path(__file__).resolve().parent
 QUELLE = BASE / "schulen_2026-2027.yaml"
 ZIEL = BASE / "Schulauswahl_Darmstadt_2027-2028.xlsx"
+WEGE = BASE / "Entfernungen_der_Schulen_von_der_Haltestelle_Lincoln-Siedlung.yml"
 
 HEUTE = date.today()
 
@@ -26,7 +28,7 @@ GANZTAG_RX = r"ganztag|betreuung|mittag|hausaufgaben|pakt für den nachmittag"
 
 # ---------- Stil ----------
 DUNKEL = "1F4E78"
-FARBE_KOPF = {"info": "1F4E78", "detail": "595959"}
+FARBE_KOPF = {"info": "1F4E78", "weg": "375623", "detail": "595959"}
 HELLBLAU = "DDEBF7"
 WEISS = Font(color="FFFFFF", bold=True)
 FETT = Font(bold=True)
@@ -86,6 +88,17 @@ def hinweise(s: dict) -> str:
     return "; ".join(x for x in teile if x)
 
 
+LINIE_TYP = {"tram": "Tram", "bus": "Bus", "s_bahn": "", "regionalbahn": ""}  # S6, RB75 sprechen für sich
+
+
+def oepnv_verbindung(w: dict) -> str:
+    o = w["oepnv"]
+    if not o:
+        return w.get("oepnv_hinweis") or "–"
+    linien = " → ".join(f"{LINIE_TYP[x['typ']]} {x['linie']}".strip() for x in o["linien"])
+    return f"{o['losgehen']} → {o['ankunft']} Uhr\n{linien}"
+
+
 def zeilenhoehe(ws, r, sp) -> float:
     """Zeilenhöhe aus Textlänge und Spaltenbreite schätzen (Excel passt sie nicht selbst an)."""
     zeilen = 1
@@ -98,9 +111,9 @@ def zeilenhoehe(ws, r, sp) -> float:
 
 
 # ---------------------------------------------------------------- Blatt „Schulen“
-def blatt_schulen(wb, schulen, steckbrief_zeile):
+def blatt_schulen(wb, schulen, steckbrief_zeile, wege):
     ws = wb.create_sheet("Schulen")
-    S, D = "info", "detail"
+    S, W, D = "info", "weg", "detail"
     sp = []
 
     def add(titel, gruppe, breite, wert, **kw):
@@ -123,6 +136,20 @@ def blatt_schulen(wb, schulen, steckbrief_zeile):
     add("Besondere Schwerpunkte", S, 70, lambda s: aufzaehlung(s["schwerpunkte"]))
     add("Termine 2026/27", S, 48,
         lambda s: "\n".join(termin_kurz(t) for t in s["termine"]) or (s.get("termine_hinweis") or "–"))
+
+    if wege:
+        def oe(feld):
+            return lambda s: wege[s["id"]]["oepnv"][feld] if wege[s["id"]]["oepnv"] else "–"
+        add("Bus & Bahn ab Lincoln-Siedlung (min)", W, 12, oe("dauer_min"), mitte=True)
+        add("Umstiege", W, 9, oe("umstiege"), mitte=True)
+        add("Bus & Bahn: Verbindung (Ankunft bis 7:50)", W, 24, lambda s: oepnv_verbindung(wege[s["id"]]))
+        add("Fahrrad (km)", W, 8, lambda s: wege[s["id"]]["rad"]["km"], mitte=True, zahl="0.0")
+        add("Fahrrad (min)", W, 8, lambda s: wege[s["id"]]["rad"]["min"], mitte=True)
+        add("Zu Fuß (min)", W, 8, lambda s: wege[s["id"]]["fuss"]["min"], mitte=True)
+        add("Auto (km)", W, 8, lambda s: wege[s["id"]]["auto"]["km"], mitte=True, zahl="0.0")
+        add("Auto (min, freie Straße)", W, 9, lambda s: wege[s["id"]]["auto"]["min"], mitte=True)
+        add("Auto (min, Berufsverkehr, geschätzt)", W, 10, lambda s: wege[s["id"]]["auto"]["min_berufsverkehr"],
+            mitte=True)
 
     add("Schulform (ausführlich)", D, 30, lambda s: s["schulform"])
     add("Anschrift", D, 30, lambda s: adresse(s["anschrift"]))
@@ -156,6 +183,8 @@ def blatt_schulen(wb, schulen, steckbrief_zeile):
             else:
                 c.value = w(s)
             c.alignment = MITTE if d.get("mitte") else OBEN_UMBRUCH
+            if d.get("zahl"):
+                c.number_format = d["zahl"]
             c.border = RAHMEN
             if d.get("fett"):
                 c.font = Font(bold=True, color="0563C1", underline="single")
@@ -242,7 +271,7 @@ def blatt_steckbriefe(wb, schulen):
 
 
 # ---------------------------------------------------------------- Blatt „Anleitung“
-def blatt_anleitung(wb, meta, schulen, n_termine):
+def blatt_anleitung(wb, meta, schulen, n_termine, wege_meta):
     ws = wb.create_sheet("Anleitung")
     ws.column_dimensions["A"].width = 3
     ws.column_dimensions["B"].width = 26
@@ -272,6 +301,7 @@ def blatt_anleitung(wb, meta, schulen, n_termine):
     zeile()
     zeile("So nutzen Sie die Tabelle", stil="abschnitt")
     zeile("Blatt „Schulen“", "Eine Zeile pro Schule. Blaue Spalten: Angaben aus der Broschüre. "
+          + ("Grüne Spalten: Schulweg ab der Haltestelle Lincoln-Siedlung. " if wege_meta else "") +
           "Graue Spalten ganz rechts: Anschrift, Kontaktdaten und weitere Details. "
           "Ein Klick auf den Schulnamen öffnet den Steckbrief.", "label", 30)
     zeile("Blatt „Steckbriefe“", "Der vollständige Text jeder Schule aus der Broschüre – gut zum Lesen und Ausdrucken.",
@@ -284,11 +314,27 @@ def blatt_anleitung(wb, meta, schulen, n_termine):
           "• Nur Schulen in der Stadt: Spalte „Lage“ → „Stadt Darmstadt“\n"
           "• Abitur an derselben Schule: Spalte „Eigene Oberstufe“ → „Ja“\n"
           "• Latein gewünscht: Spalte „2. Fremdsprache“ → Textfilter „enthält“ → Latein\n"
-          "• Mit Ganztag/Betreuung: Spalte „Ganztag / Betreuung“ → „✓“",
-          "label", 68)
+          "• Mit Ganztag/Betreuung: Spalte „Ganztag / Betreuung“ → „✓“"
+          + ("\n• Kurzer Schulweg: Spalte „Bus & Bahn … (min)“ → Zahlenfilter „kleiner oder gleich“ → 30"
+             if wege_meta else ""),
+          "label", 82 if wege_meta else 68)
     zeile("Ganztag / Betreuung", "Das ✓ und der Text daneben stammen aus einer Stichwortsuche in den Schwerpunkten "
           "(Ganztag, Betreuung, Mittagessen, Hausaufgaben). Ein leeres Feld heißt nur: in der Broschüre nicht "
           "erwähnt – nicht, dass es das Angebot nicht gibt. Bitte im Zweifel auf der Homepage nachsehen.", "label", 45)
+    if wege_meta:
+        oe = wege_meta["oepnv"]
+        zeile("Schulweg ab Lincoln-Siedlung", "Alle Wege beginnen an der Haltestelle „Darmstadt Lincoln-Siedlung“ "
+              "(Tram 1/7/8) – für den eigenen Weg von zu Hause entsprechend Zeit dazurechnen.", "label", 30)
+        zeile("Bus & Bahn", f"Späteste Verbindung mit Ankunft an der Schule bis {oe['ankunft_spaetestens']} Uhr "
+              f"(Fahrplan vom {oe['stichtag']:%d.%m.%Y}, einem Dienstag), inkl. Fußwegen zur/von der Haltestelle. "
+              "Schulbusse und Verstärkerfahrten fehlen evtl. – bitte in der RMV-App gegenprüfen. "
+              "„Fußweg ist schneller“: Die Schule ist zu Fuß etwa genauso schnell erreichbar.", "label", 45)
+        zeile("Fahrrad / zu Fuß", f"Strecke laut OpenStreetMap, Zeit im Kindertempo "
+              f"({wege_meta['rad']['geschwindigkeit_kmh']:g} km/h mit dem Rad, "
+              f"{wege_meta['fuss']['geschwindigkeit_kmh']:g} km/h zu Fuß), ohne Ampeln und Steigungen.", "label", 30)
+        zeile("Auto", "Für Eltern, die ihr Kind bringen: Fahrzeit laut OpenStreetMap bei freier Straße; "
+              "„Berufsverkehr“ ist eine grobe Schätzung (× 1,5). Ohne Parkplatzsuche – vor vielen Schulen "
+              "gelten Halteverbote oder Elterntaxi-Zonen.", "label", 30)
     zeile()
     zeile("Schulformen", stil="abschnitt")
     for k, v in meta["schulform_abkuerzungen"].items():
@@ -322,14 +368,18 @@ def main():
     ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ZIEL
     daten = yaml.safe_load(QUELLE.read_text(encoding="utf-8"))
     schulen = daten["schulen"]
+    wege_daten = yaml.safe_load(WEGE.read_text(encoding="utf-8")) if WEGE.exists() else None
+    wege = {w["id"]: w for w in wege_daten["entfernungen"]} if wege_daten else None
+    if wege:
+        assert set(wege) == {s["id"] for s in schulen}, "Schul-IDs in WEGE passen nicht zur Schul-YAML"
 
     wb = Workbook()
     wb.remove(wb.active)
     # Steckbriefe zuerst erzeugen (Zeilennummern für die Links), Reihenfolge danach korrigieren
     steckbriefe, zeilen = blatt_steckbriefe(wb, schulen)
-    schul_ws = blatt_schulen(wb, schulen, zeilen)
+    schul_ws = blatt_schulen(wb, schulen, zeilen, wege)
     n_termine = sum(len(s["termine"]) for s in schulen)
-    anleitung = blatt_anleitung(wb, daten["meta"], schulen, n_termine)
+    anleitung = blatt_anleitung(wb, daten["meta"], schulen, n_termine, wege_daten and wege_daten["meta"])
     wb._sheets = [schul_ws, steckbriefe, anleitung]
     wb.active = 0
     wb.properties.title = "Schulauswahl Darmstadt 2027/2028"

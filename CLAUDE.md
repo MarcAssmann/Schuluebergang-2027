@@ -6,7 +6,7 @@ Private Recherche zur Wahl einer weiterführenden Schule (Übergang Klasse 4 →
 
 - `26-27_Mit Karten_Informationsveranstaltungen oder Tage der offenen Tür.pdf` – Quelle: Broschüre des Staatlichen Schulamts (Schulbeschreibungen S. 5–42, Termine S. 43–47).
 - `schulen_2026-2027.yaml` – **maßgebliche strukturierte Datenquelle**, von Hand aus dem PDF extrahiert und geprüft. Weitere Ausgaben (Excel, Kalender) sollen hieraus erzeugt werden.
-- `build_excel.py` – erzeugt aus der YAML `Schulauswahl_Darmstadt_2027-2028.xlsx` für die Eltern der Klasse (Blätter Schulen mit Filtern, Steckbriefe, Anleitung; Spaltenaufbau vom Nutzer per Hand in Excel festgelegt – Änderungen am Layout zuerst in Excel abstimmen und dann ins Skript übernehmen). Enthält bewusst keine persönlichen Schulwege/Bewertungen.
+- `build_excel.py` – erzeugt aus der YAML `Schulauswahl_Darmstadt_2027-2028.xlsx` für die Eltern der Klasse (Blätter Schulen mit Filtern, Steckbriefe, Anleitung; Spaltenaufbau vom Nutzer per Hand in Excel festgelegt – Änderungen am Layout zuerst in Excel abstimmen und dann ins Skript übernehmen). Grüne Schulweg-Spalten nur ab der öffentlichen Haltestelle Lincoln-Siedlung aus `Entfernungen_der_Schulen_von_der_Haltestelle_Lincoln-Siedlung.yml` (gitignored; fehlt die Datei, entfallen die Spalten). Enthält bewusst keine Wege ab Privatadressen (Freiligrathstr.) und keine Bewertungen.
 - `Schulauswahl_Darmstadt_2027-2028.xlsx` – kann manuell bearbeitet sein → vor dem Überschreiben mit `git status`/`git diff` prüfen, ob es uncommittete Änderungen gibt.
 
 ## YAML-Schema (`schulen_2026-2027.yaml`)
