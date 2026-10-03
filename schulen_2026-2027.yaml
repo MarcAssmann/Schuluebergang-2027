@@ -1,0 +1,1801 @@
+# Weiterführende Schulen – Informationsveranstaltungen & Tage der offenen Tür
+# Extrahiert aus: "26-27_Mit Karten_Informationsveranstaltungen oder Tage der offenen Tür.pdf"
+#
+# Konventionen:
+#   - datum: ISO-Datum (YYYY-MM-DD), beginn/ende: "HH:MM" (Strings, Ortszeit Europe/Berlin)
+#   - ende: null, wenn im PDF keine Endzeit angegeben ist; "ab" in zeit_hinweis
+#   - seite: Seitenzahl der Schulbeschreibung im PDF
+#   - hinweis_extraktion: Auffälligkeiten/vermutliche Fehler in der Vorlage (Originalwert bleibt erhalten)
+
+meta:
+  titel: Die weiterführenden Schulen stellen sich vor
+  untertitel: Informationsveranstaltungen / Tage der offenen Tür
+  schuljahr_veranstaltungen: 2026/2027
+  uebergang: 4/5 für das Schuljahr 2027/2028
+  region: Stadt Darmstadt und Landkreis Darmstadt-Dieburg
+  zeitzone: Europe/Berlin
+  quelle: "26-27_Mit Karten_Informationsveranstaltungen oder Tage der offenen Tür.pdf"
+  herausgeber:
+    name: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt
+    dezernat: A2
+    anschrift: Rheinstraße 95, 64295 Darmstadt
+    telefon: +49 6151 3682-2
+    email: poststelle.ssa.darmstadt@kultus.hessen.de
+  schulform_abkuerzungen:
+    Gym: Gymnasium
+    KGS: Kooperative Gesamtschule
+    IGS: Integrierte Gesamtschule
+    H/R: Haupt- und Realschule
+    MSS: Mittelstufenschule
+    R: Realschule
+    GO: mit gymnasialer Oberstufe
+    priv.: Schule in privater/freier Trägerschaft
+
+schulen:
+
+  - id: aes
+    name: Albert-Einstein-Schule
+    abkuerzung: AES
+    schulform_kurz: KGS+GO
+    schulform: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Hügelstr. 20
+      plz: "64401"
+      ort: Groß-Bieberau
+    stadt_darmstadt: false
+    telefon: 06162-93 13 0
+    email: [aes_gross-bieberau@schulen.ladadi.de]
+    homepage: https://www.aesgb.de
+    schulleitung:
+      - StD Jens Naumann (beauftragt)
+    schwerpunkte:
+      - "Schule mit musikalischem Schwerpunkt: Streicherklassen, Schulchöre, zwei Orchester, Schulband"
+      - Theater, Darstellendes Spiel
+      - Kunst
+      - "Naturwissenschaftliches Profil: zertifizierte MINT-freundliche Schule; Informatik, verstärkter Unterricht in den MINT-Fächern; NaWi-Kurse, Lego-Mindstorms, Schulwald und Schulteich, Bienen-AG, Lernbereich NaWi im HR-Zweig für die Jahrgangsstufen 5–7"
+      - Umweltschule
+      - Schule ohne Rassismus – Schule mit Courage
+      - OloV-Siegel und Zukunftswerkstatt Berufs- und Studienorientierung
+      - "Schule mit Ganztagsangeboten (Profil 2): Pädagogische Mittags- und Nachmittagsbetreuung, Mittagstisch, Unterrichtsstartcafé ab 7:15 Uhr, Hausaufgabenbetreuung, Fachbüros und AGs an 5 Tagen bis 16:00 Uhr, Silentium (Mediathek), Ferienbetreuung in Kooperation mit der Grundschule"
+      - "Schüleraustausch: Polen, Spanien, USA, Frankreich, England (Manchester [Bili])"
+      - "Berufsorientierung, zertifiziert: Umfangreiches Informations- u. Vorbereitungsprogramm zur Studien- und Berufsorientierung, Auslandspraktika"
+      - Präventionsteam KOMMIT
+      - Schulsanitätsdienst
+      - Schulskikurse und eigener Skikeller (Ausrüstung)
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasialzweig: ab Jg. 7: Latein, Französisch, Spanisch; Realschulzweig: ab Jg. 7: Französisch"
+      dritte: "Gymnasialzweig: ab Jg. 9: Französisch, Latein, ab Jg. E: Spanisch"
+    bilinguale_angebote: Jg. 5G bis Jg. 10G
+    seite: 5
+    termine:
+      - datum: 2027-01-22
+        wochentag: Freitag
+        beginn: "15:00"
+        ende: "18:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: ass
+    name: Albert-Schweitzer-Schule
+    abkuerzung: ASS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Dresdener Str. 1
+      plz: "64846"
+      ort: Groß-Zimmern
+    stadt_darmstadt: false
+    telefon: 06071 - 9297990
+    email: [sekretariat@ass-gross-zimmern.de]
+    homepage: https://www.ass-gross-zimmern.de
+    schulleitung:
+      - Schulleiter Herr Christian Hecker
+      - stellv. Schulleiter Herr Tayfun Sor
+    schwerpunkte:
+      - "Schule des Landkreises Darmstadt-Dieburg im Ganztagsprofil 1 mit Mittagessenangebot, Hausaufgabenbetreuung, „Offenem Treff“ und zahlreichen Arbeitsgruppenangeboten an 5 Tagen in der Woche aus den Bereichen Naturwissenschaft, Sprachen, Musik, Kunst, darstellendes Spiel, Soziales und Sport"
+      - verschiedene Förderkurse in den Hauptfächern
+      - "Zahlreiche Präventionsprojekte (z.B. umfassendes Medienschutzkonzept und „Digitale Helden“, Schulmediation)"
+      - "„Bike School“ und „gesunde Schule“ (Bewegte Pause)"
+      - Gymnasial-Zweig nach G9 (Kl. 5 – Kl. 10)
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasium: Spanisch, Französisch, Latein ab Jg. 7; Realschule: Französisch ab Jg. 7"
+      dritte: null
+    bilinguale_angebote: null
+    seite: 6
+    termine:
+      - datum: 2026-12-05
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: ads
+    name: Albrecht-Dürer-Schule
+    abkuerzung: ADS
+    schulform_kurz: KGS+GO
+    schulform: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Klein-Gerauer Weg 23-25
+      plz: "64331"
+      ort: Weiterstadt
+    stadt_darmstadt: false
+    telefon: 06150-130 50
+    email: [ads_weiterstadt@schulen.ladadi.de]
+    homepage: https://www.duerer.schule
+    schulleitung:
+      - Dr. Hartmut Lissinna
+    schwerpunkte:
+      - Ganztagsschulprofil 1 des HKM
+      - doppelte Klassenführung in der Förderstufe
+      - zusätzliche Sprachförderung in den Jahrgängen 5/6 (von der Umgangs- zur Bildungssprache)
+      - NaWi als Hauptfach in Klasse 5/6
+      - Kinderrechte-Schule
+      - BNE
+      - umfangreiche Angebote zur Berufsorientierung ab Klasse 7
+      - Musical-Aufführung mit ca. 350 Schülerinnen und Schülern im 2-jährigen Rhythmus (Chor, Orchester, Theater, Bühnenbau)
+      - CISCO-Ausbildungsangebot zur Netzwerkassistent(in)
+      - breites Leistungskursangebot in der Oberstufe
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasialzweig: Französisch, Latein ab Jg. 7"
+      dritte: Italienisch als Wahlunterricht im Jg. 9; Italienisch ab E-Phase
+    bilinguale_angebote: null
+    seite: 7
+    termine:
+      - datum: 2026-11-21
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: bas
+    name: Bernhard-Adelung-Schule
+    abkuerzung: BAS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule
+    privat: false
+    anschrift:
+      strasse: Vogelsbergstraße 50
+      plz: "64289"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13480700
+    email: [bas@darmstadt.de]
+    homepage: https://www.bernhard-adelung-schule.de
+    schulleitung:
+      - Herr Alexander Siede
+    schwerpunkte:
+      - Familienfreundliche Schule mit Ganztagsangebot
+      - Mittagsversorgung von montags bis freitags
+      - Hausaufgabenhilfe
+      - tägliche Nachmittagsangebote
+      - Rechtschreibwerkstatt
+      - spezielle Leseförderangebote
+      - Schwerpunkt Arbeitslehre, Arbeitslehreunterricht in Werkstätten
+      - "Buddyprojekte „Schüler für Schüler“"
+      - Berufsvorbereitung
+      - TalentCompany
+      - Schulsanitäter
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Spanisch ab Jahrgang 7
+      dritte: null
+    bilinguale_angebote: null
+    seite: 8
+    termine:
+      - datum: 2026-11-28
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "12:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: dkss
+    name: Dr.-Kurt-Schumacher-Schule
+    abkuerzung: DKSS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule
+    privat: false
+    anschrift:
+      strasse: Freiherr-vom-Stein-Straße 1
+      plz: "64354"
+      ort: Reinheim
+    stadt_darmstadt: false
+    telefon: 06162-93 32 0
+    email: [dks_reinheim@schulen.ladadi.de]
+    homepage: https://www.dkss-reinheim.de
+    schulleitung:
+      - Ralf Loschek
+      - Ulrike Vogt
+    schwerpunkte:
+      - Ganztägig arbeitende Schule mit Mittagstisch, Nachmittagsbetreuung und Förderunterricht
+      - umfangreiches AG-Angebot am Nachmittag
+      - Naturwissenschaftlicher Schwerpunkt mit Schulteich / Schulgarten / Schulimkerei
+      - Angebot der 10. Hauptschulklasse
+      - schulform- und jahrgangsübergreifendes Wahlpflichtangebot in 9 und 10
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasialzweig: Französisch, Latein und Spanisch ab Jg. 7; Realschulzweig: Französisch ab Jg. 7"
+      dritte: null
+    bilinguale_angebote: Im Gymnasialzweig ab Jahrgang 6
+    seite: 9
+    termine:
+      - datum: 2026-11-23
+        wochentag: Montag
+        beginn: "19:30"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Schulgelände
+      - datum: 2026-12-05
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: null
+        zeit_hinweis: ab 10:00
+        art: Tag der offenen Tür und Weihnachtsmarkt
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: ess
+    name: Edith-Stein-Schule
+    abkuerzung: ESS
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: true
+    traeger: katholisch
+    anschrift:
+      strasse: Seekatzstr. 18-22
+      plz: "65285"
+      ort: Darmstadt
+    hinweis_extraktion: PLZ im PDF "65285" – vermutlich Tippfehler für 64285
+    stadt_darmstadt: true
+    telefon: 06151-96 48 11
+    email: [sekretariat@ESS-Darmstadt.de]
+    homepage: https://www.ess-darmstadt.de
+    schulleitung:
+      - Doris Krumpholz
+    schwerpunkte:
+      - Staatlich anerkanntes Gymnasium in katholischer Trägerschaft, G9-Bildungsgang
+      - "Fremdsprachenangebot: Englisch, Latein/Französisch, Französisch/Latein/Spanisch, Italienisch-AG"
+      - Hausaufgabenbetreuung, Mittagessen, Lernzentrum
+      - umfangreiches AG-Angebot im Bereich Musik, Sport, Kreativität und Naturwissenschaften
+      - Förderangebote, Begabtenförderung
+      - Klassen- und Tutoriumsstunden in allen Jahrgängen
+      - Angebote der Schulseelsorge
+      - Schulpartnerschaften in Frankreich, Italien, Polen, USA, Spanien
+      - UNESCO-Projektschule
+      - umfangreiches Präventionskonzept mit zahlreichen Angeboten und Projekten
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Latein
+      dritte: Französisch, Latein, Spanisch
+    bilinguale_angebote: null
+    seite: 10
+    termine:
+      - datum: 2026-11-28
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2026-11-30
+        wochentag: Montag
+        beginn: "19:30"
+        ende: "21:00"
+        art: Informationsvortrag
+        typ: informationsabend
+        ort: Schulgelände
+      - datum: 2027-01-18
+        wochentag: Montag
+        beginn: "19:30"
+        ende: "21:00"
+        art: Informationsvortrag
+        typ: informationsabend
+        ort: Schulgelände
+
+  - id: ews
+    name: Eichwaldschule
+    abkuerzung: EWS
+    schulform_kurz: H/R
+    schulform: Grund-, Haupt- und Realschule mit Förderstufe
+    privat: false
+    anschrift:
+      strasse: Langstädter Str. 40
+      plz: "64850"
+      ort: Schaafheim
+    stadt_darmstadt: false
+    telefon: 06073-91 30
+    email: [ews_schaafheim@schulen.ladadi.de]
+    homepage: https://www.eichwaldschule.de
+    schulleitung:
+      - Herr Christopher Mühlhöfer
+    schwerpunkte:
+      - Erweiterung der Förderstufe durch die Verbundklasse 7 mit Kursung in Englisch und Mathematik ab der Klasse 6
+      - "Ganztagsangebot für alle JGSt: Mittagessen an vier Tagen, „Offener Treff“, Hausaufgabenbetreuung, AG-Angebote (u.a. Schülerzeitung, Miteinander Lernen, Englisch Fit für die Oberstufe, Erasmus)"
+      - "Wahlpflichtangebote: u.a. Handwerk, Experimentieren, Robotik, Verantwortung, Handball"
+      - "aktive Ausbildungsinitiative: Zukunftswerkstatt in Kooperation mit der IHK, Praxistag in Klasse 8 (Hauptschule)"
+      - "Schwerpunkte: Eigenverantwortliches Lernen (u.a. Lernzeiten, offene Unterrichtsformen, Projektarbeit) und Soziales Lernen (u.a. Klassenrat, Schülerpatenschaften)"
+      - "Digitale Schule – „Digitale Welt“ als Schulfach für alle in 5/6"
+      - Schulaustausch – Erasmus-Projekt
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch (ab Jg. 7)
+      dritte: null
+    bilinguale_angebote: null
+    seite: 11
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "14:30"
+        ende: "17:30"
+        art: Tag der offenen Tür mit Adventsmarkt
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "18:00"
+        ende: null
+        art: Infoabend
+        typ: informationsabend
+        ort: Schulgelände
+      - datum: 2027-02-19
+        wochentag: Freitag
+        beginn: "14:15"
+        ende: "17:00"
+        art: Mitmachtag
+        typ: schnuppertag
+        ort: Schulgelände
+        hinweis: Anmeldung vor Ort um 14:15 Uhr
+
+  - id: elo
+    name: Eleonorenschule
+    abkuerzung: ELO
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Julius-Reiber-Str. 1
+      plz: "64293"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13 481900
+    email: [eleonorenschule@darmstadt.de]
+    homepage: https://www.eleonorenschule.de
+    schulleitung:
+      - Stefan Hein
+    schwerpunkte:
+      - Status einer selbstständigen allgemeinbildenden Schule (SES)
+      - Ganztägig im Profil 2 arbeitend mit pädagogischer Nachmittagsbetreuung (sehr breites AG-Angebot u. Förderangebote)
+      - MINT-freundlich, u.a. mit Experimentalunterricht in Jg. 7 (in kleinen Lerngruppen)
+      - OloV-Gütesiegel Berufs- und Studienorientierung
+      - Großer Schulgarten als Lern- und Rückzugsort
+      - Umweltschule
+      - Bikeschool
+      - soziales Lernen und Klassenpaten
+    fremdsprachen:
+      erste: Spanisch oder Englisch
+      zweite: Spanisch ab Jahrgang 6 oder Französisch ab Jahrgang 6 oder Englisch ab Jahrgang 5 (bei 1. FS Spanisch)
+      dritte: bei entsprechender Anwahl im Wahlunterricht 9/10
+    bilinguale_angebote: null
+    seite: 12
+    termine:
+      - datum: 2027-01-23
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Turnhalle/Hauptgebäude
+      - datum: 2027-02-10
+        wochentag: Mittwoch
+        beginn: "19:00"
+        ende: "20:30"
+        art: Info-Abend für Eltern
+        typ: informationsabend
+        ort: Turnhalle
+
+  - id: eks
+    name: Erich-Kästner-Schule Stadtteilschule Kranichstein
+    abkuerzung: EKS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule
+    privat: false
+    anschrift:
+      strasse: Bartningstr. 33
+      plz: "64289"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-134 82300
+    email: [eks-igs@darmstadt.de]
+    homepage: https://www.eks-igs.de
+    schulleitung:
+      - Dr. Dominik Dilcher, Schulleiter
+      - Frau Astrid Schwöbel, Stellvertretende Schulleiterin
+    schwerpunkte:
+      - "„Lernen im eigenen Tempo“"
+      - Rhythmisierte Ganztagsschule/Familienfreundliche Schule
+      - KulturSchule des Landes Hessen
+      - Fahrradfreundlichste Schule Deutschlands 2017
+      - Mensa
+      - Schulsozialarbeit
+      - Lernzeit
+      - Projektarbeit
+      - PiT-Schule
+      - Berufsorientierung
+      - Inklusion
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch und Spanisch ab Jg. 7
+      dritte: null
+    bilinguale_angebote: null
+    seite: 13
+    termine:
+      - datum: 2026-12-05
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: ers
+    name: Ernst-Reuter-Schule
+    abkuerzung: ERS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule mit Grundstufe
+    privat: false
+    anschrift:
+      strasse: Dresdener Str. 7
+      plz: "64823"
+      ort: Groß-Umstadt
+    stadt_darmstadt: false
+    telefon: 06078-93 68 0
+    email: [ers_gross-umstadt@schulen.ladadi.de]
+    homepage: https://www.ernst-reuter-schule.net
+    schulleitung:
+      - Andreas Stüber
+      - Franziska Kurtz (stellv. Schulleiterin)
+    schwerpunkte:
+      - Ganztagsschule nach Stufe 1 (Mittags-/Hausaufgabenbetreuung u. Mittagessen an 5 Tagen)
+      - "vielfältige Unterrichts- und AG-Angebote: Sport (u.a. Bikeschool Mountainbike AG, Volleyball-AG, Fußball-AG), Sprachen (Englisch / Spanisch / Französisch), Informatik und Wissenschaft (u.a. landesweite Robotics-Wettkämpfe), Musik und Kunst (u.a. viele Aufführungen und Ausstellungen), Kochen (u.a. gesunde Ernährung)"
+      - Bienen-AG
+      - alle AG-Angebote kostenlos
+      - viele berufsvorbereitende Maßnahmen
+      - freiwillige Schulkleidung
+      - Zusammenarbeit mit dem JUZ der Stadt Groß-Umstadt, PIT Hessen
+      - offene Lehr- und Lernsituationen/selbstorganisiertes Lernen/Lernateliers
+    fremdsprachen:
+      erste: Englisch
+      zweite: "WP-Bereich: Französisch und Spanisch ab Jg. 7"
+      dritte: null
+    bilinguale_angebote: null
+    seite: 14
+    termine:
+      - datum: 2026-12-02
+        wochentag: Mittwoch
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Online
+        online: true
+      - datum: 2027-02-20
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "12:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: fcs
+    name: Freie Comenius Schule
+    abkuerzung: FCS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule mit Grundstufe (privat)
+    privat: true
+    anschrift:
+      strasse: Jägertorstr. 179 B
+      plz: "64289"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-73 47 29-0
+    email: [info@fcs-da.de]
+    homepage: https://www.fcs-da.de
+    schulleitung:
+      - Henning Zipf
+      - Birgit Manthey
+      - Michael Buchert
+    schwerpunkte:
+      - Jahrgangsübergreifende Gruppen, Projektarbeit
+      - Gemeinsamer Unterricht von Schülerinnen und Schülern mit und ohne sonderpädagogischen Förderbedarf
+      - vier Praktika in den Jahrgängen 7–10
+      - Berufsorientierung, Arbeitslehre
+      - Ganztagsschule bis 15:30 Uhr
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch ab Jg. 7
+      dritte: null
+    bilinguale_angebote: null
+    seite: 15
+    termine:
+      - datum: 2026-11-02
+        wochentag: Montag
+        beginn: "20:00"
+        ende: "21:30"
+        art: "Informationsveranstaltung „Pädagogik“"
+        typ: informationsabend
+        ort: Halle der FCS
+      - datum: 2026-11-16
+        wochentag: Montag
+        beginn: "20:00"
+        ende: "21:30"
+        art: Informationsveranstaltung Elternmitarbeit
+        typ: informationsabend
+        ort: Halle der FCS
+
+  - id: fms
+    name: Freie Montessori-Schule Darmstadt
+    abkuerzung: FMS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule und Grundschule (privat)
+    privat: true
+    anschrift:
+      strasse: Berliner Allee 5
+      plz: "64295"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-601 44 40
+    email: [info@montessori-darmstadt.de]
+    homepage: https://www.montessori-darmstadt.de
+    schulleitung:
+      - Annemarie Tastel
+      - Andrea Walther
+    schwerpunkte:
+      - Montessori-Pädagogik
+      - jahrgangsgemischte Gruppen
+      - Projektarbeit, Freiarbeit
+      - Teilgebundene Ganztagsschule bis 16 Uhr mit Nachmittagsbetreuung
+    fremdsprachen:
+      erste: Englisch ab Jg. 1
+      zweite: Spanisch ab Jg. 6
+      dritte: null
+    bilinguale_angebote: null
+    seite: 16
+    termine:
+      - datum: 2026-11-07
+        wochentag: Samstag
+        beginn: "11:00"
+        ende: "15:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: fws
+    name: Freie Waldorfschule Darmstadt
+    abkuerzung: FWS
+    schulform_kurz: Gym
+    schulform: Zweizügige Ersatzschule mit Eingangsstufe und staatlich anerkannter gymnasialer Oberstufe (G9) (privat)
+    privat: true
+    anschrift:
+      strasse: Arndtstraße 6
+      plz: "64297"
+      ort: Darmstadt-Eberstadt
+    stadt_darmstadt: true
+    telefon: 06151-9555-0
+    email: [info@waldorfschule-darmstadt.de]
+    homepage: https://www.waldorfschule-darmstadt.de
+    schulleitung:
+      - schulleitung@waldorfschule-darmstadt.de
+    schwerpunkte:
+      - Pädagogische Abstimmung von Unterrichtsinhalten und -formen auf die Entwicklungsstufen des Kindes und die Prozesse des Lernens
+      - vielfältiger handwerklich-künstlerisch-musischer Unterricht
+      - Klassenlehrerbegleitung von Klasse 1–8
+      - mehrwöchiger Themenunterricht (in Epochen), unterrichtsbegleitende Projekte und Praktika, Förderunterricht
+      - Schularzt und Schulsozialarbeit
+      - Schulküche und -café, Hort mit Hausaufgabenbetreuung
+      - Möglichkeit für eine Schreiner- oder Schneiderlehre mit anschließendem Schulabschluss
+    fremdsprachen:
+      erste: Englisch ab Klasse 1
+      zweite: Französisch ab Klasse 1
+      dritte: null
+    bilinguale_angebote: null
+    seite: 17
+    termine:
+      - datum: 2026-09-12
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "15:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2026-11-14
+        wochentag: Samstag
+        beginn: "12:00"
+        ende: "17:00"
+        art: Martinsmarkt mit vielen Angeboten
+        typ: markt_fest
+        ort: Schulgelände
+
+  - id: fes
+    name: Friedrich-Ebert-Schule
+    abkuerzung: FES
+    schulform_kurz: KGS+GO
+    schulform: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Ringstr. 51-61
+      plz: "64319"
+      ort: Pfungstadt
+    stadt_darmstadt: false
+    telefon: 06157-94 76-0
+    email: [Schulleitung6130@schule.hessen.de]
+    homepage: https://www.fes-pfungstadt.de
+    schulleitung:
+      - Julia Lesche
+    schwerpunkte:
+      - "Bilingualer Schwerpunkt: erweiterter Englischunterricht in Gym 5/6, bilingualer Sachfachunterricht ab Kl. 7"
+      - "Begegnungsfahrten: Frankreich, England"
+      - "MINT-freundliche Schule: MINT-Projekte, Wettbewerbsteilnahmen, CampusSchule der TU Darmstadt, IT-Schulung, Medienpräventionstage, Methodentage"
+      - Zertifizierte gesundheitsfördernde Schule
+      - Deutsche Schachschule
+      - Schulsanitätsdienst, Schulskikurse
+      - Bikeschool
+      - Kooperation mit Sportvereinen
+      - Ganztag (Profil 3) i. Förderstufe/H/R verbindlich, im Gymnasialzweig z. Auswahl, vielfältiges AG-Angebot an 5 Tagen u. kostenlose Hausaufgabenbetreuung, attraktives Mensaangebot
+      - "sozialwirksame Schule: Kennlernfahrt in Jg. 5, Erlebnispädagogik, Schulsozialarbeit – soziales Lernen"
+      - Schule ohne Rassismus
+      - "vorbildliche Berufsorientierung: Berufswahlsiegel Hessen; OloV zertifiziert"
+      - kleine Oberstufe mit breitem Kursangebot (z.B. Kunst-LK, Sport-LK, Darstellendes Spiel, Planspiel)
+      - alle Klassenräume sind mit interaktiven Tafeln ausgestattet
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasialzweig: Französisch, Latein, Spanisch ab Jg. 7; Realschule: Französisch ab Jg. 7"
+      dritte: Spanisch neu beginnend ab E-Phase
+    bilinguale_angebote: Geographie, Geschichte, Politik und Wirtschaft in Deutsch / Englisch
+    seite: 18
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "17:00"
+        ende: "19:00"
+        art: Tag der offenen Schule
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: gbs
+    name: Georg-Büchner-Schule
+    abkuerzung: GBS
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Nieder-Ramstädter Str. 120
+      plz: "64285"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151 - 13 482900
+    email: [gbs@darmstadt.de]
+    homepage: https://www.gbs-darmstadt.de
+    schulleitung:
+      - Eva Klün-Ernst, OStD'n (Schulleiterin)
+      - René Sauer, StD (stv. Schulleiter)
+    ganztag:
+      - Eigene Mensa
+      - pädagogische Mittagsbetreuung
+      - Hausaufgabenhilfe
+      - breites Angebot an Arbeitsgemeinschaften
+    schwerpunkte:
+      - Partnerschule des Leistungssports, Sportklasse ab Jg. 5, Leistungskurs Sport garantiert
+      - Bilingualer Zug (deutsch-englisch) ab Jg. 6, Certilingua
+      - MINT-freundliche Schule
+      - Campusschule
+      - Sozialpraktikum im Jahrgang 9
+      - Austauschprogramme
+      - Erasmus+-Projekte
+      - Gedenkstättenfahrt (Lublin)
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Latein ab Jg. 6
+      dritte: Französisch, Latein ab Jg. 9 im Bereich des Wahlunterrichts
+    bilinguale_angebote: Bilingualer Zug (deutsch-englisch) ab Jg. 6 (je nach Jahrgang in den Fächern Geographie, Geschichte oder Politik und Wirtschaft); Bilinguale Abiturprüfung
+    seite: 19
+    termine:
+      - datum: 2026-11-17
+        wochentag: Dienstag
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend Sportklasse
+        typ: informationsabend
+        ort: Mensa der GBS
+      - datum: 2026-11-28
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2027-02-02
+        wochentag: Dienstag
+        beginn: "19:00"
+        ende: null
+        art: Allgemeiner Informationsabend
+        typ: informationsabend
+        ort: Mensa der GBS
+
+  - id: gcls
+    name: Georg-Christoph-Lichtenberg-Schule
+    abkuerzung: GCLS
+    schulform_kurz: IGS+GO
+    schulform: Integrierte Gesamtschule mit gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Steinrehweg 5
+      plz: "64372"
+      ort: Ober-Ramstadt
+    stadt_darmstadt: false
+    telefon: 06154-63 46 0
+    email: [gcl@schulen.ladadi.de]
+    homepage: https://www.gcls.de
+    schulleitung:
+      - Sabine Gatzweiler
+    schwerpunkte:
+      - Bläser-, MINT- und PerformArts-Profil im Jahrgang 5 und 6
+      - gemeinsames Lernen im Klassenverband bis Jahrgang 8
+      - äußere, abschlussbezogene Differenzierung in den Hauptfächern ab Jahrgang 9
+      - Ganztagsschule (im Profil II)
+      - KulturSchule Hessens; Profilschule Kulturelle Bildung
+      - Schule mit Schwerpunkt Musik
+      - MINT-freundliche Schule; MINT-Zentrum, Campusschule
+      - Zertifikat Schule & Gesundheit
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch und Latein ab Jg. 7; Französisch, Italienisch und Spanisch ab Jg. 11
+      dritte: null
+    bilinguale_angebote: null
+    seite: 20
+    termine:
+      - datum: 2026-11-25
+        wochentag: Mittwoch
+        beginn: "16:00"
+        ende: "18:30"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: gms
+    name: Georg-Müller-Schule
+    abkuerzung: null
+    schulform_kurz: IGS
+    schulform: Grundschule, IGS (privat)
+    privat: true
+    anschrift:
+      strasse: Benzweg 3
+      plz: "64293"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151 - 7895326
+    email:
+      - schule.office@gms-da.de
+      - schule.info@gms-da.de
+      - schule.leitung@gms-da.de
+    homepage: https://www.gms-da.de
+    schulleitung:
+      - Olga Hoffmann (Grundschule)
+      - David Tetzlaw (Sekundarstufe I / IGS)
+      - Andreas Tielmann (Organisatorisch und gesamt)
+    schwerpunkte:
+      - Freie christliche IGS und Grundschule
+    fremdsprachen:
+      erste: Englisch
+      zweite: Spanisch
+      dritte: null
+    bilinguale_angebote: null
+    seite: 21
+    termine: []
+    termine_hinweis: "Schule im Aufbau: Noch kein Tag des offenen Unterrichts"
+
+  - id: ghs
+    name: Gerhart-Hauptmann-Schule
+    abkuerzung: GHS
+    schulform_kurz: KGS+GO
+    schulform: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Goethestr. 99
+      plz: "64347"
+      ort: Griesheim
+    stadt_darmstadt: false
+    telefon: 06155-87 54 0
+    email: [ghs_griesheim@schulen.ladadi.de]
+    homepage: https://www.ghs-griesheim.eu
+    schulleitung:
+      - Anja Reuter
+    schwerpunkte:
+      - "Schwerpunktklassen Gym 5+6: Bläser/Science/Sprachjongleure/Wandel.Werte.Wirksamkeit"
+      - "Schwerpunktklassen Fö 5+6: Deutsch/Sport/Natur und Technik (NaTec)"
+      - Intensivklasse (DaZ), H10, gymnasiale Oberstufe
+      - "Ganztagsschule Profil 2 mit Angeboten an 5 Tagen: Mittagessen/AG-Angebote/Offenes Betreuungsangebot mit Hausaufgabenzeit"
+      - MINT-freundliche Schule, Digitale Schule, Gesundheitsfördernde Schule
+      - Schule ohne Rassismus – Schule mit Courage
+      - Erasmus+
+      - Digitale Welten im Ganztag
+      - Schulleistungsverbesserungskurs vor Abschlussprüfungen
+      - "Jugend präsentiert: E-Phase; Jugend debattiert: Jgst. 9 und E-Phase"
+      - "Orientierungstage: Startklar in der E-Phase"
+      - Begleitung für Übergänge an weiterführende Schulen nach Klasse 9 und 10
+      - Berufs- und Studienorientierung in der Sek I und Gym. Oberstufe
+      - "Schulsozialarbeit: Sozialkompetenztraining: Jg. 5–7 und Kennenlernfahrt: Jgst. 5"
+      - Sprach-AG mit Fahrt nach Irland
+      - "Klassenfahrt mit sportlichem Schwerpunkt: Jgst. 8"
+      - Austauschprogramm mit Frankreich und Spanien
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Spanisch ab Jgst. 7 (G9)
+      dritte: "Neu beginnende Fremdsprache in Gym. Oberstufe: Spanisch"
+    bilinguale_angebote: null
+    seite: 22
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "14:00"
+        ende: "18:00"
+        art: Tag des offenen Unterrichts
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: goethe
+    name: Goetheschule Dieburg
+    abkuerzung: null
+    schulform_kurz: KGS
+    schulform: "Kooperative Gesamtschule: Gymnasialzweig (G9), Mittelstufenschule (MSS) mit mittlerem und praxisorientiertem Bildungsgang sowie einer Intensivklasse"
+    privat: false
+    anschrift:
+      strasse: Goethestr. 10-14
+      plz: "64807"
+      ort: Dieburg
+    stadt_darmstadt: false
+    telefon: 06071-98 88-0
+    email: [sekretariat@goethe.schule]
+    homepage: https://www.goethe.schule
+    schulleitung:
+      - Christof Maruschka
+    schwerpunkte:
+      - Anerkannte UNESCO-Projektschule seit 2014; Demokratie- und Menschenrechtsbildung, interkulturelles Lernen und Nachhaltigkeit
+      - bilinguale Klasse ab Jg. 7
+      - Lernhaus / Selbstständiges Lernen in MSS in 5–7 (Lernbüros in Deutsch, Mathematik und Englisch mit individuellen Lernwegen, Lernen im eigenen Tempo, Coaching, projektorientiertes Lernen, digitale Lernplattform)
+      - Digitales Lernen (Informatik im Gym-Zweig ab Jg. 5, digitale Lernformen und persönliche Endgeräte im Lernhaus)
+      - Berufsorientierung (ab Jg. 8 berufsbezogener Unterricht der Mittelstufenschule in Kooperation mit der Landrat-Gruber-Schule (Technik, Wirtschaft, Gesundheit); Betriebspraktika in allen Schulzweigen)
+      - Musik (außergewöhnlicher Musikunterricht mit zusätzlicher Musikstunde in Jg. 5/6, Stimmbildung, Chor)
+      - "Ganztag Profil 2: Betreuung bis 16 Uhr, kostenfreie AG-Angebote sowie Hausaufgabenbetreuung und -hilfe"
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gym: Französisch, Latein oder Spanisch ab Jg. 7; MSS: Französisch ab Jg. 7 (Wahl)"
+      dritte: null
+    bilinguale_angebote: "Gym: zusätzliche Englischstunde in Jg. 6; bilinguale Klasse ab Jg. 7 mit Sachfächern (Erdkunde, Biologie, Geschichte, Politik und Wirtschaft); Bili-Zertifikat zum Abschluss in Zusammenarbeit mit der TU Darmstadt"
+    seite: 23
+    termine:
+      - datum: 2026-11-05
+        wochentag: Donnerstag
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Aula
+      - datum: 2027-01-30
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "12:30"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: gut
+    name: Gutenbergschule
+    abkuerzung: GUT
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Gabelsbergerstr. 4-8
+      plz: "64297"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151- 13483100
+    email: [gutenbergschule@darmstadt.de]
+    homepage: https://www.gut-da.de
+    schulleitung:
+      - Arne Huwald
+      - Barbara Kuhn
+      - Hannes Marb
+    schwerpunkte:
+      - Einzugsgebiet über den Darmstädter Süden bis nach Mühltal
+      - Mit rund 650 Schülerinnen und Schülern eine überschaubare Schule, in der persönliche Begegnungen und ein gutes Miteinander wichtig sind
+      - Als Kooperative Gesamtschule alle drei Schulformen – Hauptschule, Realschule und Gymnasium – unter einem Dach
+      - Hauptschulzweig führt zum Abschluss nach Klasse 9, Realschulzweig zum mittleren Schulabschluss nach Klasse 10 (bei entsprechender Qualifikation Besuch einer externen gymnasialen Oberstufe möglich)
+      - Gymnasialzweig im G9-Bildungsgang bis Klasse 10, anschließend Besuch einer externen gymnasialen Oberstufe
+      - "Ganztagsschule: auch am Nachmittag Möglichkeiten zur fachlichen Vertiefung, zum selbstständigen Lernen und für vielfältige weitere Aktivitäten"
+      - Internationale Schulgemeinschaft – Vielfalt, Offenheit und gemeinsames Lernen
+      - "„Modellschule für Kinderrechte“ und „Smart School“: demokratische Bildung und zeitgemäßer Umgang mit digitalen Medien"
+    beschreibung: >-
+      Unser Einzugsgebiet reicht über den Darmstädter Süden bis nach Mühltal.
+      Mit rund 650 Schülerinnen und Schülern sind wir eine überschaubare Schule,
+      in der persönliche Begegnungen und ein gutes Miteinander wichtig sind. Als
+      Kooperative Gesamtschule vereinen wir alle drei Schulformen – Hauptschule,
+      Realschule und Gymnasium – unter einem Dach. So können wir Kinder und
+      Jugendliche entsprechend ihrer individuellen Stärken begleiten und ihnen
+      unterschiedliche Wege zu einem erfolgreichen Schulabschluss eröffnen. Unser
+      Hauptschulzweig führt zum Abschluss nach Klasse 9, der Realschulzweig zum
+      mittleren Schulabschluss nach Klasse 10 und ermöglicht bei entsprechender
+      Qualifikation den Besuch einer externen gymnasialen Oberstufe. Im
+      Gymnasialzweig lernen die Schüler im G9-Bildungsgang bis Klasse 10 und
+      besuchen anschließend eine externe gymnasiale Oberstufe. Als Ganztagsschule
+      verstehen wir Schule als Lern- und Lebensort. Auch am Nachmittag bieten wir
+      Möglichkeiten zur fachlichen Vertiefung, zum selbstständigen Lernen und für
+      vielfältige weitere Aktivitäten. Unsere internationale Schulgemeinschaft
+      steht für Vielfalt, Offenheit und gemeinsames Lernen. Als „Modellschule für
+      Kinderrechte“ und „Smart School“ verbinden wir demokratische Bildung und
+      einen zeitgemäßen Umgang mit digitalen Medien.
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasialzweig: Französisch/Spanisch ab Jg. 7; Realschulzweig: Französisch/Spanisch ab Jg. 7 optional"
+      dritte: null
+    bilinguale_angebote: null
+    seite: 24
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "15:30"
+        ende: "18:30"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: hws
+    name: Hessenwaldschule
+    abkuerzung: HWS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Wolfsgartenallee 8
+      plz: "64331"
+      ort: Weiterstadt
+    stadt_darmstadt: false
+    telefon: 06150-97 46 0
+    email: [hws_weiterstadt@schulen.ladadi.de]
+    homepage: https://www.hessenwaldschule.de
+    schulleitung:
+      - Stephan Wüst (SL)
+      - N.N. (stv. SL)
+    schwerpunkte:
+      - Digital arbeitende Schule (iPad ab Klasse 7)
+      - Erasmus-Schule
+      - Prävention, Gemeinschaft und Demokratie
+      - Schüleraustausch Spanien
+      - Berufsorientierung
+      - Bikeschool
+      - Stärkung MINT
+      - Gymnasialzweig ab Jahrgang 5; Förderstufe für Jahrgang 5 und 6 (H und R)
+      - gebundene Ganztagsschule (Profil 3) für den Jahrgang 5 und 6 bis 14:35 Uhr
+      - pädagogische Mittagsbetreuung, Lerninsel/Club für die Klassen 5–7 bis 16:00 Uhr, freitags bis 14:00 Uhr
+    fremdsprachen:
+      erste: Englisch
+      zweite: Spanisch ab Klasse 7 (R und Gym)
+      dritte: Französisch und Chinesisch ab Klasse 9 (Gym)
+    bilinguale_angebote: null
+    seite: 25
+    termine:
+      - datum: 2026-11-24
+        wochentag: Dienstag
+        beginn: "16:30"
+        ende: "19:00"
+        art: Abend der offenen Schule, Übergang 4 nach 5
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2027-03-02
+        wochentag: Dienstag
+        beginn: "17:30"
+        ende: "21:00"
+        art: Kulturabend (Vorstellung der Kurse Ästhetische Bildung in 5/6)
+        typ: markt_fest
+        ort: Schulgelände
+
+  - id: jss
+    name: Joachim-Schumann-Schule
+    abkuerzung: JSS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule
+    privat: false
+    anschrift:
+      strasse: Bürgermeister-Willand-Str. 1
+      plz: "64832"
+      ort: Babenhausen
+    stadt_darmstadt: false
+    telefon: 06073-72 66 0
+    email: [jss_babenhausen@schulen.ladadi.de]
+    homepage: https://www.joachim-schumann-schule.de
+    schulleitung:
+      - Till Eckermann (Schulleiter)
+      - Boris Wollenhaupt (stellv. Schulleiter)
+    schwerpunkte:
+      - "IGS & Ganztagsschule: feste Öffnungs- und Betreuungszeiten, integrierte Lernzeiten, Mensa u. Cafeteria, Bibliothek"
+      - multiprofessionelle Teamarbeit
+      - "Berufsorientierung: Hamet-Kompetenz-Test, Praxistag, Patenmodell, Job-Info-Börse, indiv. Laufbahnberatung, Berufeparcours"
+      - "Profilmerkmale: Erasmus-Schule (Science across Europe), „Jahrgangsmusizieren“ mit Instrumenten für alle Schüler:innen der Jg. 5–7, Hochbegabtenförderung"
+      - "Angebote: PUSCH-Klasse; MINT-freundliche Schule; musisch-künstlerische Aufführungen; Schulsanitätsdienst; Chemie für Kids; Computerkurse; Elektronikkurse; handwerkliche Kurse; Sportangebote, Schulteams"
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch bzw. Latein ab Sj. 7
+      dritte: null
+    bilinguale_angebote: Erasmus in Jg. 9 und 10
+    seite: 26
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "16:30"
+        ende: "20:00"
+        art: Tag der offenen Tür / Adventsmarkt
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: jws
+    name: Justin-Wagner-Schule
+    abkuerzung: JWS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Odenwaldring 3-5
+      plz: "64380"
+      ort: Roßdorf
+    stadt_darmstadt: false
+    telefon: 06154-60 25 0
+    email: [jws_rossdorf@schulen.ladadi.de]
+    homepage: https://www.jws-rossdorf.de
+    schulleitung:
+      - Alice Hentzen
+    schwerpunkte:
+      - Klassenlehrerstunde in allen Jg., freiwillige Lernzeit in Jg. 5–6
+      - freiwillige Förderkurse in Deutsch/Englisch/Mathe; Förderkurse DaZ/LRS nach Bedarf in allen Jahrgängen
+      - vorbereitende Kurse zur Abschlussprüfung
+      - Doppelbesetzungen in Hauptfächern, Hauptfachverstärkungen
+      - bewegte Pause, Bike School
+      - Familienfreundliche Schule und ganztägige Angebote in Profil 2; Mittagessen an 5 Tagen
+      - Teilnahme an diversen Wettbewerben
+      - Hausaufgaben-/Nachmittagsbetreuung und AG-Angebote, Schwerpunkt Sport, NaWi, Sprachen, Theater, Orchester
+      - "Teamtraining Jg. 5/6, Sozialtraining, „Du bist Klasse“ Jg. 7"
+      - Mediathek, Stillarbeitsraum, Spieleraum, Billardzimmer, schülerorientierter Schulhof (u.a. mit Boulderwand, Schach, Rendezvous-Bänken)
+      - Kooperation mit Sportvereinen
+      - Kooperation mit der Handwerkskammer, Schwerpunkt Berufsorientierung
+      - "Fach „Medienbildung“"
+      - Studien- und Austauschfahrten nach England, Frankreich und Spanien
+      - ausgeweitetes WPU-Konzept
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Spanisch ab Jg. 7
+      dritte: Bei ausreichender Nachfrage möglich
+    bilinguale_angebote: null
+    seite: 27
+    termine:
+      - datum: 2026-11-25
+        wochentag: Mittwoch
+        beginn: "14:00"
+        ende: "16:30"
+        art: Schnuppernachmittag
+        typ: schnuppertag
+        ort: Schulgelände
+
+  - id: lio
+    name: Justus-Liebig-Schule
+    abkuerzung: LIO
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Julius-Reiber-Str. 3
+      plz: "64293"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151 13-483600
+    email: [schulleitung@lio-darmstadt.de]
+    homepage: https://www.lio-darmstadt.de
+    schulleitung:
+      - Thomas Schmidt
+    schwerpunkte:
+      - "Naturwissenschaftlicher Schwerpunkt: NaWi-Unterricht in Kl. 5; Übungsunterricht in Klassen 7/8 in halber Klassenstärke; Wahlunterricht in Klassen 9/10 mit naturwissenschaftlichem Angebot; Leistungskurse in der Oberstufe in Physik, Biologie und Chemie"
+      - "Angebot einer bilingualen Schwerpunktvertiefung: ab Klasse 7 Politik und Wirtschaft sowie Geschichte bilingual-französisch"
+      - Französisch-Leistungskurs für 1. sowie 2. Fremdsprache
+      - Musisches Angebot (Chöre, Orchester, Bigband usw.; Darstellendes Spiel in der Oberstufe, auch als Abiturfach möglich)
+      - "„Gesundheitsfördernde Schule“, durch Kultusministerium zertifiziert"
+      - "„Soziales Lernen“ in Kl. 5 und 6"
+      - "„Ganztägig arbeitende Schule“ (Mittagessen, Förderangebote, vielerlei Arbeitsgemeinschaften, Hausaufgabenbetreuung) montags bis freitags"
+    fremdsprachen:
+      erste: Englisch („E1“) oder Französisch („F1“)
+      zweite: Französisch ab Klasse 6 bei erster Fremdsprache Englisch („F2“); Englisch ab Klasse 6 bei erster Fremdsprache Französisch („E2“)
+      dritte: Latein ab Klasse 9 fakultativ, Fortführung in der Oberstufe bis zum Abitur / Latinum möglich
+    bilinguale_angebote: Ab Klasse 7 für Kinder mit F1, ab 8 oder E-Phase mit F2
+    seite: 28
+    termine:
+      - datum: 2026-11-11
+        wochentag: Mittwoch
+        beginn: "18:00"
+        ende: null
+        art: Elterninformationsabend
+        typ: informationsabend
+        ort: Mensa
+      - datum: 2027-01-16
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: null
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+        hinweis_extraktion: Im PDF als "16.01.2026" angegeben – vermutlich Tippfehler, da Samstag und Reihenfolge auf 16.01.2027 hindeuten
+
+  - id: luo
+    name: Lichtenbergschule
+    abkuerzung: LUO
+    schulform_kurz: Gym
+    schulform: Gymnasium (G8)
+    privat: false
+    anschrift:
+      strasse: Ludwigshöhstraße 105
+      plz: "64285"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13 48 47 00
+    email: [luo@darmstadt.de]
+    homepage: https://luo-darmstadt.de
+    schulleitung:
+      - Wolfgang Naumann
+    schwerpunkte:
+      - Europaschule
+      - MINT-EC-Schule
+      - OloV-Zertifikat
+      - Familienfreundliche Schule
+      - Ganztagsschule Profil 2
+      - Intern. Begegnungsschule mit Schulischem Zentrum für Sprachen und Begabtenförderung
+      - LemaS-Schule (Begabten- und Begabungsförderung)
+      - Profilschule Kulturelle Bildung im Bereich Literatur
+      - Campusschule TU Darmstadt
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Russisch, Spanisch, Latein
+      dritte: Nullcurriculum Latein in der Oberstufe
+    bilinguale_angebote: "Bilingualer Unterricht: Ab Jg. 7 für alle in mindestens einer Naturwissenschaft und einem gesellschaftswissenschaftlichen Fach (Sprachen: Englisch/Deutsch); in der Oberstufe zahlreiche bilingual unterrichtete Fächer frei wählbar (M, Bio, Ch, Ph, PoWi)"
+    seite: 29
+    termine:
+      - datum: 2026-11-25
+        wochentag: Mittwoch
+        beginn: "19:00"
+        ende: null
+        art: Elterninformation
+        typ: informationsabend
+        ort: Große Sporthalle
+      - datum: 2027-01-15
+        wochentag: Freitag
+        beginn: "15:00"
+        ende: null
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: lgg
+    name: Ludwig-Georgs-Gymnasium
+    abkuerzung: LGG
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Nieder-Ramstädter Str. 2
+      plz: "64283"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151 – 13 48 48 00
+    email: [lgg@darmstadt.de]
+    homepage: https://www.lgg-darmstadt.de
+    schulleitung:
+      - Björn Hamburger
+    schwerpunkte:
+      - Altsprachlich-humanistisches Gymnasium
+      - Ganztag Profil 2
+      - Begabungsförderung
+      - MINT-Förderung, z.B. Informatik ab Klasse 5
+      - Experimentalunterricht ab Klasse 8, alle MINT-Fächer als Leistungskurse in der Oberstufe, …
+      - Campusschule der TU Darmstadt
+    fremdsprachen:
+      erste: Latein ab Jg. 5
+      zweite: Englisch ab Jg. 5
+      dritte: Spanisch (ab Jg. 9 oder 11), Italienisch (ab Jg. 9), Französisch (ab Jg. 9), Alt-Griechisch (ab Jg. 9)
+    bilinguale_angebote: Business English mit staatlicher Abschlussprüfung
+    seite: 30
+    termine:
+      - datum: 2026-12-02
+        wochentag: Mittwoch
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Aula
+      - datum: 2027-01-29
+        wochentag: Freitag
+        beginn: "14:00"
+        ende: "17:00"
+        art: Tag der offenen Schule
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: mpg
+    name: Max-Planck-Gymnasium
+    abkuerzung: MPG
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Curtigasse 8
+      plz: "64823"
+      ort: Groß-Umstadt
+      zusatz: Verwaltung/Sekretariat
+    weitere_anschriften:
+      - strasse: Realschulstr. 9
+        plz: "64823"
+        ort: Groß-Umstadt
+        zusatz: Schulgebäude
+    stadt_darmstadt: false
+    telefon: 06078 – 93 930
+    email: [sekretariat@mpg-umstadt.de]
+    homepage: https://www.mpg-umstadt.de
+    schulleitung:
+      - Tobias Catta
+    schwerpunkte:
+      - Familienfreundliche Schule mit Mensa
+      - "„Ganztagsschule nach Maß“ mit täglicher Lern- und Spielzeit"
+      - Klassenlehrerprinzip in Jahrgangsstufe 5–7 mit bes. Projekten zum Sozialen Lernen
+      - Medienbildung ab Klassenstufe 5
+      - Beratung für Schüler/-innen und Eltern (z.B. BASS-Team, Inklusionsbeauftragte/r, Stufenleitungen, Schulsozialarbeit, UBUS)
+      - "Lernbereich „Naturwissenschaften“ in den Jahrgangsstufen 5 und 6"
+      - MINT-freundliche Schule
+      - Musik-/(Bläser-)Klasse in den Klassen 5 und 6 bei entsprechender Nachfrage
+      - individualisiertes Lernen (Einführungsphase)
+      - "Berufsorientierung: Gütesiegel BSO/OloV, Zukunftswerkstatt u.v.m."
+      - Hochbegabtenförderung
+      - breites AG-Angebot zur Qualifizierung in allen Fachbereichen
+      - "Nachhaltigkeitsprojekte: Schülerfirma Be-leaf, Kleidertausch"
+    fremdsprachen:
+      erste: Englisch ab JGS 5
+      zweite: Französisch, Latein ab JGS 7
+      dritte: Spanisch
+    bilinguale_angebote: null
+    seite: 31
+    termine:
+      - datum: 2027-01-30
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag des offenen Unterrichts
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2027-02-01
+        wochentag: Montag
+        beginn: "19:00"
+        ende: null
+        art: Elterninformationsabend
+        typ: informationsabend
+        ort: Pfälzer Schloss
+
+  - id: mbs
+    name: Melibokusschule
+    abkuerzung: MBS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Benno-Elkan-Allee 1
+      plz: "64665"
+      ort: Alsbach-Hähnlein
+    stadt_darmstadt: false
+    telefon: 06257-930 20
+    email: [mbs_alsbach-haehnlein@schulen.ladadi.de]
+    homepage: https://www.melibokusschule.de
+    schulleitung:
+      - Dr. Michael Weiffen
+    schwerpunkte:
+      - G9
+      - "Ganztagsprofil 1: täglich warmes Mittagessen; Nachmittagsbetreuung"
+      - Lernen lernen in Jg. 5
+      - IT-Basistraining in Jg. 5/6
+      - aktuell 2 Intensivklassen
+      - "Gesundheitsfördernde Schule: Gesamtzertifikat / Unterrichtsfach Gesundheit in Jg. 8"
+      - zahlreiche Wahlpflicht- und AG-Angebote
+      - jährliche Ausbildungsmesse AIBA
+      - Schule ohne Rassismus
+      - PUSCH (einjährig in Stufe 9 der Hauptschule)
+      - MINT-Angebote
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gym: Französisch od. Spanisch ab Jg. 7; R: Spanisch oder Französisch ab Jg. 7"
+      dritte: "Gym: Französisch oder Spanisch ab Jg. 9 bei entspr. Nachfrage möglich"
+    bilinguale_angebote: Wahlpflichtkurs sowie AG-Angebote
+    seite: 32
+    termine:
+      - datum: 2026-11-25
+        wochentag: Mittwoch
+        beginn: "19:00"
+        ende: null
+        art: Elterninfoabend
+        typ: informationsabend
+        ort: Eingangsbereich
+      - datum: 2027-01-16
+        wochentag: Samstag
+        beginn: "10:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: mws
+    name: Mornewegschule
+    abkuerzung: MWS
+    schulform_kurz: IGS
+    schulform: Integrierte Gesamtschule
+    privat: false
+    anschrift:
+      strasse: Hermannstr. 21
+      plz: "64285"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13-485000
+    email: [mornewegschule@darmstadt.de]
+    homepage: https://www.mornewegschule-darmstadt.de
+    schulleitung:
+      - Ulrike Mertins
+    schwerpunkte:
+      - Ganztagsschule im Profil 2
+      - Europaschule
+      - projektorientiertes Lernen
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch, Spanisch
+      dritte: null
+    bilinguale_angebote: Biologie bzw. GL ab Jg. 9
+    seite: 33
+    termine:
+      - datum: 2026-11-21
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag der offenen Tür mit Infoveranstaltung
+        typ: tag_der_offenen_tuer
+        ort: Hauptgebäude der Schule
+
+  - id: obs
+    name: Otzbergschule
+    abkuerzung: OBS
+    schulform_kurz: MSS
+    schulform: Grundschule und Mittelstufenschule
+    privat: false
+    anschrift:
+      strasse: Am Schafbuckel 29
+      plz: "64853"
+      ort: Otzberg-Lengfeld
+    stadt_darmstadt: false
+    telefon: 06162-809 88 0
+    email: [obs_otzberg@schulen.ladadi.de]
+    homepage: https://www.otzbergschule.de
+    schulleitung:
+      - Miro Kozul
+    schwerpunkte:
+      - "LemaS- und Campusschule: Zusammenarbeit mit Universitäten zur Unterrichtsentwicklung, Kind-Umfeld-Analysen, Lernstandserhebungen, ETEP-Begleitung"
+      - hoher Anteil an projekt- und handlungsorientiertem Lernen, Förderung des selbständigen Lernens, Förderangebote, Vorbereitungskurse auf Abschlussprüfungen
+      - "Berufsorientierung: AL-Unterricht (Kochen, Holztechnik, Schulkiosk etc.), Kompo 7, Kooperation mit der Berufsschule Michelstadt ab Jahrgang 8, praxisorientierte WIR-Tage"
+      - Partizipation der Schülerinnen und Schüler an vielen Entscheidungsprozessen zur Schule und Unterricht
+      - "Schule für Demokratie und Vielfalt: Soziale und ökologische Projekte, Patenmodelle und Schulsanitätsdienst, Forderung und Förderung der SV-Mitarbeit"
+      - "Ganztag: Mittagessen, offene AG-Angebote und Mediathek als Lernraum"
+      - "Lern- und Bildungslandschaft: Ausgeprägte Netzwerkarbeit mit Institutionen, Vereinen und Betrieben in Otzberg, JOTZ: Jugendzentrum auf dem Schulgelände"
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch
+      dritte: null
+    bilinguale_angebote: null
+    seite: 34
+    termine:
+      - datum: 2026-12-15
+        wochentag: Dienstag
+        beginn: "16:00"
+        ende: "19:00"
+        art: Weihnachtsmarkt mit Vorstellung der WIR-Tage
+        typ: markt_fest
+        ort: Innenhof & Mensa
+      - datum: 2027-01-21
+        wochentag: Donnerstag
+        beginn: "18:30"
+        ende: null
+        art: Informationsabend zur Mittelstufenschule
+        typ: informationsabend
+        ort: null
+
+  - id: ptid
+    name: Private Tagesschule in Dieburg
+    abkuerzung: PTID
+    schulform_kurz: IGS+GO
+    schulform: IGS (für Gymnasiasten G9 und Realschüler), Gymnasiale Oberstufe
+    privat: true
+    traeger: PTiD Private Tagesschule in Dieburg gGmbH
+    anschrift:
+      strasse: Altheimer Str. 50
+      plz: "64807"
+      ort: Dieburg
+    stadt_darmstadt: false
+    telefon: 06071-92 42 0
+    email: [info@privatschule-dieburg.de]
+    homepage: https://www.privatschule-dieburg.de
+    schulleitung:
+      - Claus Reimer
+      - Simone Steitz
+    schwerpunkte:
+      - Ganztagesschule bis 15:30 Uhr
+      - kleine überschaubare Einheiten von ca. 20 Schülerinnen und Schülern pro Klasse
+      - Integriertes Förderkonzept in der Unter- und Mittelstufe
+      - Integrierte Hausaufgabenbetreuung
+      - "Schwerpunkt: Europäische Dimension (Erasmus+)"
+      - "Pädagogisches Konzept: Begleiten, Beraten, Betreuen, Befähigen, Bilden"
+      - Projektunterricht, freie Wochenplanarbeit
+      - Intensive Vorbereitung auf die Abiturprüfung/Realschulprüfung
+      - Unterrichtsgarantie in der Sek. I
+      - Sozialarbeiter und Lerncoach im Haus
+      - Orgaheft und Schulportal zur stetigen Elternkommunikation, zusätzliche Quartalszeugnisse
+      - BSO; Berufsberatung in der Schule für Schülerinnen und Schüler/Infoabend für Eltern
+      - Oberstufenberatung
+      - Klassenfahrten in jeder Jahrgangsstufe, Skifreizeiten, Schüleraustausch Australien
+      - Mensa und eigener Busshuttle (Bahnhof Dieburg/Großraum Dreieich/Spessart)
+      - Digitaler Unterricht
+      - Offener Anfang von 8:00 bis 8:45 Uhr
+    fremdsprachen:
+      erste: Englisch ab Jg. 5
+      zweite: Spanisch, Französisch, Latein ab Jg. 7
+      dritte: null
+    bilinguale_angebote: null
+    seite: 35
+    termine:
+      - datum: 2026-11-28
+        wochentag: Samstag
+        beginn: "15:00"
+        ende: "18:00"
+        art: Tag der offenen Tür / Christmas Carol
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+        hinweis_extraktion: Im Terminteil als "PTID Darmstadt" bezeichnet
+
+  - id: sbs
+    name: Sabine-Ball-Schule
+    abkuerzung: SBS
+    schulform_kurz: R/Gym
+    schulform: Grundschule/ Realschule/ Gymnasium G9 mit Oberstufe (privat)
+    privat: true
+    anschrift:
+      strasse: Hilpertstr. 26
+      plz: "64295"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: (06151) 62 92 80
+    email: [kontakt@fcsd.de]
+    homepage: https://www.sabine-ball-schule.de
+    schulleitung:
+      - Herr Falk
+      - Frau Akeliwira (Grundschule)
+      - Frau Siegler (pädagogische Leitung)
+    schwerpunkte:
+      - Vermittlung christlicher Werte
+      - "Programm „Erwachsen werden“ in Kl. 5 bis 8"
+      - kleine Klassen (20–25 Schüler, Grundschule 16)
+      - ausgewählte und motivierte Lehrer
+      - Mittagessen-Angebot, Angebot pädagogischer Nachmittagsbetreuung bis 16:00 Uhr mind. 4-mal wöchentlich
+      - enge Zusammenarbeit Schule–Elternhaus
+      - gestaffeltes Schulgeld
+    fremdsprachen:
+      erste: Englisch ab Jg. 1 und Jg. 5
+      zweite: Französisch ab Jg. 7 (RS+Gym)
+      dritte: Spanisch (Wahlunterricht) ab Jg. 9 (RS+Gym)
+    bilinguale_angebote: null
+    seite: 36
+    termine:
+      - datum: 2026-09-26
+        wochentag: Samstag
+        beginn: "13:00"
+        ende: "17:00"
+        art: Herbstmarkt
+        typ: markt_fest
+        ort: Schulgelände
+      - datum: 2026-10-24
+        wochentag: Samstag
+        beginn: "11:00"
+        ende: null
+        art: Offener Unterricht der Klassen 1-3 sowie 5-7
+        typ: schnuppertag
+        ort: Schulgelände
+        anmeldung_erforderlich: true
+        hinweis: Anmeldung über Homepage ist notwendig
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Aula
+
+  - id: schuldorf
+    name: Schuldorf Bergstraße
+    abkuerzung: null
+    schulform_kurz: KGS+GO
+    schulform: Kooperative Gesamtschule (G9) mit Primarstufe, Internationalem Schulzweig und Gymnasialer Oberstufe
+    privat: false
+    anschrift:
+      strasse: Sandstraße
+      plz: "64342"
+      ort: Seeheim-Jugenheim
+    stadt_darmstadt: false
+    telefon: 06257-97 03-0/ -15
+    email: [schuldorf@schulen.ladadi.de]
+    homepage: https://www.schuldorf.de
+    schulleitung:
+      - Christina Martini-Appel (SL)
+      - Daniel Brücher (stellv. SL)
+    schwerpunkte:
+      - "Gym-Zweig: G9, Profilklassen, darunter Sport, Europa, Musik; NaWi-/BiLi-Angebote ab Jg. 9, 3. Fremdsprache Ital."
+      - "H/R-Zweig: Förderstufe 5/6, Berufsorientierung, Lernen durch Engagement"
+      - Internationaler Schulzweig (Primary Jg. 1–4 und Secondary Jg. 5–12)
+      - Europaschule
+      - Profilschule für Sporttalente
+      - Gesunde Schule
+      - Umweltschule
+      - 5-tägiges Ganztagsangebot
+      - MINT
+      - Chöre, Orchester
+      - Schule ohne Rassismus
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gym: Französisch, Latein, Spanisch ab Jg. 7; H/R: Spanisch, Französisch ab Jg. 7"
+      dritte: "Gym: Italienisch"
+    bilinguale_angebote: "Gym: Bilinguale Angebote ab Jg. 9"
+    seite: 37
+    termine:
+      - datum: 2026-11-27
+        wochentag: Freitag
+        beginn: "16:00"
+        ende: "19:00"
+        art: Tag der offenen Tür mit Unterrichtsangeboten
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2026-12-03
+        wochentag: Donnerstag
+        beginn: "19:00"
+        ende: null
+        art: Informationsabend
+        typ: informationsabend
+        ort: Aula
+
+  - id: aue
+    name: Schule auf der Aue
+    abkuerzung: AUE
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Heinrich-Heine-Str. 14
+      plz: "64839"
+      ort: Münster
+    stadt_darmstadt: false
+    telefon: 06071-39 06 0
+    email: [sekretariat@aueschule.de]
+    homepage: https://www.aueschule.de
+    schulleitung:
+      - Sabine Behling
+    schwerpunkte:
+      - Gymnasialer Zweig G9 (Klassen 5–10); Förderstufe, Haupt- und Realschulzweig
+      - Hauptschule Klasse 10 mit Realschulprüfung
+      - Schule mit Schwerpunkt Musik
+      - MINT-freundliche Schule bzw. MINT-Zentrum
+      - Digitale Schule
+      - Gesundheitsfördernde Schule
+      - SchoolBikers (Bike-School in Vorbereitung)
+      - Ganztagsbetreuung täglich bis 16:00 Uhr, Mittagstisch, offener Treff im Aue-Club, Lernzeit in 5 und 6, vielfältige Arbeitsgemeinschaften, naturwissenschaftliche Wettbewerbe
+      - Lese- und Rechtschreibförderung (LRS), Schulskikurs, Schultheater
+      - EDV-Ausbildung
+      - LEMAS – Leistung macht Schule
+      - Begegnungsfahrt mit IRL/SPA, Austauschfahrt Polen
+      - Soziales Lernen/Lernstrategien, Streitschlichterausbildung
+    fremdsprachen:
+      erste: Englisch ab Klasse 5
+      zweite: "Gym: Französisch, Spanisch, Latein ab Jg. 7; Real: Französisch, Spanisch ab Jg. 7"
+      dritte: "Gym: In der Oberstufe ADS wird Spanisch neu angeboten"
+    bilinguale_angebote: null
+    seite: 38
+    termine:
+      - datum: 2026-11-19
+        wochentag: Donnerstag
+        beginn: "19:00"
+        ende: null
+        art: Präsentation und Rundgang für Eltern der 4. Klassen
+        typ: informationsabend
+        ort: Foyer der Schule
+
+  - id: szm
+    name: Schulzentrum Marienhöhe
+    abkuerzung: SZM
+    schulform_kurz: R/Gym/Internat
+    schulform: Gymnasium (G9), Realschule, Grundschule, Kolleg, Internat
+    privat: true
+    anschrift:
+      strasse: Auf der Marienhöhe 32
+      plz: "64297"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-53 91-0
+    email: [info@marienhoehe.de]
+    homepage: https://www.marienhoehe.de
+    schulleitung:
+      - Dr. Christian Noack
+    schwerpunkte:
+      - Wertschätzendes und ermutigendes Schulklima für ein anregendes und beschütztes Lernen auf unserem parkähnlichen Schulcampus unterhalb der Ludwigshöhe
+      - enge Zusammenarbeit zwischen Schule und Eltern
+      - Gesundheitsfördernde Schule
+      - Hessische Umweltschule
+      - viele Sportangebote
+      - Sucht- und Gewaltprävention, Konfliktlösungstraining
+      - LionsQuest Lebenskompetenzprogramm für die Klassen 5–10
+      - LRS-Förderung für Klassen 5–10
+      - "offene Ganztagsschule mit Mensa (12:00–14:15), Hausaufgabenbetreuung (14:00–15:30), Wahlfächern am Nachmittag und beaufsichtigter Mediothek von 7:30–17:00 Uhr (Fr. 7:30–13:00 Uhr)"
+    fremdsprachen:
+      erste: Englisch
+      zweite: "Gymnasium: Französisch, Latein oder Spanisch ab Klasse 7; Realschule: Spanisch ab Klasse 7 als Wahlpflichtfach; Oberstufe: Französisch und Latein für Fortgeschrittene (für Anfänger abhängig von Nachfrage), Spanisch für Anfänger und Fortgeschrittene"
+      dritte: null
+    bilinguale_angebote: "Gymnasium Klasse 7–10: Religion, Geographie, Politik und Wirtschaft, Physik"
+    seite: 39
+    termine:
+      - datum: 2026-11-08
+        wochentag: Sonntag
+        beginn: "11:00"
+        ende: "15:00"
+        art: Informationstag
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: sts
+    name: Stadtteilschule Arheilgen
+    abkuerzung: STS
+    schulform_kurz: KGS
+    schulform: Kooperative Gesamtschule (G9)
+    privat: false
+    anschrift:
+      strasse: Grillparzerstraße 33
+      plz: "64291"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13 48 67 00
+    email: [sts-arheilgen@darmstadt.de]
+    homepage: https://www.sts-arheilgen.de
+    schulleitung:
+      - Dominic Frank
+    schwerpunkte:
+      - Kooperative Gesamtschule mit Förderstufe, Eingangsklasse G5
+      - Ganztagsangebot an 5 Tagen mit päd. Mittagsbetreuung und Essenangebot
+      - Vielfältiges AG-Angebot
+      - Erlebnispädagogik, Lernzeiten
+      - alle Gymnasialklassen werden nach G9 unterrichtet
+      - LRS-Kurse für Jg. 5–6
+      - Berufsorientierung
+      - Schulhund
+      - Auslandsfahrten (England, Frankreich, Spanien)
+    fremdsprachen:
+      erste: Englisch ab Jg. 5
+      zweite: "Ab Jg. 7: Französisch oder Spanisch"
+      dritte: G9/G10 WPU
+    bilinguale_angebote: null
+    seite: 40
+    termine:
+      - datum: 2026-11-20
+        wochentag: Freitag
+        beginn: "16:00"
+        ende: "19:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+
+  - id: viko
+    name: Viktoriaschule
+    abkuerzung: VIKO
+    schulform_kurz: Gym
+    schulform: Gymnasium (G9)
+    privat: false
+    anschrift:
+      strasse: Hochstr. 44
+      plz: "64285"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13 48 70 00
+    email: [viktoriaschule@darmstadt.de]
+    homepage: https://www.viktoriaschule-darmstadt.de
+    schulleitung:
+      - Susanne Biebel
+    schwerpunkte:
+      - "Vier Eingangsklassen pro Jahrgang, davon eine Musikklasse (zum Schuljahr 2026/27 Bläserklasse) mit Englisch als erster Fremdsprache, eine Französischklasse sowie zwei Klassen mit Englisch als erster Fremdsprache"
+      - Schule mit Schwerpunkt Musik (breites musikalisches Angebot, auch Leistungskurs)
+      - Pädagogische Mittagsbetreuung (montags bis freitags kostenfrei) mit Mittagessen, verschiedenen Arbeitsgemeinschaften und Hausaufgabenbetreuung
+      - Schüleraustausch mit GB und F
+      - Experimentalunterricht in Chemie und Physik mit halben Klassen in Jgst. 8
+    fremdsprachen:
+      erste: Englisch, Französisch
+      zweite: Englisch, Französisch, Latein
+      dritte: Französisch, Latein
+    bilinguale_angebote: null
+    seite: 41
+    termine:
+      - datum: 2027-01-30
+        wochentag: Samstag
+        beginn: "09:00"
+        ende: "13:00"
+        art: Tag der offenen Tür
+        typ: tag_der_offenen_tuer
+        ort: Schulgelände
+      - datum: 2027-02-04
+        wochentag: Donnerstag
+        beginn: "19:00"
+        ende: null
+        art: Infoabend für Eltern Musik und Französisch
+        typ: informationsabend
+        ort: Schulgelände
+
+  - id: wls
+    name: Wilhelm-Leuschner-Schule
+    abkuerzung: WLS
+    schulform_kurz: MSS
+    schulform: Mittelstufenschule, Haupt- und Realschule mit Abendrealschule
+    privat: false
+    anschrift:
+      strasse: Bessunger Straße 195
+      plz: "64295"
+      ort: Darmstadt
+    stadt_darmstadt: true
+    telefon: 06151-13 48 7700
+    email: [wls@darmstadt.de]
+    homepage: https://www.wlsda.de
+    schulleitung:
+      - Carsten Maus (Schulleiter, beauftragt)
+    schwerpunkte:
+      - Individualisiertes Lernen und Fördern auf drei Niveaustufen
+      - regelmäßige Entwicklungsgespräche mit Schülerinnen und Schülern und halbjährliche mit Eltern
+      - schrittweise Auflösung des Klassenprinzips zugunsten flexibler Lerngruppen und verstärkter Teamarbeit
+      - 2 Klassenlehrkräfte in den Jahrgängen 5–7
+      - Praxisnaher und berufsorientierter Unterricht in Projekten
+      - Digitale Bildung und Medienkompetenz, Einsatz von iPads
+      - Förderung in Mathe, Deutsch und Englisch sowie Vorbereitungskurse auf die Abschlussprüfungen
+      - Sprachreiseangebot des Fachbereiches Englisch für höhere Jahrgänge
+      - "Zertifiziert fürs Gütesiegel „Berufs- und Studienorientierung“; umfassende Unterstützung bei der Berufswahl; Zukunftswerkstatt in Kooperation mit der IHK"
+      - Lernendenbeteiligung und gegenseitige Verantwortung; Mitgestaltung der Schulentwicklung durch Schülerinnen und Schüler
+      - "Ganztägig arbeitende Schule mit Zertifikat „Gesunde Schule“, Mittagessen mit päd. Betreuung von Mo bis Fr, Mittagszeit mit zahlreichen Angeboten im musikalischen, sozialen, künstlerischen und sportlichen Bereich"
+    fremdsprachen:
+      erste: Englisch
+      zweite: Französisch ab Jg. 7
+      dritte: null
+    bilinguale_angebote: null
+    seite: 42
+    termine:
+      - datum: 2026-12-04
+        wochentag: Freitag
+        beginn: "16:00"
+        ende: "18:00"
+        art: Informationsnachmittag
+        typ: informationsabend
+        ort: Schulgelände

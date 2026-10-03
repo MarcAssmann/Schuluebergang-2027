@@ -1,0 +1,2229 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Schulübergang 2027//build_ics.py//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weiterführende Schulen – Infotermine 2026/2027
+X-WR-CALDESC:Informationsveranstaltungen / Tage der offenen Tür\, Stadt Da
+ rmstadt und Landkreis Darmstadt-Dieburg (Übergang 4/5 für das Schuljahr 
+ 2027/2028)
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fws-20260912T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20260912T100000
+DTEND;TZID=Europe/Berlin:20260912T150000
+SUMMARY:Tag der offenen Tür – Freie Waldorfschule Darmstadt (FWS)
+LOCATION:Freie Waldorfschule Darmstadt\, Arndtstraße 6\, 64297 Darmstadt-E
+ berstadt
+DESCRIPTION:Tag der offenen Tür – Freie Waldorfschule Darmstadt (FWS)\nS
+ amstag\, 12.09.2026\, 10:00–15:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSch
+ ulform: Zweizügige Ersatzschule mit Eingangsstufe und staatlich anerkannt
+ er gymnasialer Oberstufe (G9) (privat) (Gym)\nPrivatschule\nLage: Stadt Da
+ rmstadt\nAnschrift: Arndtstraße 6\, 64297 Darmstadt-Eberstadt\nTelefon: 0
+ 6151-9555-0\nE-Mail: info@waldorfschule-darmstadt.de\nHomepage: https://ww
+ w.waldorfschule-darmstadt.de\nSchulleitung: schulleitung@waldorfschule-dar
+ mstadt.de\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab Klasse 1\n2. Frem
+ dsprache: Französisch ab Klasse 1\n3. Fremdsprache: –\nBilinguale Angeb
+ ote: –\n\nSCHWERPUNKTE\n• Pädagogische Abstimmung von Unterrichtsinha
+ lten und -formen auf die Entwicklungsstufen des Kindes und die Prozesse de
+ s Lernens\n• vielfältiger handwerklich-künstlerisch-musischer Unterric
+ ht\n• Klassenlehrerbegleitung von Klasse 1–8\n• mehrwöchiger Themen
+ unterricht (in Epochen)\, unterrichtsbegleitende Projekte und Praktika\, F
+ örderunterricht\n• Schularzt und Schulsozialarbeit\n• Schulküche und
+  -café\, Hort mit Hausaufgabenbetreuung\n• Möglichkeit für eine Schre
+ iner- oder Schneiderlehre mit anschließendem Schulabschluss\n\nQuelle: St
+ aatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darm
+ stadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 202
+ 6/2027\, S. 17
+CATEGORIES:Tag der offenen Tür,Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.waldorfschule-darmstadt.de
+CONTACT:Freie Waldorfschule Darmstadt\, Tel. 06151-9555-0\, info@waldorfsch
+ ule-darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:sbs-20260926T1300@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20260926T130000
+DTEND;TZID=Europe/Berlin:20260926T170000
+SUMMARY:Herbstmarkt – Sabine-Ball-Schule (SBS)
+LOCATION:Sabine-Ball-Schule\, Hilpertstr. 26\, 64295 Darmstadt
+DESCRIPTION:Herbstmarkt – Sabine-Ball-Schule (SBS)\nSamstag\, 26.09.2026\
+ , 13:00–17:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Grundschule/
+  Realschule/ Gymnasium G9 mit Oberstufe (privat) (R/Gym)\nPrivatschule\nLa
+ ge: Stadt Darmstadt\nAnschrift: Hilpertstr. 26\, 64295 Darmstadt\nTelefon:
+  (06151) 62 92 80\nE-Mail: kontakt@fcsd.de\nHomepage: https://www.sabine-b
+ all-schule.de\nSchulleitung: Herr Falk\; Frau Akeliwira (Grundschule)\; Fr
+ au Siegler (pädagogische Leitung)\n\nFREMDSPRACHEN\n1. Fremdsprache: Engl
+ isch ab Jg. 1 und Jg. 5\n2. Fremdsprache: Französisch ab Jg. 7 (RS+Gym)\n
+ 3. Fremdsprache: Spanisch (Wahlunterricht) ab Jg. 9 (RS+Gym)\nBilinguale A
+ ngebote: –\n\nSCHWERPUNKTE\n• Vermittlung christlicher Werte\n• Prog
+ ramm „Erwachsen werden“ in Kl. 5 bis 8\n• kleine Klassen (20–25 Sc
+ hüler\, Grundschule 16)\n• ausgewählte und motivierte Lehrer\n• Mitt
+ agessen-Angebot\, Angebot pädagogischer Nachmittagsbetreuung bis 16:00 Uh
+ r mind. 4-mal wöchentlich\n• enge Zusammenarbeit Schule–Elternhaus\n
+ • gestaffeltes Schulgeld\n\nQuelle: Staatliches Schulamt für den Landkr
+ eis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterf
+ ührenden Schulen stellen sich vor“ 2026/2027\, S. 36
+CATEGORIES:Markt/Fest,R/Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.sabine-ball-schule.de
+CONTACT:Sabine-Ball-Schule\, Tel. (06151) 62 92 80\, kontakt@fcsd.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:sbs-20261024T1100@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261024T110000
+DTEND;TZID=Europe/Berlin:20261024T130000
+SUMMARY:Offener Unterricht der Klassen 1-3 sowie 5-7 – Sabine-Ball-Schule
+  (SBS) (Anmeldung erforderlich)
+LOCATION:Sabine-Ball-Schule\, Hilpertstr. 26\, 64295 Darmstadt
+DESCRIPTION:Offener Unterricht der Klassen 1-3 sowie 5-7 – Sabine-Ball-Sc
+ hule (SBS)\nSamstag\, 24.10.2026\, 11:00 Uhr (Endzeit nicht angegeben)\nOr
+ t: Schulgelände\nANMELDUNG ERFORDERLICH\nHinweis: Anmeldung über Homepag
+ e ist notwendig\n\nSCHULE\nSchulform: Grundschule/ Realschule/ Gymnasium G
+ 9 mit Oberstufe (privat) (R/Gym)\nPrivatschule\nLage: Stadt Darmstadt\nAns
+ chrift: Hilpertstr. 26\, 64295 Darmstadt\nTelefon: (06151) 62 92 80\nE-Mai
+ l: kontakt@fcsd.de\nHomepage: https://www.sabine-ball-schule.de\nSchulleit
+ ung: Herr Falk\; Frau Akeliwira (Grundschule)\; Frau Siegler (pädagogisch
+ e Leitung)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab Jg. 1 und Jg. 5\
+ n2. Fremdsprache: Französisch ab Jg. 7 (RS+Gym)\n3. Fremdsprache: Spanisc
+ h (Wahlunterricht) ab Jg. 9 (RS+Gym)\nBilinguale Angebote: –\n\nSCHWERPU
+ NKTE\n• Vermittlung christlicher Werte\n• Programm „Erwachsen werden
+ “ in Kl. 5 bis 8\n• kleine Klassen (20–25 Schüler\, Grundschule 16)
+ \n• ausgewählte und motivierte Lehrer\n• Mittagessen-Angebot\, Angebo
+ t pädagogischer Nachmittagsbetreuung bis 16:00 Uhr mind. 4-mal wöchentli
+ ch\n• enge Zusammenarbeit Schule–Elternhaus\n• gestaffeltes Schulgel
+ d\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und
+  die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen 
+ sich vor“ 2026/2027\, S. 36
+CATEGORIES:Schnuppertag,R/Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.sabine-ball-schule.de
+CONTACT:Sabine-Ball-Schule\, Tel. (06151) 62 92 80\, kontakt@fcsd.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fcs-20261102T2000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Informationsveranstaltung „Pädagogik“ – Freie Comenius Schul
+ e (FCS)
+LOCATION:Freie Comenius Schule\, Halle der FCS\, Jägertorstr. 179 B\, 6428
+ 9 Darmstadt
+DESCRIPTION:Informationsveranstaltung „Pädagogik“ – Freie Comenius S
+ chule (FCS)\nMontag\, 02.11.2026\, 20:00–21:30 Uhr\nOrt: Halle der FCS\n
+ \nSCHULE\nSchulform: Integrierte Gesamtschule mit Grundstufe (privat) (IGS
+ )\nPrivatschule\nLage: Stadt Darmstadt\nAnschrift: Jägertorstr. 179 B\, 6
+ 4289 Darmstadt\nTelefon: 06151-73 47 29-0\nE-Mail: info@fcs-da.de\nHomepag
+ e: https://www.fcs-da.de\nSchulleitung: Henning Zipf\; Birgit Manthey\; Mi
+ chael Buchert\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache
+ : Französisch ab Jg. 7\n3. Fremdsprache: –\nBilinguale Angebote: –\n\
+ nSCHWERPUNKTE\n• Jahrgangsübergreifende Gruppen\, Projektarbeit\n• Ge
+ meinsamer Unterricht von Schülerinnen und Schülern mit und ohne sonderp
+ ädagogischen Förderbedarf\n• vier Praktika in den Jahrgängen 7–10\n
+ • Berufsorientierung\, Arbeitslehre\n• Ganztagsschule bis 15:30 Uhr\n\
+ nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die
+  Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich
+  vor“ 2026/2027\, S. 15
+CATEGORIES:Informationsabend,IGS,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.fcs-da.de
+CONTACT:Freie Comenius Schule\, Tel. 06151-73 47 29-0\, info@fcs-da.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:goethe-20261105T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Informationsabend – Goetheschule Dieburg
+LOCATION:Goetheschule Dieburg\, Aula\, Goethestr. 10-14\, 64807 Dieburg
+DESCRIPTION:Informationsabend – Goetheschule Dieburg\nDonnerstag\, 05.11.
+ 2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Aula\n\nSCHULE\nSchulform
+ : Kooperative Gesamtschule: Gymnasialzweig (G9)\, Mittelstufenschule (MSS)
+  mit mittlerem und praxisorientiertem Bildungsgang sowie einer Intensivkla
+ sse (KGS)\nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Goethestr. 10-14\
+ , 64807 Dieburg\nTelefon: 06071-98 88-0\nE-Mail: sekretariat@goethe.schule
+ \nHomepage: https://www.goethe.schule\nSchulleitung: Christof Maruschka\n\
+ nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gym: Französi
+ sch\, Latein oder Spanisch ab Jg. 7\; MSS: Französisch ab Jg. 7 (Wahl)\n3
+ . Fremdsprache: –\nBilinguale Angebote: Gym: zusätzliche Englischstunde
+  in Jg. 6\; bilinguale Klasse ab Jg. 7 mit Sachfächern (Erdkunde\, Biolog
+ ie\, Geschichte\, Politik und Wirtschaft)\; Bili-Zertifikat zum Abschluss 
+ in Zusammenarbeit mit der TU Darmstadt\n\nSCHWERPUNKTE\n• Anerkannte UNE
+ SCO-Projektschule seit 2014\; Demokratie- und Menschenrechtsbildung\, inte
+ rkulturelles Lernen und Nachhaltigkeit\n• bilinguale Klasse ab Jg. 7\n
+ • Lernhaus / Selbstständiges Lernen in MSS in 5–7 (Lernbüros in Deut
+ sch\, Mathematik und Englisch mit individuellen Lernwegen\, Lernen im eige
+ nen Tempo\, Coaching\, projektorientiertes Lernen\, digitale Lernplattform
+ )\n• Digitales Lernen (Informatik im Gym-Zweig ab Jg. 5\, digitale Lernf
+ ormen und persönliche Endgeräte im Lernhaus)\n• Berufsorientierung (ab
+  Jg. 8 berufsbezogener Unterricht der Mittelstufenschule in Kooperation mi
+ t der Landrat-Gruber-Schule (Technik\, Wirtschaft\, Gesundheit)\; Betriebs
+ praktika in allen Schulzweigen)\n• Musik (außergewöhnlicher Musikunter
+ richt mit zusätzlicher Musikstunde in Jg. 5/6\, Stimmbildung\, Chor)\n•
+  Ganztag Profil 2: Betreuung bis 16 Uhr\, kostenfreie AG-Angebote sowie Ha
+ usaufgabenbetreuung und -hilfe\n\nQuelle: Staatliches Schulamt für den La
+ ndkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weit
+ erführenden Schulen stellen sich vor“ 2026/2027\, S. 23
+CATEGORIES:Informationsabend,KGS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.goethe.schule
+CONTACT:Goetheschule Dieburg\, Tel. 06071-98 88-0\, sekretariat@goethe.schu
+ le
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fms-20261107T1100@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T150000
+SUMMARY:Tag der offenen Tür – Freie Montessori-Schule Darmstadt (FMS)
+LOCATION:Freie Montessori-Schule Darmstadt\, Berliner Allee 5\, 64295 Darms
+ tadt
+DESCRIPTION:Tag der offenen Tür – Freie Montessori-Schule Darmstadt (FMS
+ )\nSamstag\, 07.11.2026\, 11:00–15:00 Uhr\nOrt: Schulgelände\n\nSCHULE\
+ nSchulform: Integrierte Gesamtschule und Grundschule (privat) (IGS)\nPriva
+ tschule\nLage: Stadt Darmstadt\nAnschrift: Berliner Allee 5\, 64295 Darmst
+ adt\nTelefon: 06151-601 44 40\nE-Mail: info@montessori-darmstadt.de\nHomep
+ age: https://www.montessori-darmstadt.de\nSchulleitung: Annemarie Tastel\;
+  Andrea Walther\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab Jg. 1\n2. F
+ remdsprache: Spanisch ab Jg. 6\n3. Fremdsprache: –\nBilinguale Angebote:
+  –\n\nSCHWERPUNKTE\n• Montessori-Pädagogik\n• jahrgangsgemischte Gr
+ uppen\n• Projektarbeit\, Freiarbeit\n• Teilgebundene Ganztagsschule bi
+ s 16 Uhr mit Nachmittagsbetreuung\n\nQuelle: Staatliches Schulamt für den
+  Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die w
+ eiterführenden Schulen stellen sich vor“ 2026/2027\, S. 16
+CATEGORIES:Tag der offenen Tür,IGS,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.montessori-darmstadt.de
+CONTACT:Freie Montessori-Schule Darmstadt\, Tel. 06151-601 44 40\, info@mon
+ tessori-darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:szm-20261108T1100@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T150000
+SUMMARY:Informationstag – Schulzentrum Marienhöhe (SZM)
+LOCATION:Schulzentrum Marienhöhe\, Auf der Marienhöhe 32\, 64297 Darmstad
+ t
+DESCRIPTION:Informationstag – Schulzentrum Marienhöhe (SZM)\nSonntag\, 0
+ 8.11.2026\, 11:00–15:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Gy
+ mnasium (G9)\, Realschule\, Grundschule\, Kolleg\, Internat (R/Gym/Interna
+ t)\nPrivatschule\nLage: Stadt Darmstadt\nAnschrift: Auf der Marienhöhe 32
+ \, 64297 Darmstadt\nTelefon: 06151-53 91-0\nE-Mail: info@marienhoehe.de\nH
+ omepage: https://www.marienhoehe.de\nSchulleitung: Dr. Christian Noack\n\n
+ FREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gymnasium: Fran
+ zösisch\, Latein oder Spanisch ab Klasse 7\; Realschule: Spanisch ab Klas
+ se 7 als Wahlpflichtfach\; Oberstufe: Französisch und Latein für Fortges
+ chrittene (für Anfänger abhängig von Nachfrage)\, Spanisch für Anfäng
+ er und Fortgeschrittene\n3. Fremdsprache: –\nBilinguale Angebote: Gymnas
+ ium Klasse 7–10: Religion\, Geographie\, Politik und Wirtschaft\, Physik
+ \n\nSCHWERPUNKTE\n• Wertschätzendes und ermutigendes Schulklima für ei
+ n anregendes und beschütztes Lernen auf unserem parkähnlichen Schulcampu
+ s unterhalb der Ludwigshöhe\n• enge Zusammenarbeit zwischen Schule und 
+ Eltern\n• Gesundheitsfördernde Schule\n• Hessische Umweltschule\n• 
+ viele Sportangebote\n• Sucht- und Gewaltprävention\, Konfliktlösungstr
+ aining\n• LionsQuest Lebenskompetenzprogramm für die Klassen 5–10\n
+ • LRS-Förderung für Klassen 5–10\n• offene Ganztagsschule mit Mens
+ a (12:00–14:15)\, Hausaufgabenbetreuung (14:00–15:30)\, Wahlfächern a
+ m Nachmittag und beaufsichtigter Mediothek von 7:30–17:00 Uhr (Fr. 7:30
+ –13:00 Uhr)\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt
+ -Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schu
+ len stellen sich vor“ 2026/2027\, S. 39
+CATEGORIES:Tag der offenen Tür,R/Gym/Internat,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.marienhoehe.de
+CONTACT:Schulzentrum Marienhöhe\, Tel. 06151-53 91-0\, info@marienhoehe.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:lio-20261111T1800@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261111T180000
+DTEND;TZID=Europe/Berlin:20261111T200000
+SUMMARY:Elterninformationsabend – Justus-Liebig-Schule (LIO)
+LOCATION:Justus-Liebig-Schule\, Mensa\, Julius-Reiber-Str. 3\, 64293 Darmst
+ adt
+DESCRIPTION:Elterninformationsabend – Justus-Liebig-Schule (LIO)\nMittwoc
+ h\, 11.11.2026\, 18:00 Uhr (Endzeit nicht angegeben)\nOrt: Mensa\n\nSCHULE
+ \nSchulform: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Juliu
+ s-Reiber-Str. 3\, 64293 Darmstadt\nTelefon: 06151 13-483600\nE-Mail: schul
+ leitung@lio-darmstadt.de\nHomepage: https://www.lio-darmstadt.de\nSchullei
+ tung: Thomas Schmidt\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch („E1“
+ ) oder Französisch („F1“)\n2. Fremdsprache: Französisch ab Klasse 6 
+ bei erster Fremdsprache Englisch („F2“)\; Englisch ab Klasse 6 bei ers
+ ter Fremdsprache Französisch („E2“)\n3. Fremdsprache: Latein ab Klass
+ e 9 fakultativ\, Fortführung in der Oberstufe bis zum Abitur / Latinum m
+ öglich\nBilinguale Angebote: Ab Klasse 7 für Kinder mit F1\, ab 8 oder E
+ -Phase mit F2\n\nSCHWERPUNKTE\n• Naturwissenschaftlicher Schwerpunkt: Na
+ Wi-Unterricht in Kl. 5\; Übungsunterricht in Klassen 7/8 in halber Klasse
+ nstärke\; Wahlunterricht in Klassen 9/10 mit naturwissenschaftlichem Ange
+ bot\; Leistungskurse in der Oberstufe in Physik\, Biologie und Chemie\n•
+  Angebot einer bilingualen Schwerpunktvertiefung: ab Klasse 7 Politik und 
+ Wirtschaft sowie Geschichte bilingual-französisch\n• Französisch-Leist
+ ungskurs für 1. sowie 2. Fremdsprache\n• Musisches Angebot (Chöre\, Or
+ chester\, Bigband usw.\; Darstellendes Spiel in der Oberstufe\, auch als A
+ biturfach möglich)\n• „Gesundheitsfördernde Schule“\, durch Kultus
+ ministerium zertifiziert\n• „Soziales Lernen“ in Kl. 5 und 6\n• 
+ „Ganztägig arbeitende Schule“ (Mittagessen\, Förderangebote\, vieler
+ lei Arbeitsgemeinschaften\, Hausaufgabenbetreuung) montags bis freitags\n\
+ nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die
+  Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich
+  vor“ 2026/2027\, S. 28
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.lio-darmstadt.de
+CONTACT:Justus-Liebig-Schule\, Tel. 06151 13-483600\, schulleitung@lio-darm
+ stadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fws-20261114T1200@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261114T120000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Martinsmarkt mit vielen Angeboten – Freie Waldorfschule Darmstadt
+  (FWS)
+LOCATION:Freie Waldorfschule Darmstadt\, Arndtstraße 6\, 64297 Darmstadt-E
+ berstadt
+DESCRIPTION:Martinsmarkt mit vielen Angeboten – Freie Waldorfschule Darms
+ tadt (FWS)\nSamstag\, 14.11.2026\, 12:00–17:00 Uhr\nOrt: Schulgelände\n
+ \nSCHULE\nSchulform: Zweizügige Ersatzschule mit Eingangsstufe und staatl
+ ich anerkannter gymnasialer Oberstufe (G9) (privat) (Gym)\nPrivatschule\nL
+ age: Stadt Darmstadt\nAnschrift: Arndtstraße 6\, 64297 Darmstadt-Eberstad
+ t\nTelefon: 06151-9555-0\nE-Mail: info@waldorfschule-darmstadt.de\nHomepag
+ e: https://www.waldorfschule-darmstadt.de\nSchulleitung: schulleitung@wald
+ orfschule-darmstadt.de\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab Klas
+ se 1\n2. Fremdsprache: Französisch ab Klasse 1\n3. Fremdsprache: –\nBil
+ inguale Angebote: –\n\nSCHWERPUNKTE\n• Pädagogische Abstimmung von Un
+ terrichtsinhalten und -formen auf die Entwicklungsstufen des Kindes und di
+ e Prozesse des Lernens\n• vielfältiger handwerklich-künstlerisch-musis
+ cher Unterricht\n• Klassenlehrerbegleitung von Klasse 1–8\n• mehrwö
+ chiger Themenunterricht (in Epochen)\, unterrichtsbegleitende Projekte und
+  Praktika\, Förderunterricht\n• Schularzt und Schulsozialarbeit\n• Sc
+ hulküche und -café\, Hort mit Hausaufgabenbetreuung\n• Möglichkeit f
+ ür eine Schreiner- oder Schneiderlehre mit anschließendem Schulabschluss
+ \n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und 
+ die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen s
+ ich vor“ 2026/2027\, S. 17
+CATEGORIES:Markt/Fest,Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.waldorfschule-darmstadt.de
+CONTACT:Freie Waldorfschule Darmstadt\, Tel. 06151-9555-0\, info@waldorfsch
+ ule-darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fcs-20261116T2000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T213000
+SUMMARY:Informationsveranstaltung Elternmitarbeit – Freie Comenius Schule
+  (FCS)
+LOCATION:Freie Comenius Schule\, Halle der FCS\, Jägertorstr. 179 B\, 6428
+ 9 Darmstadt
+DESCRIPTION:Informationsveranstaltung Elternmitarbeit – Freie Comenius Sc
+ hule (FCS)\nMontag\, 16.11.2026\, 20:00–21:30 Uhr\nOrt: Halle der FCS\n\
+ nSCHULE\nSchulform: Integrierte Gesamtschule mit Grundstufe (privat) (IGS)
+ \nPrivatschule\nLage: Stadt Darmstadt\nAnschrift: Jägertorstr. 179 B\, 64
+ 289 Darmstadt\nTelefon: 06151-73 47 29-0\nE-Mail: info@fcs-da.de\nHomepage
+ : https://www.fcs-da.de\nSchulleitung: Henning Zipf\; Birgit Manthey\; Mic
+ hael Buchert\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache:
+  Französisch ab Jg. 7\n3. Fremdsprache: –\nBilinguale Angebote: –\n\n
+ SCHWERPUNKTE\n• Jahrgangsübergreifende Gruppen\, Projektarbeit\n• Gem
+ einsamer Unterricht von Schülerinnen und Schülern mit und ohne sonderpä
+ dagogischen Förderbedarf\n• vier Praktika in den Jahrgängen 7–10\n
+ • Berufsorientierung\, Arbeitslehre\n• Ganztagsschule bis 15:30 Uhr\n\
+ nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die
+  Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich
+  vor“ 2026/2027\, S. 15
+CATEGORIES:Informationsabend,IGS,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.fcs-da.de
+CONTACT:Freie Comenius Schule\, Tel. 06151-73 47 29-0\, info@fcs-da.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:gbs-20261117T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261117T190000
+DTEND;TZID=Europe/Berlin:20261117T210000
+SUMMARY:Informationsabend Sportklasse – Georg-Büchner-Schule (GBS)
+LOCATION:Georg-Büchner-Schule\, Mensa der GBS\, Nieder-Ramstädter Str. 12
+ 0\, 64285 Darmstadt
+DESCRIPTION:Informationsabend Sportklasse – Georg-Büchner-Schule (GBS)\n
+ Dienstag\, 17.11.2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Mensa de
+ r GBS\n\nSCHULE\nSchulform: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nA
+ nschrift: Nieder-Ramstädter Str. 120\, 64285 Darmstadt\nTelefon: 06151 - 
+ 13 482900\nE-Mail: gbs@darmstadt.de\nHomepage: https://www.gbs-darmstadt.d
+ e\nSchulleitung: Eva Klün-Ernst\, OStD'n (Schulleiterin)\; René Sauer\, 
+ StD (stv. Schulleiter)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fre
+ mdsprache: Französisch\, Latein ab Jg. 6\n3. Fremdsprache: Französisch\,
+  Latein ab Jg. 9 im Bereich des Wahlunterrichts\nBilinguale Angebote: Bili
+ ngualer Zug (deutsch-englisch) ab Jg. 6 (je nach Jahrgang in den Fächern 
+ Geographie\, Geschichte oder Politik und Wirtschaft)\; Bilinguale Abiturpr
+ üfung\n\nSCHWERPUNKTE\n• Partnerschule des Leistungssports\, Sportklass
+ e ab Jg. 5\, Leistungskurs Sport garantiert\n• Bilingualer Zug (deutsch-
+ englisch) ab Jg. 6\, Certilingua\n• MINT-freundliche Schule\n• Campuss
+ chule\n• Sozialpraktikum im Jahrgang 9\n• Austauschprogramme\n• Eras
+ mus+-Projekte\n• Gedenkstättenfahrt (Lublin)\n\nGANZTAG\n• Eigene Men
+ sa\n• pädagogische Mittagsbetreuung\n• Hausaufgabenhilfe\n• breites
+  Angebot an Arbeitsgemeinschaften\n\nQuelle: Staatliches Schulamt für den
+  Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die w
+ eiterführenden Schulen stellen sich vor“ 2026/2027\, S. 19
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.gbs-darmstadt.de
+CONTACT:Georg-Büchner-Schule\, Tel. 06151 - 13 482900\, gbs@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:aue-20261119T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T210000
+SUMMARY:Präsentation und Rundgang für Eltern der 4. Klassen – Schule au
+ f der Aue (AUE)
+LOCATION:Schule auf der Aue\, Foyer der Schule\, Heinrich-Heine-Str. 14\, 6
+ 4839 Münster
+DESCRIPTION:Präsentation und Rundgang für Eltern der 4. Klassen – Schul
+ e auf der Aue (AUE)\nDonnerstag\, 19.11.2026\, 19:00 Uhr (Endzeit nicht an
+ gegeben)\nOrt: Foyer der Schule\n\nSCHULE\nSchulform: Kooperative Gesamtsc
+ hule (G9) (KGS)\nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Heinrich-He
+ ine-Str. 14\, 64839 Münster\nTelefon: 06071-39 06 0\nE-Mail: sekretariat@
+ aueschule.de\nHomepage: https://www.aueschule.de\nSchulleitung: Sabine Beh
+ ling\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab Klasse 5\n2. Fremdspra
+ che: Gym: Französisch\, Spanisch\, Latein ab Jg. 7\; Real: Französisch\,
+  Spanisch ab Jg. 7\n3. Fremdsprache: Gym: In der Oberstufe ADS wird Spanis
+ ch neu angeboten\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Gymnasiale
+ r Zweig G9 (Klassen 5–10)\; Förderstufe\, Haupt- und Realschulzweig\n
+ • Hauptschule Klasse 10 mit Realschulprüfung\n• Schule mit Schwerpunk
+ t Musik\n• MINT-freundliche Schule bzw. MINT-Zentrum\n• Digitale Schul
+ e\n• Gesundheitsfördernde Schule\n• SchoolBikers (Bike-School in Vorb
+ ereitung)\n• Ganztagsbetreuung täglich bis 16:00 Uhr\, Mittagstisch\, o
+ ffener Treff im Aue-Club\, Lernzeit in 5 und 6\, vielfältige Arbeitsgemei
+ nschaften\, naturwissenschaftliche Wettbewerbe\n• Lese- und Rechtschreib
+ förderung (LRS)\, Schulskikurs\, Schultheater\n• EDV-Ausbildung\n• LE
+ MAS – Leistung macht Schule\n• Begegnungsfahrt mit IRL/SPA\, Austausch
+ fahrt Polen\n• Soziales Lernen/Lernstrategien\, Streitschlichterausbildu
+ ng\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg un
+ d die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen
+  sich vor“ 2026/2027\, S. 38
+CATEGORIES:Informationsabend,KGS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.aueschule.de
+CONTACT:Schule auf der Aue\, Tel. 06071-39 06 0\, sekretariat@aueschule.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:sts-20261120T1600@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Tag der offenen Tür – Stadtteilschule Arheilgen (STS)
+LOCATION:Stadtteilschule Arheilgen\, Grillparzerstraße 33\, 64291 Darmstad
+ t
+DESCRIPTION:Tag der offenen Tür – Stadtteilschule Arheilgen (STS)\nFreit
+ ag\, 20.11.2026\, 16:00–19:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulfo
+ rm: Kooperative Gesamtschule (G9) (KGS)\nLage: Stadt Darmstadt\nAnschrift:
+  Grillparzerstraße 33\, 64291 Darmstadt\nTelefon: 06151-13 48 67 00\nE-Ma
+ il: sts-arheilgen@darmstadt.de\nHomepage: https://www.sts-arheilgen.de\nSc
+ hulleitung: Dominic Frank\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch ab J
+ g. 5\n2. Fremdsprache: Ab Jg. 7: Französisch oder Spanisch\n3. Fremdsprac
+ he: G9/G10 WPU\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Kooperative 
+ Gesamtschule mit Förderstufe\, Eingangsklasse G5\n• Ganztagsangebot an 
+ 5 Tagen mit päd. Mittagsbetreuung und Essenangebot\n• Vielfältiges AG-
+ Angebot\n• Erlebnispädagogik\, Lernzeiten\n• alle Gymnasialklassen we
+ rden nach G9 unterrichtet\n• LRS-Kurse für Jg. 5–6\n• Berufsorienti
+ erung\n• Schulhund\n• Auslandsfahrten (England\, Frankreich\, Spanien)
+ \n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und 
+ die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen s
+ ich vor“ 2026/2027\, S. 40
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.sts-arheilgen.de
+CONTACT:Stadtteilschule Arheilgen\, Tel. 06151-13 48 67 00\, sts-arheilgen@
+ darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:mws-20261121T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261121T090000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Tag der offenen Tür mit Infoveranstaltung – Mornewegschule (MWS)
+LOCATION:Mornewegschule\, Hauptgebäude der Schule\, Hermannstr. 21\, 64285
+  Darmstadt
+DESCRIPTION:Tag der offenen Tür mit Infoveranstaltung – Mornewegschule (
+ MWS)\nSamstag\, 21.11.2026\, 09:00–13:00 Uhr\nOrt: Hauptgebäude der Sch
+ ule\n\nSCHULE\nSchulform: Integrierte Gesamtschule (IGS)\nLage: Stadt Darm
+ stadt\nAnschrift: Hermannstr. 21\, 64285 Darmstadt\nTelefon: 06151-13-4850
+ 00\nE-Mail: mornewegschule@darmstadt.de\nHomepage: https://www.mornewegsch
+ ule-darmstadt.de\nSchulleitung: Ulrike Mertins\n\nFREMDSPRACHEN\n1. Fremds
+ prache: Englisch\n2. Fremdsprache: Französisch\, Spanisch\n3. Fremdsprach
+ e: –\nBilinguale Angebote: Biologie bzw. GL ab Jg. 9\n\nSCHWERPUNKTE\n
+ • Ganztagsschule im Profil 2\n• Europaschule\n• projektorientiertes 
+ Lernen\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Diebur
+ g und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen ste
+ llen sich vor“ 2026/2027\, S. 33
+CATEGORIES:Tag der offenen Tür,IGS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.mornewegschule-darmstadt.de
+CONTACT:Mornewegschule\, Tel. 06151-13-485000\, mornewegschule@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ads-20261121T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261121T100000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Tag der offenen Tür – Albrecht-Dürer-Schule (ADS)
+LOCATION:Albrecht-Dürer-Schule\, Klein-Gerauer Weg 23-25\, 64331 Weitersta
+ dt
+DESCRIPTION:Tag der offenen Tür – Albrecht-Dürer-Schule (ADS)\nSamstag\
+ , 21.11.2026\, 10:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform:
+  Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe (KGS+GO)\nLage: L
+ andkreis Darmstadt-Dieburg\nAnschrift: Klein-Gerauer Weg 23-25\, 64331 Wei
+ terstadt\nTelefon: 06150-130 50\nE-Mail: ads_weiterstadt@schulen.ladadi.de
+ \nHomepage: https://www.duerer.schule\nSchulleitung: Dr. Hartmut Lissinna\
+ n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gymnasialzwe
+ ig: Französisch\, Latein ab Jg. 7\n3. Fremdsprache: Italienisch als Wahlu
+ nterricht im Jg. 9\; Italienisch ab E-Phase\nBilinguale Angebote: –\n\nS
+ CHWERPUNKTE\n• Ganztagsschulprofil 1 des HKM\n• doppelte Klassenführu
+ ng in der Förderstufe\n• zusätzliche Sprachförderung in den Jahrgäng
+ en 5/6 (von der Umgangs- zur Bildungssprache)\n• NaWi als Hauptfach in K
+ lasse 5/6\n• Kinderrechte-Schule\n• BNE\n• umfangreiche Angebote zur
+  Berufsorientierung ab Klasse 7\n• Musical-Aufführung mit ca. 350 Schü
+ lerinnen und Schülern im 2-jährigen Rhythmus (Chor\, Orchester\, Theater
+ \, Bühnenbau)\n• CISCO-Ausbildungsangebot zur Netzwerkassistent(in)\n
+ • breites Leistungskursangebot in der Oberstufe\n\nQuelle: Staatliches S
+ chulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Bro
+ schüre „Die weiterführenden Schulen stellen sich vor“ 2026/2027\, S.
+  7
+CATEGORIES:Tag der offenen Tür,KGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.duerer.schule
+CONTACT:Albrecht-Dürer-Schule\, Tel. 06150-130 50\, ads_weiterstadt@schule
+ n.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dkss-20261123T1930@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261123T193000
+DTEND;TZID=Europe/Berlin:20261123T213000
+SUMMARY:Informationsabend – Dr.-Kurt-Schumacher-Schule (DKSS)
+LOCATION:Dr.-Kurt-Schumacher-Schule\, Freiherr-vom-Stein-Straße 1\, 64354 
+ Reinheim
+DESCRIPTION:Informationsabend – Dr.-Kurt-Schumacher-Schule (DKSS)\nMontag
+ \, 23.11.2026\, 19:30 Uhr (Endzeit nicht angegeben)\nOrt: Schulgelände\n\
+ nSCHULE\nSchulform: Kooperative Gesamtschule (KGS)\nLage: Landkreis Darmst
+ adt-Dieburg\nAnschrift: Freiherr-vom-Stein-Straße 1\, 64354 Reinheim\nTel
+ efon: 06162-93 32 0\nE-Mail: dks_reinheim@schulen.ladadi.de\nHomepage: htt
+ ps://www.dkss-reinheim.de\nSchulleitung: Ralf Loschek\; Ulrike Vogt\n\nFRE
+ MDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gymnasialzweig: Fr
+ anzösisch\, Latein und Spanisch ab Jg. 7\; Realschulzweig: Französisch a
+ b Jg. 7\n3. Fremdsprache: –\nBilinguale Angebote: Im Gymnasialzweig ab J
+ ahrgang 6\n\nSCHWERPUNKTE\n• Ganztägig arbeitende Schule mit Mittagstis
+ ch\, Nachmittagsbetreuung und Förderunterricht\n• umfangreiches AG-Ange
+ bot am Nachmittag\n• Naturwissenschaftlicher Schwerpunkt mit Schulteich 
+ / Schulgarten / Schulimkerei\n• Angebot der 10. Hauptschulklasse\n• sc
+ hulform- und jahrgangsübergreifendes Wahlpflichtangebot in 9 und 10\n\nQu
+ elle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die St
+ adt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich vo
+ r“ 2026/2027\, S. 9
+CATEGORIES:Informationsabend,KGS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.dkss-reinheim.de
+CONTACT:Dr.-Kurt-Schumacher-Schule\, Tel. 06162-93 32 0\, dks_reinheim@schu
+ len.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:hws-20261124T1630@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261124T163000
+DTEND;TZID=Europe/Berlin:20261124T190000
+SUMMARY:Abend der offenen Schule\, Übergang 4 nach 5 – Hessenwaldschule 
+ (HWS)
+LOCATION:Hessenwaldschule\, Wolfsgartenallee 8\, 64331 Weiterstadt
+DESCRIPTION:Abend der offenen Schule\, Übergang 4 nach 5 – Hessenwaldsch
+ ule (HWS)\nDienstag\, 24.11.2026\, 16:30–19:00 Uhr\nOrt: Schulgelände\n
+ \nSCHULE\nSchulform: Kooperative Gesamtschule (G9) (KGS)\nLage: Landkreis 
+ Darmstadt-Dieburg\nAnschrift: Wolfsgartenallee 8\, 64331 Weiterstadt\nTele
+ fon: 06150-97 46 0\nE-Mail: hws_weiterstadt@schulen.ladadi.de\nHomepage: h
+ ttps://www.hessenwaldschule.de\nSchulleitung: Stephan Wüst (SL)\; N.N. (s
+ tv. SL)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Span
+ isch ab Klasse 7 (R und Gym)\n3. Fremdsprache: Französisch und Chinesisch
+  ab Klasse 9 (Gym)\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Digital 
+ arbeitende Schule (iPad ab Klasse 7)\n• Erasmus-Schule\n• Prävention\
+ , Gemeinschaft und Demokratie\n• Schüleraustausch Spanien\n• Berufsor
+ ientierung\n• Bikeschool\n• Stärkung MINT\n• Gymnasialzweig ab Jahr
+ gang 5\; Förderstufe für Jahrgang 5 und 6 (H und R)\n• gebundene Ganzt
+ agsschule (Profil 3) für den Jahrgang 5 und 6 bis 14:35 Uhr\n• pädagog
+ ische Mittagsbetreuung\, Lerninsel/Club für die Klassen 5–7 bis 16:00 U
+ hr\, freitags bis 14:00 Uhr\n\nQuelle: Staatliches Schulamt für den Landk
+ reis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterf
+ ührenden Schulen stellen sich vor“ 2026/2027\, S. 25
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.hessenwaldschule.de
+CONTACT:Hessenwaldschule\, Tel. 06150-97 46 0\, hws_weiterstadt@schulen.lad
+ adi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:jws-20261125T1400@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261125T140000
+DTEND;TZID=Europe/Berlin:20261125T163000
+SUMMARY:Schnuppernachmittag – Justin-Wagner-Schule (JWS)
+LOCATION:Justin-Wagner-Schule\, Odenwaldring 3-5\, 64380 Roßdorf
+DESCRIPTION:Schnuppernachmittag – Justin-Wagner-Schule (JWS)\nMittwoch\, 
+ 25.11.2026\, 14:00–16:30 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: K
+ ooperative Gesamtschule (G9) (KGS)\nLage: Landkreis Darmstadt-Dieburg\nAns
+ chrift: Odenwaldring 3-5\, 64380 Roßdorf\nTelefon: 06154-60 25 0\nE-Mail:
+  jws_rossdorf@schulen.ladadi.de\nHomepage: https://www.jws-rossdorf.de\nSc
+ hulleitung: Alice Hentzen\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. 
+ Fremdsprache: Französisch\, Spanisch ab Jg. 7\n3. Fremdsprache: Bei ausre
+ ichender Nachfrage möglich\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n•
+  Klassenlehrerstunde in allen Jg.\, freiwillige Lernzeit in Jg. 5–6\n•
+  freiwillige Förderkurse in Deutsch/Englisch/Mathe\; Förderkurse DaZ/LRS
+  nach Bedarf in allen Jahrgängen\n• vorbereitende Kurse zur Abschlusspr
+ üfung\n• Doppelbesetzungen in Hauptfächern\, Hauptfachverstärkungen\n
+ • bewegte Pause\, Bike School\n• Familienfreundliche Schule und ganzt
+ ägige Angebote in Profil 2\; Mittagessen an 5 Tagen\n• Teilnahme an div
+ ersen Wettbewerben\n• Hausaufgaben-/Nachmittagsbetreuung und AG-Angebote
+ \, Schwerpunkt Sport\, NaWi\, Sprachen\, Theater\, Orchester\n• Teamtrai
+ ning Jg. 5/6\, Sozialtraining\, „Du bist Klasse“ Jg. 7\n• Mediathek\
+ , Stillarbeitsraum\, Spieleraum\, Billardzimmer\, schülerorientierter Sch
+ ulhof (u.a. mit Boulderwand\, Schach\, Rendezvous-Bänken)\n• Kooperatio
+ n mit Sportvereinen\n• Kooperation mit der Handwerkskammer\, Schwerpunkt
+  Berufsorientierung\n• Fach „Medienbildung“\n• Studien- und Austau
+ schfahrten nach England\, Frankreich und Spanien\n• ausgeweitetes WPU-Ko
+ nzept\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg
+  und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stel
+ len sich vor“ 2026/2027\, S. 27
+CATEGORIES:Schnuppertag,KGS,Öffentliche Schule,Landkreis Darmstadt-Dieburg
+URL;VALUE=URI:https://www.jws-rossdorf.de
+CONTACT:Justin-Wagner-Schule\, Tel. 06154-60 25 0\, jws_rossdorf@schulen.la
+ dadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:gcls-20261125T1600@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T183000
+SUMMARY:Tag der offenen Tür – Georg-Christoph-Lichtenberg-Schule (GCLS)
+LOCATION:Georg-Christoph-Lichtenberg-Schule\, Steinrehweg 5\, 64372 Ober-Ra
+ mstadt
+DESCRIPTION:Tag der offenen Tür – Georg-Christoph-Lichtenberg-Schule (GC
+ LS)\nMittwoch\, 25.11.2026\, 16:00–18:30 Uhr\nOrt: Schulgelände\n\nSCHU
+ LE\nSchulform: Integrierte Gesamtschule mit gymnasialer Oberstufe (IGS+GO)
+ \nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Steinrehweg 5\, 64372 Ober
+ -Ramstadt\nTelefon: 06154-63 46 0\nE-Mail: gcl@schulen.ladadi.de\nHomepage
+ : https://www.gcls.de\nSchulleitung: Sabine Gatzweiler\n\nFREMDSPRACHEN\n1
+ . Fremdsprache: Englisch\n2. Fremdsprache: Französisch und Latein ab Jg. 
+ 7\; Französisch\, Italienisch und Spanisch ab Jg. 11\n3. Fremdsprache: 
+ –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Bläser-\, MINT- und Pe
+ rformArts-Profil im Jahrgang 5 und 6\n• gemeinsames Lernen im Klassenver
+ band bis Jahrgang 8\n• äußere\, abschlussbezogene Differenzierung in d
+ en Hauptfächern ab Jahrgang 9\n• Ganztagsschule (im Profil II)\n• Kul
+ turSchule Hessens\; Profilschule Kulturelle Bildung\n• Schule mit Schwer
+ punkt Musik\n• MINT-freundliche Schule\; MINT-Zentrum\, Campusschule\n
+ • Zertifikat Schule & Gesundheit\n\nQuelle: Staatliches Schulamt für de
+ n Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die 
+ weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 20
+CATEGORIES:Tag der offenen Tür,IGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.gcls.de
+CONTACT:Georg-Christoph-Lichtenberg-Schule\, Tel. 06154-63 46 0\, gcl@schul
+ en.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:luo-20261125T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Elterninformation – Lichtenbergschule (LUO)
+LOCATION:Lichtenbergschule\, Große Sporthalle\, Ludwigshöhstraße 105\, 6
+ 4285 Darmstadt
+DESCRIPTION:Elterninformation – Lichtenbergschule (LUO)\nMittwoch\, 25.11
+ .2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Große Sporthalle\n\nSCH
+ ULE\nSchulform: Gymnasium (G8) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Lu
+ dwigshöhstraße 105\, 64285 Darmstadt\nTelefon: 06151-13 48 47 00\nE-Mail
+ : luo@darmstadt.de\nHomepage: https://luo-darmstadt.de\nSchulleitung: Wolf
+ gang Naumann\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache:
+  Französisch\, Russisch\, Spanisch\, Latein\n3. Fremdsprache: Nullcurricu
+ lum Latein in der Oberstufe\nBilinguale Angebote: Bilingualer Unterricht: 
+ Ab Jg. 7 für alle in mindestens einer Naturwissenschaft und einem gesells
+ chaftswissenschaftlichen Fach (Sprachen: Englisch/Deutsch)\; in der Oberst
+ ufe zahlreiche bilingual unterrichtete Fächer frei wählbar (M\, Bio\, Ch
+ \, Ph\, PoWi)\n\nSCHWERPUNKTE\n• Europaschule\n• MINT-EC-Schule\n• O
+ loV-Zertifikat\n• Familienfreundliche Schule\n• Ganztagsschule Profil 
+ 2\n• Intern. Begegnungsschule mit Schulischem Zentrum für Sprachen und 
+ Begabtenförderung\n• LemaS-Schule (Begabten- und Begabungsförderung)\n
+ • Profilschule Kulturelle Bildung im Bereich Literatur\n• Campusschule
+  TU Darmstadt\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt
+ -Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schu
+ len stellen sich vor“ 2026/2027\, S. 29
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://luo-darmstadt.de
+CONTACT:Lichtenbergschule\, Tel. 06151-13 48 47 00\, luo@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:mbs-20261125T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Elterninfoabend – Melibokusschule (MBS)
+LOCATION:Melibokusschule\, Eingangsbereich\, Benno-Elkan-Allee 1\, 64665 Al
+ sbach-Hähnlein
+DESCRIPTION:Elterninfoabend – Melibokusschule (MBS)\nMittwoch\, 25.11.202
+ 6\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Eingangsbereich\n\nSCHULE\nS
+ chulform: Kooperative Gesamtschule (G9) (KGS)\nLage: Landkreis Darmstadt-D
+ ieburg\nAnschrift: Benno-Elkan-Allee 1\, 64665 Alsbach-Hähnlein\nTelefon:
+  06257-930 20\nE-Mail: mbs_alsbach-haehnlein@schulen.ladadi.de\nHomepage: 
+ https://www.melibokusschule.de\nSchulleitung: Dr. Michael Weiffen\n\nFREMD
+ SPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gym: Französisch od
+ . Spanisch ab Jg. 7\; R: Spanisch oder Französisch ab Jg. 7\n3. Fremdspra
+ che: Gym: Französisch oder Spanisch ab Jg. 9 bei entspr. Nachfrage mögli
+ ch\nBilinguale Angebote: Wahlpflichtkurs sowie AG-Angebote\n\nSCHWERPUNKTE
+ \n• G9\n• Ganztagsprofil 1: täglich warmes Mittagessen\; Nachmittagsb
+ etreuung\n• Lernen lernen in Jg. 5\n• IT-Basistraining in Jg. 5/6\n•
+  aktuell 2 Intensivklassen\n• Gesundheitsfördernde Schule: Gesamtzertif
+ ikat / Unterrichtsfach Gesundheit in Jg. 8\n• zahlreiche Wahlpflicht- un
+ d AG-Angebote\n• jährliche Ausbildungsmesse AIBA\n• Schule ohne Rassi
+ smus\n• PUSCH (einjährig in Stufe 9 der Hauptschule)\n• MINT-Angebote
+ \n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und 
+ die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen s
+ ich vor“ 2026/2027\, S. 32
+CATEGORIES:Informationsabend,KGS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.melibokusschule.de
+CONTACT:Melibokusschule\, Tel. 06257-930 20\, mbs_alsbach-haehnlein@schulen
+ .ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ghs-20261127T1400@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T140000
+DTEND;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Tag des offenen Unterrichts – Gerhart-Hauptmann-Schule (GHS)
+LOCATION:Gerhart-Hauptmann-Schule\, Goethestr. 99\, 64347 Griesheim
+DESCRIPTION:Tag des offenen Unterrichts – Gerhart-Hauptmann-Schule (GHS)\
+ nFreitag\, 27.11.2026\, 14:00–18:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nS
+ chulform: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe (KGS+GO)
+ \nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Goethestr. 99\, 64347 Grie
+ sheim\nTelefon: 06155-87 54 0\nE-Mail: ghs_griesheim@schulen.ladadi.de\nHo
+ mepage: https://www.ghs-griesheim.eu\nSchulleitung: Anja Reuter\n\nFREMDSP
+ RACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französisch\, Spanisc
+ h ab Jgst. 7 (G9)\n3. Fremdsprache: Neu beginnende Fremdsprache in Gym. Ob
+ erstufe: Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Schwerpun
+ ktklassen Gym 5+6: Bläser/Science/Sprachjongleure/Wandel.Werte.Wirksamkei
+ t\n• Schwerpunktklassen Fö 5+6: Deutsch/Sport/Natur und Technik (NaTec)
+ \n• Intensivklasse (DaZ)\, H10\, gymnasiale Oberstufe\n• Ganztagsschul
+ e Profil 2 mit Angeboten an 5 Tagen: Mittagessen/AG-Angebote/Offenes Betre
+ uungsangebot mit Hausaufgabenzeit\n• MINT-freundliche Schule\, Digitale 
+ Schule\, Gesundheitsfördernde Schule\n• Schule ohne Rassismus – Schul
+ e mit Courage\n• Erasmus+\n• Digitale Welten im Ganztag\n• Schulleis
+ tungsverbesserungskurs vor Abschlussprüfungen\n• Jugend präsentiert: E
+ -Phase\; Jugend debattiert: Jgst. 9 und E-Phase\n• Orientierungstage: St
+ artklar in der E-Phase\n• Begleitung für Übergänge an weiterführende
+  Schulen nach Klasse 9 und 10\n• Berufs- und Studienorientierung in der 
+ Sek I und Gym. Oberstufe\n• Schulsozialarbeit: Sozialkompetenztraining: 
+ Jg. 5–7 und Kennenlernfahrt: Jgst. 5\n• Sprach-AG mit Fahrt nach Irlan
+ d\n• Klassenfahrt mit sportlichem Schwerpunkt: Jgst. 8\n• Austauschpro
+ gramm mit Frankreich und Spanien\n\nQuelle: Staatliches Schulamt für den 
+ Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die we
+ iterführenden Schulen stellen sich vor“ 2026/2027\, S. 22
+CATEGORIES:Tag der offenen Tür,KGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.ghs-griesheim.eu
+CONTACT:Gerhart-Hauptmann-Schule\, Tel. 06155-87 54 0\, ghs_griesheim@schul
+ en.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ews-20261127T1430@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T143000
+DTEND;TZID=Europe/Berlin:20261127T173000
+SUMMARY:Tag der offenen Tür mit Adventsmarkt – Eichwaldschule (EWS)
+LOCATION:Eichwaldschule\, Langstädter Str. 40\, 64850 Schaafheim
+DESCRIPTION:Tag der offenen Tür mit Adventsmarkt – Eichwaldschule (EWS)\
+ nFreitag\, 27.11.2026\, 14:30–17:30 Uhr\nOrt: Schulgelände\n\nSCHULE\nS
+ chulform: Grund-\, Haupt- und Realschule mit Förderstufe (H/R)\nLage: Lan
+ dkreis Darmstadt-Dieburg\nAnschrift: Langstädter Str. 40\, 64850 Schaafhe
+ im\nTelefon: 06073-91 30\nE-Mail: ews_schaafheim@schulen.ladadi.de\nHomepa
+ ge: https://www.eichwaldschule.de\nSchulleitung: Herr Christopher Mühlhö
+ fer\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französ
+ isch (ab Jg. 7)\n3. Fremdsprache: –\nBilinguale Angebote: –\n\nSCHWERP
+ UNKTE\n• Erweiterung der Förderstufe durch die Verbundklasse 7 mit Kurs
+ ung in Englisch und Mathematik ab der Klasse 6\n• Ganztagsangebot für a
+ lle JGSt: Mittagessen an vier Tagen\, „Offener Treff“\, Hausaufgabenbe
+ treuung\, AG-Angebote (u.a. Schülerzeitung\, Miteinander Lernen\, Englisc
+ h Fit für die Oberstufe\, Erasmus)\n• Wahlpflichtangebote: u.a. Handwer
+ k\, Experimentieren\, Robotik\, Verantwortung\, Handball\n• aktive Ausbi
+ ldungsinitiative: Zukunftswerkstatt in Kooperation mit der IHK\, Praxistag
+  in Klasse 8 (Hauptschule)\n• Schwerpunkte: Eigenverantwortliches Lernen
+  (u.a. Lernzeiten\, offene Unterrichtsformen\, Projektarbeit) und Soziales
+  Lernen (u.a. Klassenrat\, Schülerpatenschaften)\n• Digitale Schule –
+  „Digitale Welt“ als Schulfach für alle in 5/6\n• Schulaustausch 
+ – Erasmus-Projekt\n\nQuelle: Staatliches Schulamt für den Landkreis Dar
+ mstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführende
+ n Schulen stellen sich vor“ 2026/2027\, S. 11
+CATEGORIES:Tag der offenen Tür,H/R,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.eichwaldschule.de
+CONTACT:Eichwaldschule\, Tel. 06073-91 30\, ews_schaafheim@schulen.ladadi.d
+ e
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:gut-20261127T1530@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T153000
+DTEND;TZID=Europe/Berlin:20261127T183000
+SUMMARY:Tag der offenen Tür – Gutenbergschule (GUT)
+LOCATION:Gutenbergschule\, Gabelsbergerstr. 4-8\, 64297 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Gutenbergschule (GUT)\nFreitag\, 27.11
+ .2026\, 15:30–18:30 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Kooper
+ ative Gesamtschule (G9) (KGS)\nLage: Stadt Darmstadt\nAnschrift: Gabelsber
+ gerstr. 4-8\, 64297 Darmstadt\nTelefon: 06151- 13483100\nE-Mail: gutenberg
+ schule@darmstadt.de\nHomepage: https://www.gut-da.de\nSchulleitung: Arne H
+ uwald\; Barbara Kuhn\; Hannes Marb\n\nFREMDSPRACHEN\n1. Fremdsprache: Engl
+ isch\n2. Fremdsprache: Gymnasialzweig: Französisch/Spanisch ab Jg. 7\; Re
+ alschulzweig: Französisch/Spanisch ab Jg. 7 optional\n3. Fremdsprache: 
+ –\nBilinguale Angebote: –\n\nBESCHREIBUNG\nUnser Einzugsgebiet reicht 
+ über den Darmstädter Süden bis nach Mühltal. Mit rund 650 Schülerinne
+ n und Schülern sind wir eine überschaubare Schule\, in der persönliche 
+ Begegnungen und ein gutes Miteinander wichtig sind. Als Kooperative Gesamt
+ schule vereinen wir alle drei Schulformen – Hauptschule\, Realschule und
+  Gymnasium – unter einem Dach. So können wir Kinder und Jugendliche ent
+ sprechend ihrer individuellen Stärken begleiten und ihnen unterschiedlich
+ e Wege zu einem erfolgreichen Schulabschluss eröffnen. Unser Hauptschulzw
+ eig führt zum Abschluss nach Klasse 9\, der Realschulzweig zum mittleren 
+ Schulabschluss nach Klasse 10 und ermöglicht bei entsprechender Qualifika
+ tion den Besuch einer externen gymnasialen Oberstufe. Im Gymnasialzweig le
+ rnen die Schüler im G9-Bildungsgang bis Klasse 10 und besuchen anschließ
+ end eine externe gymnasiale Oberstufe. Als Ganztagsschule verstehen wir Sc
+ hule als Lern- und Lebensort. Auch am Nachmittag bieten wir Möglichkeiten
+  zur fachlichen Vertiefung\, zum selbstständigen Lernen und für vielfäl
+ tige weitere Aktivitäten. Unsere internationale Schulgemeinschaft steht f
+ ür Vielfalt\, Offenheit und gemeinsames Lernen. Als „Modellschule für 
+ Kinderrechte“ und „Smart School“ verbinden wir demokratische Bildung
+  und einen zeitgemäßen Umgang mit digitalen Medien.\n\nSCHWERPUNKTE\n•
+  Einzugsgebiet über den Darmstädter Süden bis nach Mühltal\n• Mit ru
+ nd 650 Schülerinnen und Schülern eine überschaubare Schule\, in der per
+ sönliche Begegnungen und ein gutes Miteinander wichtig sind\n• Als Koop
+ erative Gesamtschule alle drei Schulformen – Hauptschule\, Realschule un
+ d Gymnasium – unter einem Dach\n• Hauptschulzweig führt zum Abschluss
+  nach Klasse 9\, Realschulzweig zum mittleren Schulabschluss nach Klasse 1
+ 0 (bei entsprechender Qualifikation Besuch einer externen gymnasialen Ober
+ stufe möglich)\n• Gymnasialzweig im G9-Bildungsgang bis Klasse 10\, ans
+ chließend Besuch einer externen gymnasialen Oberstufe\n• Ganztagsschule
+ : auch am Nachmittag Möglichkeiten zur fachlichen Vertiefung\, zum selbst
+ ständigen Lernen und für vielfältige weitere Aktivitäten\n• Internat
+ ionale Schulgemeinschaft – Vielfalt\, Offenheit und gemeinsames Lernen\n
+ • „Modellschule für Kinderrechte“ und „Smart School“: demokrati
+ sche Bildung und zeitgemäßer Umgang mit digitalen Medien\n\nQuelle: Staa
+ tliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmst
+ adt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 2026/
+ 2027\, S. 24
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.gut-da.de
+CONTACT:Gutenbergschule\, Tel. 06151- 13483100\, gutenbergschule@darmstadt.
+ de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:schuldorf-20261127T1600@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T190000
+SUMMARY:Tag der offenen Tür mit Unterrichtsangeboten – Schuldorf Bergstr
+ aße
+LOCATION:Schuldorf Bergstraße\, Sandstraße\, 64342 Seeheim-Jugenheim
+DESCRIPTION:Tag der offenen Tür mit Unterrichtsangeboten – Schuldorf Ber
+ gstraße\nFreitag\, 27.11.2026\, 16:00–19:00 Uhr\nOrt: Schulgelände\n\n
+ SCHULE\nSchulform: Kooperative Gesamtschule (G9) mit Primarstufe\, Interna
+ tionalem Schulzweig und Gymnasialer Oberstufe (KGS+GO)\nLage: Landkreis Da
+ rmstadt-Dieburg\nAnschrift: Sandstraße\, 64342 Seeheim-Jugenheim\nTelefon
+ : 06257-97 03-0/ -15\nE-Mail: schuldorf@schulen.ladadi.de\nHomepage: https
+ ://www.schuldorf.de\nSchulleitung: Christina Martini-Appel (SL)\; Daniel B
+ rücher (stellv. SL)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremd
+ sprache: Gym: Französisch\, Latein\, Spanisch ab Jg. 7\; H/R: Spanisch\, 
+ Französisch ab Jg. 7\n3. Fremdsprache: Gym: Italienisch\nBilinguale Angeb
+ ote: Gym: Bilinguale Angebote ab Jg. 9\n\nSCHWERPUNKTE\n• Gym-Zweig: G9\
+ , Profilklassen\, darunter Sport\, Europa\, Musik\; NaWi-/BiLi-Angebote ab
+  Jg. 9\, 3. Fremdsprache Ital.\n• H/R-Zweig: Förderstufe 5/6\, Berufsor
+ ientierung\, Lernen durch Engagement\n• Internationaler Schulzweig (Prim
+ ary Jg. 1–4 und Secondary Jg. 5–12)\n• Europaschule\n• Profilschul
+ e für Sporttalente\n• Gesunde Schule\n• Umweltschule\n• 5-tägiges 
+ Ganztagsangebot\n• MINT\n• Chöre\, Orchester\n• Schule ohne Rassism
+ us\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg un
+ d die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen
+  sich vor“ 2026/2027\, S. 37
+CATEGORIES:Tag der offenen Tür,KGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.schuldorf.de
+CONTACT:Schuldorf Bergstraße\, Tel. 06257-97 03-0/ -15\, schuldorf@schulen
+ .ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:jss-20261127T1630@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T163000
+DTEND;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Tag der offenen Tür / Adventsmarkt – Joachim-Schumann-Schule (JS
+ S)
+LOCATION:Joachim-Schumann-Schule\, Bürgermeister-Willand-Str. 1\, 64832 Ba
+ benhausen
+DESCRIPTION:Tag der offenen Tür / Adventsmarkt – Joachim-Schumann-Schule
+  (JSS)\nFreitag\, 27.11.2026\, 16:30–20:00 Uhr\nOrt: Schulgelände\n\nSC
+ HULE\nSchulform: Integrierte Gesamtschule (IGS)\nLage: Landkreis Darmstadt
+ -Dieburg\nAnschrift: Bürgermeister-Willand-Str. 1\, 64832 Babenhausen\nTe
+ lefon: 06073-72 66 0\nE-Mail: jss_babenhausen@schulen.ladadi.de\nHomepage:
+  https://www.joachim-schumann-schule.de\nSchulleitung: Till Eckermann (Sch
+ ulleiter)\; Boris Wollenhaupt (stellv. Schulleiter)\n\nFREMDSPRACHEN\n1. F
+ remdsprache: Englisch\n2. Fremdsprache: Französisch bzw. Latein ab Sj. 7\
+ n3. Fremdsprache: –\nBilinguale Angebote: Erasmus in Jg. 9 und 10\n\nSCH
+ WERPUNKTE\n• IGS & Ganztagsschule: feste Öffnungs- und Betreuungszeiten
+ \, integrierte Lernzeiten\, Mensa u. Cafeteria\, Bibliothek\n• multiprof
+ essionelle Teamarbeit\n• Berufsorientierung: Hamet-Kompetenz-Test\, Prax
+ istag\, Patenmodell\, Job-Info-Börse\, indiv. Laufbahnberatung\, Berufepa
+ rcours\n• Profilmerkmale: Erasmus-Schule (Science across Europe)\, „Ja
+ hrgangsmusizieren“ mit Instrumenten für alle Schüler:innen der Jg. 5
+ –7\, Hochbegabtenförderung\n• Angebote: PUSCH-Klasse\; MINT-freundlic
+ he Schule\; musisch-künstlerische Aufführungen\; Schulsanitätsdienst\; 
+ Chemie für Kids\; Computerkurse\; Elektronikkurse\; handwerkliche Kurse\;
+  Sportangebote\, Schulteams\n\nQuelle: Staatliches Schulamt für den Landk
+ reis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterf
+ ührenden Schulen stellen sich vor“ 2026/2027\, S. 26
+CATEGORIES:Tag der offenen Tür,IGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.joachim-schumann-schule.de
+CONTACT:Joachim-Schumann-Schule\, Tel. 06073-72 66 0\, jss_babenhausen@schu
+ len.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fes-20261127T1700@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T170000
+DTEND;TZID=Europe/Berlin:20261127T190000
+SUMMARY:Tag der offenen Schule – Friedrich-Ebert-Schule (FES)
+LOCATION:Friedrich-Ebert-Schule\, Ringstr. 51-61\, 64319 Pfungstadt
+DESCRIPTION:Tag der offenen Schule – Friedrich-Ebert-Schule (FES)\nFreita
+ g\, 27.11.2026\, 17:00–19:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulfor
+ m: Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe (KGS+GO)\nLage:
+  Landkreis Darmstadt-Dieburg\nAnschrift: Ringstr. 51-61\, 64319 Pfungstadt
+ \nTelefon: 06157-94 76-0\nE-Mail: Schulleitung6130@schule.hessen.de\nHomep
+ age: https://www.fes-pfungstadt.de\nSchulleitung: Julia Lesche\n\nFREMDSPR
+ ACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gymnasialzweig: Franzö
+ sisch\, Latein\, Spanisch ab Jg. 7\; Realschule: Französisch ab Jg. 7\n3.
+  Fremdsprache: Spanisch neu beginnend ab E-Phase\nBilinguale Angebote: Geo
+ graphie\, Geschichte\, Politik und Wirtschaft in Deutsch / Englisch\n\nSCH
+ WERPUNKTE\n• Bilingualer Schwerpunkt: erweiterter Englischunterricht in 
+ Gym 5/6\, bilingualer Sachfachunterricht ab Kl. 7\n• Begegnungsfahrten: 
+ Frankreich\, England\n• MINT-freundliche Schule: MINT-Projekte\, Wettbew
+ erbsteilnahmen\, CampusSchule der TU Darmstadt\, IT-Schulung\, Medienpräv
+ entionstage\, Methodentage\n• Zertifizierte gesundheitsfördernde Schule
+ \n• Deutsche Schachschule\n• Schulsanitätsdienst\, Schulskikurse\n•
+  Bikeschool\n• Kooperation mit Sportvereinen\n• Ganztag (Profil 3) i. 
+ Förderstufe/H/R verbindlich\, im Gymnasialzweig z. Auswahl\, vielfältige
+ s AG-Angebot an 5 Tagen u. kostenlose Hausaufgabenbetreuung\, attraktives 
+ Mensaangebot\n• sozialwirksame Schule: Kennlernfahrt in Jg. 5\, Erlebnis
+ pädagogik\, Schulsozialarbeit – soziales Lernen\n• Schule ohne Rassis
+ mus\n• vorbildliche Berufsorientierung: Berufswahlsiegel Hessen\; OloV z
+ ertifiziert\n• kleine Oberstufe mit breitem Kursangebot (z.B. Kunst-LK\,
+  Sport-LK\, Darstellendes Spiel\, Planspiel)\n• alle Klassenräume sind 
+ mit interaktiven Tafeln ausgestattet\n\nQuelle: Staatliches Schulamt für 
+ den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Di
+ e weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 18
+CATEGORIES:Tag der offenen Tür,KGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.fes-pfungstadt.de
+CONTACT:Friedrich-Ebert-Schule\, Tel. 06157-94 76-0\, Schulleitung6130@schu
+ le.hessen.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ews-20261127T1800@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+DTEND;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Infoabend – Eichwaldschule (EWS)
+LOCATION:Eichwaldschule\, Langstädter Str. 40\, 64850 Schaafheim
+DESCRIPTION:Infoabend – Eichwaldschule (EWS)\nFreitag\, 27.11.2026\, 18:0
+ 0 Uhr (Endzeit nicht angegeben)\nOrt: Schulgelände\n\nSCHULE\nSchulform: 
+ Grund-\, Haupt- und Realschule mit Förderstufe (H/R)\nLage: Landkreis Dar
+ mstadt-Dieburg\nAnschrift: Langstädter Str. 40\, 64850 Schaafheim\nTelefo
+ n: 06073-91 30\nE-Mail: ews_schaafheim@schulen.ladadi.de\nHomepage: https:
+ //www.eichwaldschule.de\nSchulleitung: Herr Christopher Mühlhöfer\n\nFRE
+ MDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französisch (ab J
+ g. 7)\n3. Fremdsprache: –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n•
+  Erweiterung der Förderstufe durch die Verbundklasse 7 mit Kursung in Eng
+ lisch und Mathematik ab der Klasse 6\n• Ganztagsangebot für alle JGSt: 
+ Mittagessen an vier Tagen\, „Offener Treff“\, Hausaufgabenbetreuung\, 
+ AG-Angebote (u.a. Schülerzeitung\, Miteinander Lernen\, Englisch Fit für
+  die Oberstufe\, Erasmus)\n• Wahlpflichtangebote: u.a. Handwerk\, Experi
+ mentieren\, Robotik\, Verantwortung\, Handball\n• aktive Ausbildungsinit
+ iative: Zukunftswerkstatt in Kooperation mit der IHK\, Praxistag in Klasse
+  8 (Hauptschule)\n• Schwerpunkte: Eigenverantwortliches Lernen (u.a. Ler
+ nzeiten\, offene Unterrichtsformen\, Projektarbeit) und Soziales Lernen (u
+ .a. Klassenrat\, Schülerpatenschaften)\n• Digitale Schule – „Digita
+ le Welt“ als Schulfach für alle in 5/6\n• Schulaustausch – Erasmus-
+ Projekt\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Diebu
+ rg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen st
+ ellen sich vor“ 2026/2027\, S. 11
+CATEGORIES:Informationsabend,H/R,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.eichwaldschule.de
+CONTACT:Eichwaldschule\, Tel. 06073-91 30\, ews_schaafheim@schulen.ladadi.d
+ e
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:sbs-20261127T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Informationsabend – Sabine-Ball-Schule (SBS)
+LOCATION:Sabine-Ball-Schule\, Aula\, Hilpertstr. 26\, 64295 Darmstadt
+DESCRIPTION:Informationsabend – Sabine-Ball-Schule (SBS)\nFreitag\, 27.11
+ .2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Aula\n\nSCHULE\nSchulfor
+ m: Grundschule/ Realschule/ Gymnasium G9 mit Oberstufe (privat) (R/Gym)\nP
+ rivatschule\nLage: Stadt Darmstadt\nAnschrift: Hilpertstr. 26\, 64295 Darm
+ stadt\nTelefon: (06151) 62 92 80\nE-Mail: kontakt@fcsd.de\nHomepage: https
+ ://www.sabine-ball-schule.de\nSchulleitung: Herr Falk\; Frau Akeliwira (Gr
+ undschule)\; Frau Siegler (pädagogische Leitung)\n\nFREMDSPRACHEN\n1. Fre
+ mdsprache: Englisch ab Jg. 1 und Jg. 5\n2. Fremdsprache: Französisch ab J
+ g. 7 (RS+Gym)\n3. Fremdsprache: Spanisch (Wahlunterricht) ab Jg. 9 (RS+Gym
+ )\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Vermittlung christlicher 
+ Werte\n• Programm „Erwachsen werden“ in Kl. 5 bis 8\n• kleine Klas
+ sen (20–25 Schüler\, Grundschule 16)\n• ausgewählte und motivierte L
+ ehrer\n• Mittagessen-Angebot\, Angebot pädagogischer Nachmittagsbetreuu
+ ng bis 16:00 Uhr mind. 4-mal wöchentlich\n• enge Zusammenarbeit Schule
+ –Elternhaus\n• gestaffeltes Schulgeld\n\nQuelle: Staatliches Schulamt 
+ für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre 
+ „Die weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 36
+CATEGORIES:Informationsabend,R/Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.sabine-ball-schule.de
+CONTACT:Sabine-Ball-Schule\, Tel. (06151) 62 92 80\, kontakt@fcsd.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ess-20261128T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261128T090000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Tag der offenen Tür – Edith-Stein-Schule (ESS)
+LOCATION:Edith-Stein-Schule\, Seekatzstr. 18-22\, 65285 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Edith-Stein-Schule (ESS)\nSamstag\, 28
+ .11.2026\, 09:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Gym
+ nasium (G9) (Gym)\nPrivatschule\, Träger: katholisch\nLage: Stadt Darmsta
+ dt\nAnschrift: Seekatzstr. 18-22\, 65285 Darmstadt\nTelefon: 06151-96 48 1
+ 1\nE-Mail: sekretariat@ESS-Darmstadt.de\nHomepage: https://www.ess-darmsta
+ dt.de\nSchulleitung: Doris Krumpholz\n\nFREMDSPRACHEN\n1. Fremdsprache: En
+ glisch\n2. Fremdsprache: Französisch\, Latein\n3. Fremdsprache: Französi
+ sch\, Latein\, Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Sta
+ atlich anerkanntes Gymnasium in katholischer Trägerschaft\, G9-Bildungsga
+ ng\n• Fremdsprachenangebot: Englisch\, Latein/Französisch\, Französisc
+ h/Latein/Spanisch\, Italienisch-AG\n• Hausaufgabenbetreuung\, Mittagesse
+ n\, Lernzentrum\n• umfangreiches AG-Angebot im Bereich Musik\, Sport\, K
+ reativität und Naturwissenschaften\n• Förderangebote\, Begabtenförder
+ ung\n• Klassen- und Tutoriumsstunden in allen Jahrgängen\n• Angebote 
+ der Schulseelsorge\n• Schulpartnerschaften in Frankreich\, Italien\, Pol
+ en\, USA\, Spanien\n• UNESCO-Projektschule\n• umfangreiches Präventio
+ nskonzept mit zahlreichen Angeboten und Projekten\n\nHinweis zur Datenerfa
+ ssung: PLZ im PDF "65285" – vermutlich Tippfehler für 64285\n\nQuelle: 
+ Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Da
+ rmstadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 2
+ 026/2027\, S. 10
+CATEGORIES:Tag der offenen Tür,Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.ess-darmstadt.de
+CONTACT:Edith-Stein-Schule\, Tel. 06151-96 48 11\, sekretariat@ESS-Darmstad
+ t.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:gbs-20261128T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261128T090000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Tag der offenen Tür – Georg-Büchner-Schule (GBS)
+LOCATION:Georg-Büchner-Schule\, Nieder-Ramstädter Str. 120\, 64285 Darmst
+ adt
+DESCRIPTION:Tag der offenen Tür – Georg-Büchner-Schule (GBS)\nSamstag\,
+  28.11.2026\, 09:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: 
+ Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Nieder-Ramstädter
+  Str. 120\, 64285 Darmstadt\nTelefon: 06151 - 13 482900\nE-Mail: gbs@darms
+ tadt.de\nHomepage: https://www.gbs-darmstadt.de\nSchulleitung: Eva Klün-E
+ rnst\, OStD'n (Schulleiterin)\; René Sauer\, StD (stv. Schulleiter)\n\nFR
+ EMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französisch\, La
+ tein ab Jg. 6\n3. Fremdsprache: Französisch\, Latein ab Jg. 9 im Bereich 
+ des Wahlunterrichts\nBilinguale Angebote: Bilingualer Zug (deutsch-englisc
+ h) ab Jg. 6 (je nach Jahrgang in den Fächern Geographie\, Geschichte oder
+  Politik und Wirtschaft)\; Bilinguale Abiturprüfung\n\nSCHWERPUNKTE\n• 
+ Partnerschule des Leistungssports\, Sportklasse ab Jg. 5\, Leistungskurs S
+ port garantiert\n• Bilingualer Zug (deutsch-englisch) ab Jg. 6\, Certili
+ ngua\n• MINT-freundliche Schule\n• Campusschule\n• Sozialpraktikum i
+ m Jahrgang 9\n• Austauschprogramme\n• Erasmus+-Projekte\n• Gedenkst
+ ättenfahrt (Lublin)\n\nGANZTAG\n• Eigene Mensa\n• pädagogische Mitta
+ gsbetreuung\n• Hausaufgabenhilfe\n• breites Angebot an Arbeitsgemeinsc
+ haften\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Diebur
+ g und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen ste
+ llen sich vor“ 2026/2027\, S. 19
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.gbs-darmstadt.de
+CONTACT:Georg-Büchner-Schule\, Tel. 06151 - 13 482900\, gbs@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bas-20261128T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261128T100000
+DTEND;TZID=Europe/Berlin:20261128T120000
+SUMMARY:Tag der offenen Tür – Bernhard-Adelung-Schule (BAS)
+LOCATION:Bernhard-Adelung-Schule\, Vogelsbergstraße 50\, 64289 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Bernhard-Adelung-Schule (BAS)\nSamstag
+ \, 28.11.2026\, 10:00–12:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform
+ : Integrierte Gesamtschule (IGS)\nLage: Stadt Darmstadt\nAnschrift: Vogels
+ bergstraße 50\, 64289 Darmstadt\nTelefon: 06151-13480700\nE-Mail: bas@dar
+ mstadt.de\nHomepage: https://www.bernhard-adelung-schule.de\nSchulleitung:
+  Herr Alexander Siede\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Frem
+ dsprache: Französisch\, Spanisch ab Jahrgang 7\n3. Fremdsprache: –\nBil
+ inguale Angebote: –\n\nSCHWERPUNKTE\n• Familienfreundliche Schule mit 
+ Ganztagsangebot\n• Mittagsversorgung von montags bis freitags\n• Hausa
+ ufgabenhilfe\n• tägliche Nachmittagsangebote\n• Rechtschreibwerkstatt
+ \n• spezielle Leseförderangebote\n• Schwerpunkt Arbeitslehre\, Arbeit
+ slehreunterricht in Werkstätten\n• Buddyprojekte „Schüler für Schü
+ ler“\n• Berufsvorbereitung\n• TalentCompany\n• Schulsanitäter\n\n
+ Quelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die 
+ Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich 
+ vor“ 2026/2027\, S. 8
+CATEGORIES:Tag der offenen Tür,IGS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.bernhard-adelung-schule.de
+CONTACT:Bernhard-Adelung-Schule\, Tel. 06151-13480700\, bas@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ptid-20261128T1500@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T180000
+SUMMARY:Tag der offenen Tür / Christmas Carol – Private Tagesschule in D
+ ieburg (PTID)
+LOCATION:Private Tagesschule in Dieburg\, Altheimer Str. 50\, 64807 Dieburg
+DESCRIPTION:Tag der offenen Tür / Christmas Carol – Private Tagesschule 
+ in Dieburg (PTID)\nSamstag\, 28.11.2026\, 15:00–18:00 Uhr\nOrt: Schulgel
+ ände\nHinweis zur Datenerfassung: Im Terminteil als "PTID Darmstadt" beze
+ ichnet\n\nSCHULE\nSchulform: IGS (für Gymnasiasten G9 und Realschüler)\,
+  Gymnasiale Oberstufe (IGS+GO)\nPrivatschule\, Träger: PTiD Private Tages
+ schule in Dieburg gGmbH\nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Alt
+ heimer Str. 50\, 64807 Dieburg\nTelefon: 06071-92 42 0\nE-Mail: info@priva
+ tschule-dieburg.de\nHomepage: https://www.privatschule-dieburg.de\nSchulle
+ itung: Claus Reimer\; Simone Steitz\n\nFREMDSPRACHEN\n1. Fremdsprache: Eng
+ lisch ab Jg. 5\n2. Fremdsprache: Spanisch\, Französisch\, Latein ab Jg. 7
+ \n3. Fremdsprache: –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Ganz
+ tagesschule bis 15:30 Uhr\n• kleine überschaubare Einheiten von ca. 20 
+ Schülerinnen und Schülern pro Klasse\n• Integriertes Förderkonzept in
+  der Unter- und Mittelstufe\n• Integrierte Hausaufgabenbetreuung\n• Sc
+ hwerpunkt: Europäische Dimension (Erasmus+)\n• Pädagogisches Konzept: 
+ Begleiten\, Beraten\, Betreuen\, Befähigen\, Bilden\n• Projektunterrich
+ t\, freie Wochenplanarbeit\n• Intensive Vorbereitung auf die Abiturprüf
+ ung/Realschulprüfung\n• Unterrichtsgarantie in der Sek. I\n• Sozialar
+ beiter und Lerncoach im Haus\n• Orgaheft und Schulportal zur stetigen El
+ ternkommunikation\, zusätzliche Quartalszeugnisse\n• BSO\; Berufsberatu
+ ng in der Schule für Schülerinnen und Schüler/Infoabend für Eltern\n
+ • Oberstufenberatung\n• Klassenfahrten in jeder Jahrgangsstufe\, Skifr
+ eizeiten\, Schüleraustausch Australien\n• Mensa und eigener Busshuttle 
+ (Bahnhof Dieburg/Großraum Dreieich/Spessart)\n• Digitaler Unterricht\n
+ • Offener Anfang von 8:00 bis 8:45 Uhr\n\nQuelle: Staatliches Schulamt f
+ ür den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre 
+ „Die weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 35
+CATEGORIES:Tag der offenen Tür,IGS+GO,Privatschule,Landkreis Darmstadt-Die
+ burg
+URL;VALUE=URI:https://www.privatschule-dieburg.de
+CONTACT:Private Tagesschule in Dieburg\, Tel. 06071-92 42 0\, info@privatsc
+ hule-dieburg.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ess-20261130T1930@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261130T193000
+DTEND;TZID=Europe/Berlin:20261130T210000
+SUMMARY:Informationsvortrag – Edith-Stein-Schule (ESS)
+LOCATION:Edith-Stein-Schule\, Seekatzstr. 18-22\, 65285 Darmstadt
+DESCRIPTION:Informationsvortrag – Edith-Stein-Schule (ESS)\nMontag\, 30.1
+ 1.2026\, 19:30–21:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Gymna
+ sium (G9) (Gym)\nPrivatschule\, Träger: katholisch\nLage: Stadt Darmstadt
+ \nAnschrift: Seekatzstr. 18-22\, 65285 Darmstadt\nTelefon: 06151-96 48 11\
+ nE-Mail: sekretariat@ESS-Darmstadt.de\nHomepage: https://www.ess-darmstadt
+ .de\nSchulleitung: Doris Krumpholz\n\nFREMDSPRACHEN\n1. Fremdsprache: Engl
+ isch\n2. Fremdsprache: Französisch\, Latein\n3. Fremdsprache: Französisc
+ h\, Latein\, Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Staat
+ lich anerkanntes Gymnasium in katholischer Trägerschaft\, G9-Bildungsgang
+ \n• Fremdsprachenangebot: Englisch\, Latein/Französisch\, Französisch/
+ Latein/Spanisch\, Italienisch-AG\n• Hausaufgabenbetreuung\, Mittagessen\
+ , Lernzentrum\n• umfangreiches AG-Angebot im Bereich Musik\, Sport\, Kre
+ ativität und Naturwissenschaften\n• Förderangebote\, Begabtenförderun
+ g\n• Klassen- und Tutoriumsstunden in allen Jahrgängen\n• Angebote de
+ r Schulseelsorge\n• Schulpartnerschaften in Frankreich\, Italien\, Polen
+ \, USA\, Spanien\n• UNESCO-Projektschule\n• umfangreiches Präventions
+ konzept mit zahlreichen Angeboten und Projekten\n\nHinweis zur Datenerfass
+ ung: PLZ im PDF "65285" – vermutlich Tippfehler für 64285\n\nQuelle: St
+ aatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darm
+ stadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 202
+ 6/2027\, S. 10
+CATEGORIES:Informationsabend,Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.ess-darmstadt.de
+CONTACT:Edith-Stein-Schule\, Tel. 06151-96 48 11\, sekretariat@ESS-Darmstad
+ t.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ers-20261202T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Informationsabend – Ernst-Reuter-Schule (ERS)
+LOCATION:Online
+DESCRIPTION:Informationsabend – Ernst-Reuter-Schule (ERS)\nMittwoch\, 02.
+ 12.2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Online\n\nSCHULE\nSchu
+ lform: Integrierte Gesamtschule mit Grundstufe (IGS)\nLage: Landkreis Darm
+ stadt-Dieburg\nAnschrift: Dresdener Str. 7\, 64823 Groß-Umstadt\nTelefon:
+  06078-93 68 0\nE-Mail: ers_gross-umstadt@schulen.ladadi.de\nHomepage: htt
+ ps://www.ernst-reuter-schule.net\nSchulleitung: Andreas Stüber\; Franzisk
+ a Kurtz (stellv. Schulleiterin)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisc
+ h\n2. Fremdsprache: WP-Bereich: Französisch und Spanisch ab Jg. 7\n3. Fre
+ mdsprache: –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Ganztagsschu
+ le nach Stufe 1 (Mittags-/Hausaufgabenbetreuung u. Mittagessen an 5 Tagen)
+ \n• vielfältige Unterrichts- und AG-Angebote: Sport (u.a. Bikeschool Mo
+ untainbike AG\, Volleyball-AG\, Fußball-AG)\, Sprachen (Englisch / Spanis
+ ch / Französisch)\, Informatik und Wissenschaft (u.a. landesweite Robotic
+ s-Wettkämpfe)\, Musik und Kunst (u.a. viele Aufführungen und Ausstellung
+ en)\, Kochen (u.a. gesunde Ernährung)\n• Bienen-AG\n• alle AG-Angebot
+ e kostenlos\n• viele berufsvorbereitende Maßnahmen\n• freiwillige Sch
+ ulkleidung\n• Zusammenarbeit mit dem JUZ der Stadt Groß-Umstadt\, PIT H
+ essen\n• offene Lehr- und Lernsituationen/selbstorganisiertes Lernen/Ler
+ nateliers\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Die
+ burg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen 
+ stellen sich vor“ 2026/2027\, S. 14
+CATEGORIES:Informationsabend,IGS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg,Online
+URL;VALUE=URI:https://www.ernst-reuter-schule.net
+CONTACT:Ernst-Reuter-Schule\, Tel. 06078-93 68 0\, ers_gross-umstadt@schule
+ n.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:lgg-20261202T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Informationsabend – Ludwig-Georgs-Gymnasium (LGG)
+LOCATION:Ludwig-Georgs-Gymnasium\, Aula\, Nieder-Ramstädter Str. 2\, 64283
+  Darmstadt
+DESCRIPTION:Informationsabend – Ludwig-Georgs-Gymnasium (LGG)\nMittwoch\,
+  02.12.2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Aula\n\nSCHULE\nSc
+ hulform: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Nieder-Ra
+ mstädter Str. 2\, 64283 Darmstadt\nTelefon: 06151 – 13 48 48 00\nE-Mail
+ : lgg@darmstadt.de\nHomepage: https://www.lgg-darmstadt.de\nSchulleitung: 
+ Björn Hamburger\n\nFREMDSPRACHEN\n1. Fremdsprache: Latein ab Jg. 5\n2. Fr
+ emdsprache: Englisch ab Jg. 5\n3. Fremdsprache: Spanisch (ab Jg. 9 oder 11
+ )\, Italienisch (ab Jg. 9)\, Französisch (ab Jg. 9)\, Alt-Griechisch (ab 
+ Jg. 9)\nBilinguale Angebote: Business English mit staatlicher Abschlusspr
+ üfung\n\nSCHWERPUNKTE\n• Altsprachlich-humanistisches Gymnasium\n• Ga
+ nztag Profil 2\n• Begabungsförderung\n• MINT-Förderung\, z.B. Inform
+ atik ab Klasse 5\n• Experimentalunterricht ab Klasse 8\, alle MINT-Fäch
+ er als Leistungskurse in der Oberstufe\, …\n• Campusschule der TU Darm
+ stadt\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg
+  und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stel
+ len sich vor“ 2026/2027\, S. 30
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.lgg-darmstadt.de
+CONTACT:Ludwig-Georgs-Gymnasium\, Tel. 06151 – 13 48 48 00\, lgg@darmstad
+ t.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:schuldorf-20261203T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+DTEND;TZID=Europe/Berlin:20261203T210000
+SUMMARY:Informationsabend – Schuldorf Bergstraße
+LOCATION:Schuldorf Bergstraße\, Aula\, Sandstraße\, 64342 Seeheim-Jugenhe
+ im
+DESCRIPTION:Informationsabend – Schuldorf Bergstraße\nDonnerstag\, 03.12
+ .2026\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Aula\n\nSCHULE\nSchulfor
+ m: Kooperative Gesamtschule (G9) mit Primarstufe\, Internationalem Schulzw
+ eig und Gymnasialer Oberstufe (KGS+GO)\nLage: Landkreis Darmstadt-Dieburg\
+ nAnschrift: Sandstraße\, 64342 Seeheim-Jugenheim\nTelefon: 06257-97 03-0/
+  -15\nE-Mail: schuldorf@schulen.ladadi.de\nHomepage: https://www.schuldorf
+ .de\nSchulleitung: Christina Martini-Appel (SL)\; Daniel Brücher (stellv.
+  SL)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gym: Fr
+ anzösisch\, Latein\, Spanisch ab Jg. 7\; H/R: Spanisch\, Französisch ab 
+ Jg. 7\n3. Fremdsprache: Gym: Italienisch\nBilinguale Angebote: Gym: Biling
+ uale Angebote ab Jg. 9\n\nSCHWERPUNKTE\n• Gym-Zweig: G9\, Profilklassen\
+ , darunter Sport\, Europa\, Musik\; NaWi-/BiLi-Angebote ab Jg. 9\, 3. Frem
+ dsprache Ital.\n• H/R-Zweig: Förderstufe 5/6\, Berufsorientierung\, Ler
+ nen durch Engagement\n• Internationaler Schulzweig (Primary Jg. 1–4 un
+ d Secondary Jg. 5–12)\n• Europaschule\n• Profilschule für Sporttale
+ nte\n• Gesunde Schule\n• Umweltschule\n• 5-tägiges Ganztagsangebot\
+ n• MINT\n• Chöre\, Orchester\n• Schule ohne Rassismus\n\nQuelle: St
+ aatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darm
+ stadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 202
+ 6/2027\, S. 37
+CATEGORIES:Informationsabend,KGS+GO,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.schuldorf.de
+CONTACT:Schuldorf Bergstraße\, Tel. 06257-97 03-0/ -15\, schuldorf@schulen
+ .ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wls-20261204T1600@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Informationsnachmittag – Wilhelm-Leuschner-Schule (WLS)
+LOCATION:Wilhelm-Leuschner-Schule\, Bessunger Straße 195\, 64295 Darmstadt
+DESCRIPTION:Informationsnachmittag – Wilhelm-Leuschner-Schule (WLS)\nFrei
+ tag\, 04.12.2026\, 16:00–18:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulf
+ orm: Mittelstufenschule\, Haupt- und Realschule mit Abendrealschule (MSS)\
+ nLage: Stadt Darmstadt\nAnschrift: Bessunger Straße 195\, 64295 Darmstadt
+ \nTelefon: 06151-13 48 7700\nE-Mail: wls@darmstadt.de\nHomepage: https://w
+ ww.wlsda.de\nSchulleitung: Carsten Maus (Schulleiter\, beauftragt)\n\nFREM
+ DSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französisch ab Jg.
+  7\n3. Fremdsprache: –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• In
+ dividualisiertes Lernen und Fördern auf drei Niveaustufen\n• regelmäß
+ ige Entwicklungsgespräche mit Schülerinnen und Schülern und halbjährli
+ che mit Eltern\n• schrittweise Auflösung des Klassenprinzips zugunsten 
+ flexibler Lerngruppen und verstärkter Teamarbeit\n• 2 Klassenlehrkräft
+ e in den Jahrgängen 5–7\n• Praxisnaher und berufsorientierter Unterri
+ cht in Projekten\n• Digitale Bildung und Medienkompetenz\, Einsatz von i
+ Pads\n• Förderung in Mathe\, Deutsch und Englisch sowie Vorbereitungsku
+ rse auf die Abschlussprüfungen\n• Sprachreiseangebot des Fachbereiches 
+ Englisch für höhere Jahrgänge\n• Zertifiziert fürs Gütesiegel „Be
+ rufs- und Studienorientierung“\; umfassende Unterstützung bei der Beruf
+ swahl\; Zukunftswerkstatt in Kooperation mit der IHK\n• Lernendenbeteili
+ gung und gegenseitige Verantwortung\; Mitgestaltung der Schulentwicklung d
+ urch Schülerinnen und Schüler\n• Ganztägig arbeitende Schule mit Zert
+ ifikat „Gesunde Schule“\, Mittagessen mit päd. Betreuung von Mo bis F
+ r\, Mittagszeit mit zahlreichen Angeboten im musikalischen\, sozialen\, k
+ ünstlerischen und sportlichen Bereich\n\nQuelle: Staatliches Schulamt fü
+ r den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „
+ Die weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 42
+CATEGORIES:Informationsabend,MSS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.wlsda.de
+CONTACT:Wilhelm-Leuschner-Schule\, Tel. 06151-13 48 7700\, wls@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ass-20261205T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261205T100000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Tag der offenen Tür – Albert-Schweitzer-Schule (ASS)
+LOCATION:Albert-Schweitzer-Schule\, Dresdener Str. 1\, 64846 Groß-Zimmern
+DESCRIPTION:Tag der offenen Tür – Albert-Schweitzer-Schule (ASS)\nSamsta
+ g\, 05.12.2026\, 10:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulfor
+ m: Kooperative Gesamtschule (G9) (KGS)\nLage: Landkreis Darmstadt-Dieburg\
+ nAnschrift: Dresdener Str. 1\, 64846 Groß-Zimmern\nTelefon: 06071 - 92979
+ 90\nE-Mail: sekretariat@ass-gross-zimmern.de\nHomepage: https://www.ass-gr
+ oss-zimmern.de\nSchulleitung: Schulleiter Herr Christian Hecker\; stellv. 
+ Schulleiter Herr Tayfun Sor\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2
+ . Fremdsprache: Gymnasium: Spanisch\, Französisch\, Latein ab Jg. 7\; Rea
+ lschule: Französisch ab Jg. 7\n3. Fremdsprache: –\nBilinguale Angebote:
+  –\n\nSCHWERPUNKTE\n• Schule des Landkreises Darmstadt-Dieburg im Ganz
+ tagsprofil 1 mit Mittagessenangebot\, Hausaufgabenbetreuung\, „Offenem T
+ reff“ und zahlreichen Arbeitsgruppenangeboten an 5 Tagen in der Woche au
+ s den Bereichen Naturwissenschaft\, Sprachen\, Musik\, Kunst\, darstellend
+ es Spiel\, Soziales und Sport\n• verschiedene Förderkurse in den Hauptf
+ ächern\n• Zahlreiche Präventionsprojekte (z.B. umfassendes Medienschut
+ zkonzept und „Digitale Helden“\, Schulmediation)\n• „Bike School
+ “ und „gesunde Schule“ (Bewegte Pause)\n• Gymnasial-Zweig nach G9 
+ (Kl. 5 – Kl. 10)\n\nQuelle: Staatliches Schulamt für den Landkreis Darm
+ stadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden
+  Schulen stellen sich vor“ 2026/2027\, S. 6
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.ass-gross-zimmern.de
+CONTACT:Albert-Schweitzer-Schule\, Tel. 06071 - 9297990\, sekretariat@ass-g
+ ross-zimmern.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dkss-20261205T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261205T100000
+DTEND;TZID=Europe/Berlin:20261205T120000
+SUMMARY:Tag der offenen Tür und Weihnachtsmarkt – Dr.-Kurt-Schumacher-Sc
+ hule (DKSS)
+LOCATION:Dr.-Kurt-Schumacher-Schule\, Freiherr-vom-Stein-Straße 1\, 64354 
+ Reinheim
+DESCRIPTION:Tag der offenen Tür und Weihnachtsmarkt – Dr.-Kurt-Schumache
+ r-Schule (DKSS)\nSamstag\, 05.12.2026\, 10:00 Uhr (Endzeit nicht angegeben
+ )\nZeit: ab 10:00\nOrt: Schulgelände\n\nSCHULE\nSchulform: Kooperative Ge
+ samtschule (KGS)\nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Freiherr-v
+ om-Stein-Straße 1\, 64354 Reinheim\nTelefon: 06162-93 32 0\nE-Mail: dks_r
+ einheim@schulen.ladadi.de\nHomepage: https://www.dkss-reinheim.de\nSchulle
+ itung: Ralf Loschek\; Ulrike Vogt\n\nFREMDSPRACHEN\n1. Fremdsprache: Engli
+ sch\n2. Fremdsprache: Gymnasialzweig: Französisch\, Latein und Spanisch a
+ b Jg. 7\; Realschulzweig: Französisch ab Jg. 7\n3. Fremdsprache: –\nBil
+ inguale Angebote: Im Gymnasialzweig ab Jahrgang 6\n\nSCHWERPUNKTE\n• Gan
+ ztägig arbeitende Schule mit Mittagstisch\, Nachmittagsbetreuung und För
+ derunterricht\n• umfangreiches AG-Angebot am Nachmittag\n• Naturwissen
+ schaftlicher Schwerpunkt mit Schulteich / Schulgarten / Schulimkerei\n• 
+ Angebot der 10. Hauptschulklasse\n• schulform- und jahrgangsübergreifen
+ des Wahlpflichtangebot in 9 und 10\n\nQuelle: Staatliches Schulamt für de
+ n Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die 
+ weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 9
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.dkss-reinheim.de
+CONTACT:Dr.-Kurt-Schumacher-Schule\, Tel. 06162-93 32 0\, dks_reinheim@schu
+ len.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:eks-20261205T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261205T100000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Tag der offenen Tür – Erich-Kästner-Schule Stadtteilschule Kran
+ ichstein (EKS)
+LOCATION:Erich-Kästner-Schule Stadtteilschule Kranichstein\, Bartningstr. 
+ 33\, 64289 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Erich-Kästner-Schule Stadtteilschule 
+ Kranichstein (EKS)\nSamstag\, 05.12.2026\, 10:00–13:00 Uhr\nOrt: Schulge
+ lände\n\nSCHULE\nSchulform: Integrierte Gesamtschule (IGS)\nLage: Stadt D
+ armstadt\nAnschrift: Bartningstr. 33\, 64289 Darmstadt\nTelefon: 06151-134
+  82300\nE-Mail: eks-igs@darmstadt.de\nHomepage: https://www.eks-igs.de\nSc
+ hulleitung: Dr. Dominik Dilcher\, Schulleiter\; Frau Astrid Schwöbel\, St
+ ellvertretende Schulleiterin\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n
+ 2. Fremdsprache: Französisch und Spanisch ab Jg. 7\n3. Fremdsprache: –\
+ nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• „Lernen im eigenen Tempo
+ “\n• Rhythmisierte Ganztagsschule/Familienfreundliche Schule\n• Kult
+ urSchule des Landes Hessen\n• Fahrradfreundlichste Schule Deutschlands 2
+ 017\n• Mensa\n• Schulsozialarbeit\n• Lernzeit\n• Projektarbeit\n
+ • PiT-Schule\n• Berufsorientierung\n• Inklusion\n\nQuelle: Staatlich
+ es Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\,
+  Broschüre „Die weiterführenden Schulen stellen sich vor“ 2026/2027\
+ , S. 13
+CATEGORIES:Tag der offenen Tür,IGS,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.eks-igs.de
+CONTACT:Erich-Kästner-Schule Stadtteilschule Kranichstein\, Tel. 06151-134
+  82300\, eks-igs@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:obs-20261215T1600@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20261215T160000
+DTEND;TZID=Europe/Berlin:20261215T190000
+SUMMARY:Weihnachtsmarkt mit Vorstellung der WIR-Tage – Otzbergschule (OBS
+ )
+LOCATION:Otzbergschule\, Innenhof & Mensa\, Am Schafbuckel 29\, 64853 Otzbe
+ rg-Lengfeld
+DESCRIPTION:Weihnachtsmarkt mit Vorstellung der WIR-Tage – Otzbergschule 
+ (OBS)\nDienstag\, 15.12.2026\, 16:00–19:00 Uhr\nOrt: Innenhof & Mensa\n\
+ nSCHULE\nSchulform: Grundschule und Mittelstufenschule (MSS)\nLage: Landkr
+ eis Darmstadt-Dieburg\nAnschrift: Am Schafbuckel 29\, 64853 Otzberg-Lengfe
+ ld\nTelefon: 06162-809 88 0\nE-Mail: obs_otzberg@schulen.ladadi.de\nHomepa
+ ge: https://www.otzbergschule.de\nSchulleitung: Miro Kozul\n\nFREMDSPRACHE
+ N\n1. Fremdsprache: Englisch\n2. Fremdsprache: Französisch\n3. Fremdsprac
+ he: –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• LemaS- und Campussc
+ hule: Zusammenarbeit mit Universitäten zur Unterrichtsentwicklung\, Kind-
+ Umfeld-Analysen\, Lernstandserhebungen\, ETEP-Begleitung\n• hoher Anteil
+  an projekt- und handlungsorientiertem Lernen\, Förderung des selbständi
+ gen Lernens\, Förderangebote\, Vorbereitungskurse auf Abschlussprüfungen
+ \n• Berufsorientierung: AL-Unterricht (Kochen\, Holztechnik\, Schulkiosk
+  etc.)\, Kompo 7\, Kooperation mit der Berufsschule Michelstadt ab Jahrgan
+ g 8\, praxisorientierte WIR-Tage\n• Partizipation der Schülerinnen und 
+ Schüler an vielen Entscheidungsprozessen zur Schule und Unterricht\n• S
+ chule für Demokratie und Vielfalt: Soziale und ökologische Projekte\, Pa
+ tenmodelle und Schulsanitätsdienst\, Forderung und Förderung der SV-Mita
+ rbeit\n• Ganztag: Mittagessen\, offene AG-Angebote und Mediathek als Ler
+ nraum\n• Lern- und Bildungslandschaft: Ausgeprägte Netzwerkarbeit mit I
+ nstitutionen\, Vereinen und Betrieben in Otzberg\, JOTZ: Jugendzentrum auf
+  dem Schulgelände\n\nQuelle: Staatliches Schulamt für den Landkreis Darm
+ stadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden
+  Schulen stellen sich vor“ 2026/2027\, S. 34
+CATEGORIES:Markt/Fest,MSS,Öffentliche Schule,Landkreis Darmstadt-Dieburg
+URL;VALUE=URI:https://www.otzbergschule.de
+CONTACT:Otzbergschule\, Tel. 06162-809 88 0\, obs_otzberg@schulen.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:luo-20270115T1500@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270115T150000
+DTEND;TZID=Europe/Berlin:20270115T170000
+SUMMARY:Tag der offenen Tür – Lichtenbergschule (LUO)
+LOCATION:Lichtenbergschule\, Ludwigshöhstraße 105\, 64285 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Lichtenbergschule (LUO)\nFreitag\, 15.
+ 01.2027\, 15:00 Uhr (Endzeit nicht angegeben)\nOrt: Schulgelände\n\nSCHUL
+ E\nSchulform: Gymnasium (G8) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Ludw
+ igshöhstraße 105\, 64285 Darmstadt\nTelefon: 06151-13 48 47 00\nE-Mail: 
+ luo@darmstadt.de\nHomepage: https://luo-darmstadt.de\nSchulleitung: Wolfga
+ ng Naumann\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: F
+ ranzösisch\, Russisch\, Spanisch\, Latein\n3. Fremdsprache: Nullcurriculu
+ m Latein in der Oberstufe\nBilinguale Angebote: Bilingualer Unterricht: Ab
+  Jg. 7 für alle in mindestens einer Naturwissenschaft und einem gesellsch
+ aftswissenschaftlichen Fach (Sprachen: Englisch/Deutsch)\; in der Oberstuf
+ e zahlreiche bilingual unterrichtete Fächer frei wählbar (M\, Bio\, Ch\,
+  Ph\, PoWi)\n\nSCHWERPUNKTE\n• Europaschule\n• MINT-EC-Schule\n• Olo
+ V-Zertifikat\n• Familienfreundliche Schule\n• Ganztagsschule Profil 2\
+ n• Intern. Begegnungsschule mit Schulischem Zentrum für Sprachen und Be
+ gabtenförderung\n• LemaS-Schule (Begabten- und Begabungsförderung)\n
+ • Profilschule Kulturelle Bildung im Bereich Literatur\n• Campusschule
+  TU Darmstadt\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt
+ -Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schu
+ len stellen sich vor“ 2026/2027\, S. 29
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://luo-darmstadt.de
+CONTACT:Lichtenbergschule\, Tel. 06151-13 48 47 00\, luo@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:lio-20270116T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270116T100000
+DTEND;TZID=Europe/Berlin:20270116T120000
+SUMMARY:Tag der offenen Tür – Justus-Liebig-Schule (LIO)
+LOCATION:Justus-Liebig-Schule\, Julius-Reiber-Str. 3\, 64293 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Justus-Liebig-Schule (LIO)\nSamstag\, 
+ 16.01.2027\, 10:00 Uhr (Endzeit nicht angegeben)\nOrt: Schulgelände\nHinw
+ eis zur Datenerfassung: Im PDF als "16.01.2026" angegeben – vermutlich T
+ ippfehler\, da Samstag und Reihenfolge auf 16.01.2027 hindeuten\n\nSCHULE\
+ nSchulform: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Julius
+ -Reiber-Str. 3\, 64293 Darmstadt\nTelefon: 06151 13-483600\nE-Mail: schull
+ eitung@lio-darmstadt.de\nHomepage: https://www.lio-darmstadt.de\nSchulleit
+ ung: Thomas Schmidt\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch („E1“)
+  oder Französisch („F1“)\n2. Fremdsprache: Französisch ab Klasse 6 b
+ ei erster Fremdsprache Englisch („F2“)\; Englisch ab Klasse 6 bei erst
+ er Fremdsprache Französisch („E2“)\n3. Fremdsprache: Latein ab Klasse
+  9 fakultativ\, Fortführung in der Oberstufe bis zum Abitur / Latinum mö
+ glich\nBilinguale Angebote: Ab Klasse 7 für Kinder mit F1\, ab 8 oder E-P
+ hase mit F2\n\nSCHWERPUNKTE\n• Naturwissenschaftlicher Schwerpunkt: NaWi
+ -Unterricht in Kl. 5\; Übungsunterricht in Klassen 7/8 in halber Klassens
+ tärke\; Wahlunterricht in Klassen 9/10 mit naturwissenschaftlichem Angebo
+ t\; Leistungskurse in der Oberstufe in Physik\, Biologie und Chemie\n• A
+ ngebot einer bilingualen Schwerpunktvertiefung: ab Klasse 7 Politik und Wi
+ rtschaft sowie Geschichte bilingual-französisch\n• Französisch-Leistun
+ gskurs für 1. sowie 2. Fremdsprache\n• Musisches Angebot (Chöre\, Orch
+ ester\, Bigband usw.\; Darstellendes Spiel in der Oberstufe\, auch als Abi
+ turfach möglich)\n• „Gesundheitsfördernde Schule“\, durch Kultusmi
+ nisterium zertifiziert\n• „Soziales Lernen“ in Kl. 5 und 6\n• „G
+ anztägig arbeitende Schule“ (Mittagessen\, Förderangebote\, vielerlei 
+ Arbeitsgemeinschaften\, Hausaufgabenbetreuung) montags bis freitags\n\nQue
+ lle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Sta
+ dt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen sich vor
+ “ 2026/2027\, S. 28
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.lio-darmstadt.de
+CONTACT:Justus-Liebig-Schule\, Tel. 06151 13-483600\, schulleitung@lio-darm
+ stadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:mbs-20270116T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270116T100000
+DTEND;TZID=Europe/Berlin:20270116T130000
+SUMMARY:Tag der offenen Tür – Melibokusschule (MBS)
+LOCATION:Melibokusschule\, Benno-Elkan-Allee 1\, 64665 Alsbach-Hähnlein
+DESCRIPTION:Tag der offenen Tür – Melibokusschule (MBS)\nSamstag\, 16.01
+ .2027\, 10:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Kooper
+ ative Gesamtschule (G9) (KGS)\nLage: Landkreis Darmstadt-Dieburg\nAnschrif
+ t: Benno-Elkan-Allee 1\, 64665 Alsbach-Hähnlein\nTelefon: 06257-930 20\nE
+ -Mail: mbs_alsbach-haehnlein@schulen.ladadi.de\nHomepage: https://www.meli
+ bokusschule.de\nSchulleitung: Dr. Michael Weiffen\n\nFREMDSPRACHEN\n1. Fre
+ mdsprache: Englisch\n2. Fremdsprache: Gym: Französisch od. Spanisch ab Jg
+ . 7\; R: Spanisch oder Französisch ab Jg. 7\n3. Fremdsprache: Gym: Franz
+ ösisch oder Spanisch ab Jg. 9 bei entspr. Nachfrage möglich\nBilinguale 
+ Angebote: Wahlpflichtkurs sowie AG-Angebote\n\nSCHWERPUNKTE\n• G9\n• G
+ anztagsprofil 1: täglich warmes Mittagessen\; Nachmittagsbetreuung\n• L
+ ernen lernen in Jg. 5\n• IT-Basistraining in Jg. 5/6\n• aktuell 2 Inte
+ nsivklassen\n• Gesundheitsfördernde Schule: Gesamtzertifikat / Unterric
+ htsfach Gesundheit in Jg. 8\n• zahlreiche Wahlpflicht- und AG-Angebote\n
+ • jährliche Ausbildungsmesse AIBA\n• Schule ohne Rassismus\n• PUSCH
+  (einjährig in Stufe 9 der Hauptschule)\n• MINT-Angebote\n\nQuelle: Sta
+ atliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darms
+ tadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 2026
+ /2027\, S. 32
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.melibokusschule.de
+CONTACT:Melibokusschule\, Tel. 06257-930 20\, mbs_alsbach-haehnlein@schulen
+ .ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ess-20270118T1930@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270118T193000
+DTEND;TZID=Europe/Berlin:20270118T210000
+SUMMARY:Informationsvortrag – Edith-Stein-Schule (ESS)
+LOCATION:Edith-Stein-Schule\, Seekatzstr. 18-22\, 65285 Darmstadt
+DESCRIPTION:Informationsvortrag – Edith-Stein-Schule (ESS)\nMontag\, 18.0
+ 1.2027\, 19:30–21:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Gymna
+ sium (G9) (Gym)\nPrivatschule\, Träger: katholisch\nLage: Stadt Darmstadt
+ \nAnschrift: Seekatzstr. 18-22\, 65285 Darmstadt\nTelefon: 06151-96 48 11\
+ nE-Mail: sekretariat@ESS-Darmstadt.de\nHomepage: https://www.ess-darmstadt
+ .de\nSchulleitung: Doris Krumpholz\n\nFREMDSPRACHEN\n1. Fremdsprache: Engl
+ isch\n2. Fremdsprache: Französisch\, Latein\n3. Fremdsprache: Französisc
+ h\, Latein\, Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Staat
+ lich anerkanntes Gymnasium in katholischer Trägerschaft\, G9-Bildungsgang
+ \n• Fremdsprachenangebot: Englisch\, Latein/Französisch\, Französisch/
+ Latein/Spanisch\, Italienisch-AG\n• Hausaufgabenbetreuung\, Mittagessen\
+ , Lernzentrum\n• umfangreiches AG-Angebot im Bereich Musik\, Sport\, Kre
+ ativität und Naturwissenschaften\n• Förderangebote\, Begabtenförderun
+ g\n• Klassen- und Tutoriumsstunden in allen Jahrgängen\n• Angebote de
+ r Schulseelsorge\n• Schulpartnerschaften in Frankreich\, Italien\, Polen
+ \, USA\, Spanien\n• UNESCO-Projektschule\n• umfangreiches Präventions
+ konzept mit zahlreichen Angeboten und Projekten\n\nHinweis zur Datenerfass
+ ung: PLZ im PDF "65285" – vermutlich Tippfehler für 64285\n\nQuelle: St
+ aatliches Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darm
+ stadt\, Broschüre „Die weiterführenden Schulen stellen sich vor“ 202
+ 6/2027\, S. 10
+CATEGORIES:Informationsabend,Gym,Privatschule,Stadt Darmstadt
+URL;VALUE=URI:https://www.ess-darmstadt.de
+CONTACT:Edith-Stein-Schule\, Tel. 06151-96 48 11\, sekretariat@ESS-Darmstad
+ t.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:obs-20270121T1830@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270121T183000
+DTEND;TZID=Europe/Berlin:20270121T203000
+SUMMARY:Informationsabend zur Mittelstufenschule – Otzbergschule (OBS)
+LOCATION:Otzbergschule\, Am Schafbuckel 29\, 64853 Otzberg-Lengfeld
+DESCRIPTION:Informationsabend zur Mittelstufenschule – Otzbergschule (OBS
+ )\nDonnerstag\, 21.01.2027\, 18:30 Uhr (Endzeit nicht angegeben)\n\nSCHULE
+ \nSchulform: Grundschule und Mittelstufenschule (MSS)\nLage: Landkreis Dar
+ mstadt-Dieburg\nAnschrift: Am Schafbuckel 29\, 64853 Otzberg-Lengfeld\nTel
+ efon: 06162-809 88 0\nE-Mail: obs_otzberg@schulen.ladadi.de\nHomepage: htt
+ ps://www.otzbergschule.de\nSchulleitung: Miro Kozul\n\nFREMDSPRACHEN\n1. F
+ remdsprache: Englisch\n2. Fremdsprache: Französisch\n3. Fremdsprache: –
+ \nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• LemaS- und Campusschule: Z
+ usammenarbeit mit Universitäten zur Unterrichtsentwicklung\, Kind-Umfeld-
+ Analysen\, Lernstandserhebungen\, ETEP-Begleitung\n• hoher Anteil an pro
+ jekt- und handlungsorientiertem Lernen\, Förderung des selbständigen Ler
+ nens\, Förderangebote\, Vorbereitungskurse auf Abschlussprüfungen\n• B
+ erufsorientierung: AL-Unterricht (Kochen\, Holztechnik\, Schulkiosk etc.)\
+ , Kompo 7\, Kooperation mit der Berufsschule Michelstadt ab Jahrgang 8\, p
+ raxisorientierte WIR-Tage\n• Partizipation der Schülerinnen und Schüle
+ r an vielen Entscheidungsprozessen zur Schule und Unterricht\n• Schule f
+ ür Demokratie und Vielfalt: Soziale und ökologische Projekte\, Patenmode
+ lle und Schulsanitätsdienst\, Forderung und Förderung der SV-Mitarbeit\n
+ • Ganztag: Mittagessen\, offene AG-Angebote und Mediathek als Lernraum\n
+ • Lern- und Bildungslandschaft: Ausgeprägte Netzwerkarbeit mit Institut
+ ionen\, Vereinen und Betrieben in Otzberg\, JOTZ: Jugendzentrum auf dem Sc
+ hulgelände\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-D
+ ieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schule
+ n stellen sich vor“ 2026/2027\, S. 34
+CATEGORIES:Informationsabend,MSS,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.otzbergschule.de
+CONTACT:Otzbergschule\, Tel. 06162-809 88 0\, obs_otzberg@schulen.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:aes-20270122T1500@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270122T150000
+DTEND;TZID=Europe/Berlin:20270122T180000
+SUMMARY:Tag der offenen Tür – Albert-Einstein-Schule (AES)
+LOCATION:Albert-Einstein-Schule\, Hügelstr. 20\, 64401 Groß-Bieberau
+DESCRIPTION:Tag der offenen Tür – Albert-Einstein-Schule (AES)\nFreitag\
+ , 22.01.2027\, 15:00–18:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform:
+  Kooperative Gesamtschule (G9) mit gymnasialer Oberstufe (KGS+GO)\nLage: L
+ andkreis Darmstadt-Dieburg\nAnschrift: Hügelstr. 20\, 64401 Groß-Biebera
+ u\nTelefon: 06162-93 13 0\nE-Mail: aes_gross-bieberau@schulen.ladadi.de\nH
+ omepage: https://www.aesgb.de\nSchulleitung: StD Jens Naumann (beauftragt)
+ \n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gymnasialzw
+ eig: ab Jg. 7: Latein\, Französisch\, Spanisch\; Realschulzweig: ab Jg. 7
+ : Französisch\n3. Fremdsprache: Gymnasialzweig: ab Jg. 9: Französisch\, 
+ Latein\, ab Jg. E: Spanisch\nBilinguale Angebote: Jg. 5G bis Jg. 10G\n\nSC
+ HWERPUNKTE\n• Schule mit musikalischem Schwerpunkt: Streicherklassen\, S
+ chulchöre\, zwei Orchester\, Schulband\n• Theater\, Darstellendes Spiel
+ \n• Kunst\n• Naturwissenschaftliches Profil: zertifizierte MINT-freund
+ liche Schule\; Informatik\, verstärkter Unterricht in den MINT-Fächern\;
+  NaWi-Kurse\, Lego-Mindstorms\, Schulwald und Schulteich\, Bienen-AG\, Ler
+ nbereich NaWi im HR-Zweig für die Jahrgangsstufen 5–7\n• Umweltschule
+ \n• Schule ohne Rassismus – Schule mit Courage\n• OloV-Siegel und Zu
+ kunftswerkstatt Berufs- und Studienorientierung\n• Schule mit Ganztagsan
+ geboten (Profil 2): Pädagogische Mittags- und Nachmittagsbetreuung\, Mitt
+ agstisch\, Unterrichtsstartcafé ab 7:15 Uhr\, Hausaufgabenbetreuung\, Fac
+ hbüros und AGs an 5 Tagen bis 16:00 Uhr\, Silentium (Mediathek)\, Ferienb
+ etreuung in Kooperation mit der Grundschule\n• Schüleraustausch: Polen\
+ , Spanien\, USA\, Frankreich\, England (Manchester [Bili])\n• Berufsorie
+ ntierung\, zertifiziert: Umfangreiches Informations- u. Vorbereitungsprogr
+ amm zur Studien- und Berufsorientierung\, Auslandspraktika\n• Präventio
+ nsteam KOMMIT\n• Schulsanitätsdienst\n• Schulskikurse und eigener Ski
+ keller (Ausrüstung)\n\nQuelle: Staatliches Schulamt für den Landkreis Da
+ rmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführend
+ en Schulen stellen sich vor“ 2026/2027\, S. 5
+CATEGORIES:Tag der offenen Tür,KGS+GO,Öffentliche Schule,Landkreis Darmst
+ adt-Dieburg
+URL;VALUE=URI:https://www.aesgb.de
+CONTACT:Albert-Einstein-Schule\, Tel. 06162-93 13 0\, aes_gross-bieberau@sc
+ hulen.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:elo-20270123T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270123T090000
+DTEND;TZID=Europe/Berlin:20270123T130000
+SUMMARY:Tag der offenen Tür – Eleonorenschule (ELO)
+LOCATION:Eleonorenschule\, Turnhalle/Hauptgebäude\, Julius-Reiber-Str. 1\,
+  64293 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Eleonorenschule (ELO)\nSamstag\, 23.01
+ .2027\, 09:00–13:00 Uhr\nOrt: Turnhalle/Hauptgebäude\n\nSCHULE\nSchulfo
+ rm: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Julius-Reiber-
+ Str. 1\, 64293 Darmstadt\nTelefon: 06151-13 481900\nE-Mail: eleonorenschul
+ e@darmstadt.de\nHomepage: https://www.eleonorenschule.de\nSchulleitung: St
+ efan Hein\n\nFREMDSPRACHEN\n1. Fremdsprache: Spanisch oder Englisch\n2. Fr
+ emdsprache: Spanisch ab Jahrgang 6 oder Französisch ab Jahrgang 6 oder En
+ glisch ab Jahrgang 5 (bei 1. FS Spanisch)\n3. Fremdsprache: bei entspreche
+ nder Anwahl im Wahlunterricht 9/10\nBilinguale Angebote: –\n\nSCHWERPUNK
+ TE\n• Status einer selbstständigen allgemeinbildenden Schule (SES)\n•
+  Ganztägig im Profil 2 arbeitend mit pädagogischer Nachmittagsbetreuung 
+ (sehr breites AG-Angebot u. Förderangebote)\n• MINT-freundlich\, u.a. m
+ it Experimentalunterricht in Jg. 7 (in kleinen Lerngruppen)\n• OloV-Güt
+ esiegel Berufs- und Studienorientierung\n• Großer Schulgarten als Lern-
+  und Rückzugsort\n• Umweltschule\n• Bikeschool\n• soziales Lernen u
+ nd Klassenpaten\n\nQuelle: Staatliches Schulamt für den Landkreis Darmsta
+ dt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Sc
+ hulen stellen sich vor“ 2026/2027\, S. 12
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.eleonorenschule.de
+CONTACT:Eleonorenschule\, Tel. 06151-13 481900\, eleonorenschule@darmstadt.
+ de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:lgg-20270129T1400@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270129T140000
+DTEND;TZID=Europe/Berlin:20270129T170000
+SUMMARY:Tag der offenen Schule – Ludwig-Georgs-Gymnasium (LGG)
+LOCATION:Ludwig-Georgs-Gymnasium\, Nieder-Ramstädter Str. 2\, 64283 Darmst
+ adt
+DESCRIPTION:Tag der offenen Schule – Ludwig-Georgs-Gymnasium (LGG)\nFreit
+ ag\, 29.01.2027\, 14:00–17:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulfo
+ rm: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Nieder-Ramstä
+ dter Str. 2\, 64283 Darmstadt\nTelefon: 06151 – 13 48 48 00\nE-Mail: lgg
+ @darmstadt.de\nHomepage: https://www.lgg-darmstadt.de\nSchulleitung: Björ
+ n Hamburger\n\nFREMDSPRACHEN\n1. Fremdsprache: Latein ab Jg. 5\n2. Fremdsp
+ rache: Englisch ab Jg. 5\n3. Fremdsprache: Spanisch (ab Jg. 9 oder 11)\, I
+ talienisch (ab Jg. 9)\, Französisch (ab Jg. 9)\, Alt-Griechisch (ab Jg. 9
+ )\nBilinguale Angebote: Business English mit staatlicher Abschlussprüfung
+ \n\nSCHWERPUNKTE\n• Altsprachlich-humanistisches Gymnasium\n• Ganztag 
+ Profil 2\n• Begabungsförderung\n• MINT-Förderung\, z.B. Informatik a
+ b Klasse 5\n• Experimentalunterricht ab Klasse 8\, alle MINT-Fächer als
+  Leistungskurse in der Oberstufe\, …\n• Campusschule der TU Darmstadt\
+ n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und d
+ ie Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen si
+ ch vor“ 2026/2027\, S. 30
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.lgg-darmstadt.de
+CONTACT:Ludwig-Georgs-Gymnasium\, Tel. 06151 – 13 48 48 00\, lgg@darmstad
+ t.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:mpg-20270130T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270130T090000
+DTEND;TZID=Europe/Berlin:20270130T130000
+SUMMARY:Tag des offenen Unterrichts – Max-Planck-Gymnasium (MPG)
+LOCATION:Max-Planck-Gymnasium\, Realschulstr. 9\, 64823 Groß-Umstadt
+DESCRIPTION:Tag des offenen Unterrichts – Max-Planck-Gymnasium (MPG)\nSam
+ stag\, 30.01.2027\, 09:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchul
+ form: Gymnasium (G9) (Gym)\nLage: Landkreis Darmstadt-Dieburg\nAnschrift (
+ Verwaltung/Sekretariat): Curtigasse 8\, 64823 Groß-Umstadt\nAnschrift (Sc
+ hulgebäude): Realschulstr. 9\, 64823 Groß-Umstadt\nTelefon: 06078 – 93
+  930\nE-Mail: sekretariat@mpg-umstadt.de\nHomepage: https://www.mpg-umstad
+ t.de\nSchulleitung: Tobias Catta\n\nFREMDSPRACHEN\n1. Fremdsprache: Englis
+ ch ab JGS 5\n2. Fremdsprache: Französisch\, Latein ab JGS 7\n3. Fremdspra
+ che: Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Familienfreun
+ dliche Schule mit Mensa\n• „Ganztagsschule nach Maß“ mit täglicher
+  Lern- und Spielzeit\n• Klassenlehrerprinzip in Jahrgangsstufe 5–7 mit
+  bes. Projekten zum Sozialen Lernen\n• Medienbildung ab Klassenstufe 5\n
+ • Beratung für Schüler/-innen und Eltern (z.B. BASS-Team\, Inklusionsb
+ eauftragte/r\, Stufenleitungen\, Schulsozialarbeit\, UBUS)\n• Lernbereic
+ h „Naturwissenschaften“ in den Jahrgangsstufen 5 und 6\n• MINT-freun
+ dliche Schule\n• Musik-/(Bläser-)Klasse in den Klassen 5 und 6 bei ents
+ prechender Nachfrage\n• individualisiertes Lernen (Einführungsphase)\n
+ • Berufsorientierung: Gütesiegel BSO/OloV\, Zukunftswerkstatt u.v.m.\n
+ • Hochbegabtenförderung\n• breites AG-Angebot zur Qualifizierung in a
+ llen Fachbereichen\n• Nachhaltigkeitsprojekte: Schülerfirma Be-leaf\, K
+ leidertausch\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-
+ Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schul
+ en stellen sich vor“ 2026/2027\, S. 31
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.mpg-umstadt.de
+CONTACT:Max-Planck-Gymnasium\, Tel. 06078 – 93 930\, sekretariat@mpg-umst
+ adt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:viko-20270130T0900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270130T090000
+DTEND;TZID=Europe/Berlin:20270130T130000
+SUMMARY:Tag der offenen Tür – Viktoriaschule (VIKO)
+LOCATION:Viktoriaschule\, Hochstr. 44\, 64285 Darmstadt
+DESCRIPTION:Tag der offenen Tür – Viktoriaschule (VIKO)\nSamstag\, 30.01
+ .2027\, 09:00–13:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Gymnas
+ ium (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Hochstr. 44\, 64285 Darm
+ stadt\nTelefon: 06151-13 48 70 00\nE-Mail: viktoriaschule@darmstadt.de\nHo
+ mepage: https://www.viktoriaschule-darmstadt.de\nSchulleitung: Susanne Bie
+ bel\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\, Französisch\n2. Fremdsp
+ rache: Englisch\, Französisch\, Latein\n3. Fremdsprache: Französisch\, L
+ atein\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Vier Eingangsklassen 
+ pro Jahrgang\, davon eine Musikklasse (zum Schuljahr 2026/27 Bläserklasse
+ ) mit Englisch als erster Fremdsprache\, eine Französischklasse sowie zwe
+ i Klassen mit Englisch als erster Fremdsprache\n• Schule mit Schwerpunkt
+  Musik (breites musikalisches Angebot\, auch Leistungskurs)\n• Pädagogi
+ sche Mittagsbetreuung (montags bis freitags kostenfrei) mit Mittagessen\, 
+ verschiedenen Arbeitsgemeinschaften und Hausaufgabenbetreuung\n• Schüle
+ raustausch mit GB und F\n• Experimentalunterricht in Chemie und Physik m
+ it halben Klassen in Jgst. 8\n\nQuelle: Staatliches Schulamt für den Land
+ kreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiter
+ führenden Schulen stellen sich vor“ 2026/2027\, S. 41
+CATEGORIES:Tag der offenen Tür,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.viktoriaschule-darmstadt.de
+CONTACT:Viktoriaschule\, Tel. 06151-13 48 70 00\, viktoriaschule@darmstadt.
+ de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:goethe-20270130T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270130T100000
+DTEND;TZID=Europe/Berlin:20270130T123000
+SUMMARY:Tag der offenen Tür – Goetheschule Dieburg
+LOCATION:Goetheschule Dieburg\, Goethestr. 10-14\, 64807 Dieburg
+DESCRIPTION:Tag der offenen Tür – Goetheschule Dieburg\nSamstag\, 30.01.
+ 2027\, 10:00–12:30 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: Koopera
+ tive Gesamtschule: Gymnasialzweig (G9)\, Mittelstufenschule (MSS) mit mitt
+ lerem und praxisorientiertem Bildungsgang sowie einer Intensivklasse (KGS)
+ \nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Goethestr. 10-14\, 64807 D
+ ieburg\nTelefon: 06071-98 88-0\nE-Mail: sekretariat@goethe.schule\nHomepag
+ e: https://www.goethe.schule\nSchulleitung: Christof Maruschka\n\nFREMDSPR
+ ACHEN\n1. Fremdsprache: Englisch\n2. Fremdsprache: Gym: Französisch\, Lat
+ ein oder Spanisch ab Jg. 7\; MSS: Französisch ab Jg. 7 (Wahl)\n3. Fremdsp
+ rache: –\nBilinguale Angebote: Gym: zusätzliche Englischstunde in Jg. 6
+ \; bilinguale Klasse ab Jg. 7 mit Sachfächern (Erdkunde\, Biologie\, Gesc
+ hichte\, Politik und Wirtschaft)\; Bili-Zertifikat zum Abschluss in Zusamm
+ enarbeit mit der TU Darmstadt\n\nSCHWERPUNKTE\n• Anerkannte UNESCO-Proje
+ ktschule seit 2014\; Demokratie- und Menschenrechtsbildung\, interkulturel
+ les Lernen und Nachhaltigkeit\n• bilinguale Klasse ab Jg. 7\n• Lernhau
+ s / Selbstständiges Lernen in MSS in 5–7 (Lernbüros in Deutsch\, Mathe
+ matik und Englisch mit individuellen Lernwegen\, Lernen im eigenen Tempo\,
+  Coaching\, projektorientiertes Lernen\, digitale Lernplattform)\n• Digi
+ tales Lernen (Informatik im Gym-Zweig ab Jg. 5\, digitale Lernformen und p
+ ersönliche Endgeräte im Lernhaus)\n• Berufsorientierung (ab Jg. 8 beru
+ fsbezogener Unterricht der Mittelstufenschule in Kooperation mit der Landr
+ at-Gruber-Schule (Technik\, Wirtschaft\, Gesundheit)\; Betriebspraktika in
+  allen Schulzweigen)\n• Musik (außergewöhnlicher Musikunterricht mit z
+ usätzlicher Musikstunde in Jg. 5/6\, Stimmbildung\, Chor)\n• Ganztag Pr
+ ofil 2: Betreuung bis 16 Uhr\, kostenfreie AG-Angebote sowie Hausaufgabenb
+ etreuung und -hilfe\n\nQuelle: Staatliches Schulamt für den Landkreis Dar
+ mstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiterführende
+ n Schulen stellen sich vor“ 2026/2027\, S. 23
+CATEGORIES:Tag der offenen Tür,KGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.goethe.schule
+CONTACT:Goetheschule Dieburg\, Tel. 06071-98 88-0\, sekretariat@goethe.schu
+ le
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:mpg-20270201T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270201T190000
+DTEND;TZID=Europe/Berlin:20270201T210000
+SUMMARY:Elterninformationsabend – Max-Planck-Gymnasium (MPG)
+LOCATION:Pfälzer Schloss\, 64823 Groß-Umstadt
+DESCRIPTION:Elterninformationsabend – Max-Planck-Gymnasium (MPG)\nMontag\
+ , 01.02.2027\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Pfälzer Schloss\
+ n\nSCHULE\nSchulform: Gymnasium (G9) (Gym)\nLage: Landkreis Darmstadt-Dieb
+ urg\nAnschrift (Verwaltung/Sekretariat): Curtigasse 8\, 64823 Groß-Umstad
+ t\nAnschrift (Schulgebäude): Realschulstr. 9\, 64823 Groß-Umstadt\nTelef
+ on: 06078 – 93 930\nE-Mail: sekretariat@mpg-umstadt.de\nHomepage: https:
+ //www.mpg-umstadt.de\nSchulleitung: Tobias Catta\n\nFREMDSPRACHEN\n1. Frem
+ dsprache: Englisch ab JGS 5\n2. Fremdsprache: Französisch\, Latein ab JGS
+  7\n3. Fremdsprache: Spanisch\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n
+ • Familienfreundliche Schule mit Mensa\n• „Ganztagsschule nach Maß
+ “ mit täglicher Lern- und Spielzeit\n• Klassenlehrerprinzip in Jahrga
+ ngsstufe 5–7 mit bes. Projekten zum Sozialen Lernen\n• Medienbildung a
+ b Klassenstufe 5\n• Beratung für Schüler/-innen und Eltern (z.B. BASS-
+ Team\, Inklusionsbeauftragte/r\, Stufenleitungen\, Schulsozialarbeit\, UBU
+ S)\n• Lernbereich „Naturwissenschaften“ in den Jahrgangsstufen 5 und
+  6\n• MINT-freundliche Schule\n• Musik-/(Bläser-)Klasse in den Klasse
+ n 5 und 6 bei entsprechender Nachfrage\n• individualisiertes Lernen (Ein
+ führungsphase)\n• Berufsorientierung: Gütesiegel BSO/OloV\, Zukunftswe
+ rkstatt u.v.m.\n• Hochbegabtenförderung\n• breites AG-Angebot zur Qua
+ lifizierung in allen Fachbereichen\n• Nachhaltigkeitsprojekte: Schülerf
+ irma Be-leaf\, Kleidertausch\n\nQuelle: Staatliches Schulamt für den Land
+ kreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die weiter
+ führenden Schulen stellen sich vor“ 2026/2027\, S. 31
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Landkreis Darmstadt-Di
+ eburg
+URL;VALUE=URI:https://www.mpg-umstadt.de
+CONTACT:Max-Planck-Gymnasium\, Tel. 06078 – 93 930\, sekretariat@mpg-umst
+ adt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:gbs-20270202T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270202T190000
+DTEND;TZID=Europe/Berlin:20270202T210000
+SUMMARY:Allgemeiner Informationsabend – Georg-Büchner-Schule (GBS)
+LOCATION:Georg-Büchner-Schule\, Mensa der GBS\, Nieder-Ramstädter Str. 12
+ 0\, 64285 Darmstadt
+DESCRIPTION:Allgemeiner Informationsabend – Georg-Büchner-Schule (GBS)\n
+ Dienstag\, 02.02.2027\, 19:00 Uhr (Endzeit nicht angegeben)\nOrt: Mensa de
+ r GBS\n\nSCHULE\nSchulform: Gymnasium (G9) (Gym)\nLage: Stadt Darmstadt\nA
+ nschrift: Nieder-Ramstädter Str. 120\, 64285 Darmstadt\nTelefon: 06151 - 
+ 13 482900\nE-Mail: gbs@darmstadt.de\nHomepage: https://www.gbs-darmstadt.d
+ e\nSchulleitung: Eva Klün-Ernst\, OStD'n (Schulleiterin)\; René Sauer\, 
+ StD (stv. Schulleiter)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fre
+ mdsprache: Französisch\, Latein ab Jg. 6\n3. Fremdsprache: Französisch\,
+  Latein ab Jg. 9 im Bereich des Wahlunterrichts\nBilinguale Angebote: Bili
+ ngualer Zug (deutsch-englisch) ab Jg. 6 (je nach Jahrgang in den Fächern 
+ Geographie\, Geschichte oder Politik und Wirtschaft)\; Bilinguale Abiturpr
+ üfung\n\nSCHWERPUNKTE\n• Partnerschule des Leistungssports\, Sportklass
+ e ab Jg. 5\, Leistungskurs Sport garantiert\n• Bilingualer Zug (deutsch-
+ englisch) ab Jg. 6\, Certilingua\n• MINT-freundliche Schule\n• Campuss
+ chule\n• Sozialpraktikum im Jahrgang 9\n• Austauschprogramme\n• Eras
+ mus+-Projekte\n• Gedenkstättenfahrt (Lublin)\n\nGANZTAG\n• Eigene Men
+ sa\n• pädagogische Mittagsbetreuung\n• Hausaufgabenhilfe\n• breites
+  Angebot an Arbeitsgemeinschaften\n\nQuelle: Staatliches Schulamt für den
+  Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die w
+ eiterführenden Schulen stellen sich vor“ 2026/2027\, S. 19
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.gbs-darmstadt.de
+CONTACT:Georg-Büchner-Schule\, Tel. 06151 - 13 482900\, gbs@darmstadt.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:viko-20270204T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270204T190000
+DTEND;TZID=Europe/Berlin:20270204T210000
+SUMMARY:Infoabend für Eltern Musik und Französisch – Viktoriaschule (VI
+ KO)
+LOCATION:Viktoriaschule\, Hochstr. 44\, 64285 Darmstadt
+DESCRIPTION:Infoabend für Eltern Musik und Französisch – Viktoriaschule
+  (VIKO)\nDonnerstag\, 04.02.2027\, 19:00 Uhr (Endzeit nicht angegeben)\nOr
+ t: Schulgelände\n\nSCHULE\nSchulform: Gymnasium (G9) (Gym)\nLage: Stadt D
+ armstadt\nAnschrift: Hochstr. 44\, 64285 Darmstadt\nTelefon: 06151-13 48 7
+ 0 00\nE-Mail: viktoriaschule@darmstadt.de\nHomepage: https://www.viktorias
+ chule-darmstadt.de\nSchulleitung: Susanne Biebel\n\nFREMDSPRACHEN\n1. Frem
+ dsprache: Englisch\, Französisch\n2. Fremdsprache: Englisch\, Französisc
+ h\, Latein\n3. Fremdsprache: Französisch\, Latein\nBilinguale Angebote: 
+ –\n\nSCHWERPUNKTE\n• Vier Eingangsklassen pro Jahrgang\, davon eine Mu
+ sikklasse (zum Schuljahr 2026/27 Bläserklasse) mit Englisch als erster Fr
+ emdsprache\, eine Französischklasse sowie zwei Klassen mit Englisch als e
+ rster Fremdsprache\n• Schule mit Schwerpunkt Musik (breites musikalische
+ s Angebot\, auch Leistungskurs)\n• Pädagogische Mittagsbetreuung (monta
+ gs bis freitags kostenfrei) mit Mittagessen\, verschiedenen Arbeitsgemeins
+ chaften und Hausaufgabenbetreuung\n• Schüleraustausch mit GB und F\n•
+  Experimentalunterricht in Chemie und Physik mit halben Klassen in Jgst. 8
+ \n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg und 
+ die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen s
+ ich vor“ 2026/2027\, S. 41
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.viktoriaschule-darmstadt.de
+CONTACT:Viktoriaschule\, Tel. 06151-13 48 70 00\, viktoriaschule@darmstadt.
+ de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:elo-20270210T1900@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270210T190000
+DTEND;TZID=Europe/Berlin:20270210T203000
+SUMMARY:Info-Abend für Eltern – Eleonorenschule (ELO)
+LOCATION:Eleonorenschule\, Turnhalle\, Julius-Reiber-Str. 1\, 64293 Darmsta
+ dt
+DESCRIPTION:Info-Abend für Eltern – Eleonorenschule (ELO)\nMittwoch\, 10
+ .02.2027\, 19:00–20:30 Uhr\nOrt: Turnhalle\n\nSCHULE\nSchulform: Gymnasi
+ um (G9) (Gym)\nLage: Stadt Darmstadt\nAnschrift: Julius-Reiber-Str. 1\, 64
+ 293 Darmstadt\nTelefon: 06151-13 481900\nE-Mail: eleonorenschule@darmstadt
+ .de\nHomepage: https://www.eleonorenschule.de\nSchulleitung: Stefan Hein\n
+ \nFREMDSPRACHEN\n1. Fremdsprache: Spanisch oder Englisch\n2. Fremdsprache:
+  Spanisch ab Jahrgang 6 oder Französisch ab Jahrgang 6 oder Englisch ab J
+ ahrgang 5 (bei 1. FS Spanisch)\n3. Fremdsprache: bei entsprechender Anwahl
+  im Wahlunterricht 9/10\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Sta
+ tus einer selbstständigen allgemeinbildenden Schule (SES)\n• Ganztägig
+  im Profil 2 arbeitend mit pädagogischer Nachmittagsbetreuung (sehr breit
+ es AG-Angebot u. Förderangebote)\n• MINT-freundlich\, u.a. mit Experime
+ ntalunterricht in Jg. 7 (in kleinen Lerngruppen)\n• OloV-Gütesiegel Ber
+ ufs- und Studienorientierung\n• Großer Schulgarten als Lern- und Rückz
+ ugsort\n• Umweltschule\n• Bikeschool\n• soziales Lernen und Klassenp
+ aten\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg 
+ und die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stell
+ en sich vor“ 2026/2027\, S. 12
+CATEGORIES:Informationsabend,Gym,Öffentliche Schule,Stadt Darmstadt
+URL;VALUE=URI:https://www.eleonorenschule.de
+CONTACT:Eleonorenschule\, Tel. 06151-13 481900\, eleonorenschule@darmstadt.
+ de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ews-20270219T1415@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270219T141500
+DTEND;TZID=Europe/Berlin:20270219T170000
+SUMMARY:Mitmachtag – Eichwaldschule (EWS)
+LOCATION:Eichwaldschule\, Langstädter Str. 40\, 64850 Schaafheim
+DESCRIPTION:Mitmachtag – Eichwaldschule (EWS)\nFreitag\, 19.02.2027\, 14:
+ 15–17:00 Uhr\nOrt: Schulgelände\nHinweis: Anmeldung vor Ort um 14:15 Uh
+ r\n\nSCHULE\nSchulform: Grund-\, Haupt- und Realschule mit Förderstufe (H
+ /R)\nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Langstädter Str. 40\, 
+ 64850 Schaafheim\nTelefon: 06073-91 30\nE-Mail: ews_schaafheim@schulen.lad
+ adi.de\nHomepage: https://www.eichwaldschule.de\nSchulleitung: Herr Christ
+ opher Mühlhöfer\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fremdspr
+ ache: Französisch (ab Jg. 7)\n3. Fremdsprache: –\nBilinguale Angebote: 
+ –\n\nSCHWERPUNKTE\n• Erweiterung der Förderstufe durch die Verbundkla
+ sse 7 mit Kursung in Englisch und Mathematik ab der Klasse 6\n• Ganztags
+ angebot für alle JGSt: Mittagessen an vier Tagen\, „Offener Treff“\, 
+ Hausaufgabenbetreuung\, AG-Angebote (u.a. Schülerzeitung\, Miteinander Le
+ rnen\, Englisch Fit für die Oberstufe\, Erasmus)\n• Wahlpflichtangebote
+ : u.a. Handwerk\, Experimentieren\, Robotik\, Verantwortung\, Handball\n
+ • aktive Ausbildungsinitiative: Zukunftswerkstatt in Kooperation mit der
+  IHK\, Praxistag in Klasse 8 (Hauptschule)\n• Schwerpunkte: Eigenverantw
+ ortliches Lernen (u.a. Lernzeiten\, offene Unterrichtsformen\, Projektarbe
+ it) und Soziales Lernen (u.a. Klassenrat\, Schülerpatenschaften)\n• Dig
+ itale Schule – „Digitale Welt“ als Schulfach für alle in 5/6\n• S
+ chulaustausch – Erasmus-Projekt\n\nQuelle: Staatliches Schulamt für den
+  Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Broschüre „Die w
+ eiterführenden Schulen stellen sich vor“ 2026/2027\, S. 11
+CATEGORIES:Schnuppertag,H/R,Öffentliche Schule,Landkreis Darmstadt-Dieburg
+URL;VALUE=URI:https://www.eichwaldschule.de
+CONTACT:Eichwaldschule\, Tel. 06073-91 30\, ews_schaafheim@schulen.ladadi.d
+ e
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ers-20270220T1000@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270220T100000
+DTEND;TZID=Europe/Berlin:20270220T120000
+SUMMARY:Tag der offenen Tür – Ernst-Reuter-Schule (ERS)
+LOCATION:Ernst-Reuter-Schule\, Dresdener Str. 7\, 64823 Groß-Umstadt
+DESCRIPTION:Tag der offenen Tür – Ernst-Reuter-Schule (ERS)\nSamstag\, 2
+ 0.02.2027\, 10:00–12:00 Uhr\nOrt: Schulgelände\n\nSCHULE\nSchulform: In
+ tegrierte Gesamtschule mit Grundstufe (IGS)\nLage: Landkreis Darmstadt-Die
+ burg\nAnschrift: Dresdener Str. 7\, 64823 Groß-Umstadt\nTelefon: 06078-93
+  68 0\nE-Mail: ers_gross-umstadt@schulen.ladadi.de\nHomepage: https://www.
+ ernst-reuter-schule.net\nSchulleitung: Andreas Stüber\; Franziska Kurtz (
+ stellv. Schulleiterin)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2. Fre
+ mdsprache: WP-Bereich: Französisch und Spanisch ab Jg. 7\n3. Fremdsprache
+ : –\nBilinguale Angebote: –\n\nSCHWERPUNKTE\n• Ganztagsschule nach S
+ tufe 1 (Mittags-/Hausaufgabenbetreuung u. Mittagessen an 5 Tagen)\n• vie
+ lfältige Unterrichts- und AG-Angebote: Sport (u.a. Bikeschool Mountainbik
+ e AG\, Volleyball-AG\, Fußball-AG)\, Sprachen (Englisch / Spanisch / Fran
+ zösisch)\, Informatik und Wissenschaft (u.a. landesweite Robotics-Wettkä
+ mpfe)\, Musik und Kunst (u.a. viele Aufführungen und Ausstellungen)\, Koc
+ hen (u.a. gesunde Ernährung)\n• Bienen-AG\n• alle AG-Angebote kostenl
+ os\n• viele berufsvorbereitende Maßnahmen\n• freiwillige Schulkleidun
+ g\n• Zusammenarbeit mit dem JUZ der Stadt Groß-Umstadt\, PIT Hessen\n
+ • offene Lehr- und Lernsituationen/selbstorganisiertes Lernen/Lernatelie
+ rs\n\nQuelle: Staatliches Schulamt für den Landkreis Darmstadt-Dieburg un
+ d die Stadt Darmstadt\, Broschüre „Die weiterführenden Schulen stellen
+  sich vor“ 2026/2027\, S. 14
+CATEGORIES:Tag der offenen Tür,IGS,Öffentliche Schule,Landkreis Darmstadt
+ -Dieburg
+URL;VALUE=URI:https://www.ernst-reuter-schule.net
+CONTACT:Ernst-Reuter-Schule\, Tel. 06078-93 68 0\, ers_gross-umstadt@schule
+ n.ladadi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:hws-20270302T1730@schuluebergang-2027.local
+DTSTAMP:20261003T122231Z
+DTSTART;TZID=Europe/Berlin:20270302T173000
+DTEND;TZID=Europe/Berlin:20270302T210000
+SUMMARY:Kulturabend (Vorstellung der Kurse Ästhetische Bildung in 5/6) –
+  Hessenwaldschule (HWS)
+LOCATION:Hessenwaldschule\, Wolfsgartenallee 8\, 64331 Weiterstadt
+DESCRIPTION:Kulturabend (Vorstellung der Kurse Ästhetische Bildung in 5/6)
+  – Hessenwaldschule (HWS)\nDienstag\, 02.03.2027\, 17:30–21:00 Uhr\nOr
+ t: Schulgelände\n\nSCHULE\nSchulform: Kooperative Gesamtschule (G9) (KGS)
+ \nLage: Landkreis Darmstadt-Dieburg\nAnschrift: Wolfsgartenallee 8\, 64331
+  Weiterstadt\nTelefon: 06150-97 46 0\nE-Mail: hws_weiterstadt@schulen.lada
+ di.de\nHomepage: https://www.hessenwaldschule.de\nSchulleitung: Stephan W
+ üst (SL)\; N.N. (stv. SL)\n\nFREMDSPRACHEN\n1. Fremdsprache: Englisch\n2.
+  Fremdsprache: Spanisch ab Klasse 7 (R und Gym)\n3. Fremdsprache: Französ
+ isch und Chinesisch ab Klasse 9 (Gym)\nBilinguale Angebote: –\n\nSCHWERP
+ UNKTE\n• Digital arbeitende Schule (iPad ab Klasse 7)\n• Erasmus-Schul
+ e\n• Prävention\, Gemeinschaft und Demokratie\n• Schüleraustausch Sp
+ anien\n• Berufsorientierung\n• Bikeschool\n• Stärkung MINT\n• Gym
+ nasialzweig ab Jahrgang 5\; Förderstufe für Jahrgang 5 und 6 (H und R)\n
+ • gebundene Ganztagsschule (Profil 3) für den Jahrgang 5 und 6 bis 14:3
+ 5 Uhr\n• pädagogische Mittagsbetreuung\, Lerninsel/Club für die Klasse
+ n 5–7 bis 16:00 Uhr\, freitags bis 14:00 Uhr\n\nQuelle: Staatliches Schu
+ lamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt\, Brosch
+ üre „Die weiterführenden Schulen stellen sich vor“ 2026/2027\, S. 25
+CATEGORIES:Markt/Fest,KGS,Öffentliche Schule,Landkreis Darmstadt-Dieburg
+URL;VALUE=URI:https://www.hessenwaldschule.de
+CONTACT:Hessenwaldschule\, Tel. 06150-97 46 0\, hws_weiterstadt@schulen.lad
+ adi.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
