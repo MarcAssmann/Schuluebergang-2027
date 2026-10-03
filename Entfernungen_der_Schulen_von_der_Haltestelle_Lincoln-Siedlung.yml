@@ -1,0 +1,544 @@
+# Schulwege von der Haltestelle „Darmstadt Lincoln-Siedlung“ (Tram 1/7/8) zu den weiterführenden Schulen.
+# Aufbau wie Entfernungen_der_Schulen_von_der_Freiligrathstr.yml.
+# Reihenfolge und id/name wie in schulen_2026-2027.yaml.
+# Schulstandorte per OpenStreetMap/Nominatim aus den Anschriften geocodiert
+# (Schuldorf Bergstraße: nur Straße „Sandstraße“ bekannt → Straßenmittelpunkt).
+
+meta:
+  start:
+    haltestelle: Darmstadt Lincoln-Siedlung
+    haltestelle_id: "de:06411:24009"
+    lat: 49.848125
+    lon: 8.646289
+    plz: "64285"
+    ort: Darmstadt
+  berechnet_am: 2026-10-03
+  einheiten:
+    strecke: km
+    dauer: min
+  fuss:
+    methode: OpenStreetMap-Routing (OSRM, Fußprofil)
+    geschwindigkeit_kmh: 4.5
+  rad:
+    methode: OpenStreetMap-Routing (OSRM, Radprofil)
+    geschwindigkeit_kmh: 12.0
+  zeit_hinweis: Kindertempo, ohne Ampel-/Steigungszuschläge
+  auto:
+    methode: OpenStreetMap-Routing (OSRM, Autoprofil)
+    min: Fahrzeit bei freier Straße (ohne Verkehr)
+    min_berufsverkehr: grobe Schätzung = min × 1,5 (Morgenverkehr ca. 7:15–8:00)
+    hinweis: >-
+      Reine Fahrzeit ohne Parkplatzsuche/Aussteigen; Start an der Haltestelle
+      Lincoln-Siedlung. Vor Schulen oft Halteverbot/Elterntaxi-Zonen beachten.
+  oepnv:
+    methode: Fahrplanauskunft über Transitous (RMV-/DB-Fahrpläne)
+    stichtag: 2026-10-20        # Dienstag (erster Dienstag nach den hessischen Herbstferien)
+    ankunft_spaetestens: "07:50"
+    hinweis: >-
+      Späteste Verbindung mit Ankunft bis 07:50 inkl. Fußwegen ab/zur Haltestelle;
+      losgehen = Abfahrt bzw. Abmarsch an der Haltestelle Lincoln-Siedlung.
+      Schulbusse/Verstärkerfahrten sind evtl. nicht enthalten – vor der
+      Entscheidung in der RMV-App gegenprüfen.
+  linien_typen: [tram, bus, s_bahn, regionalbahn]
+
+# Schema je Eintrag:
+#   id: str, name: str
+#   fuss / rad: {km: float, min: int}
+#   auto: {km: float, min: int, min_berufsverkehr: int}
+#   oepnv: {dauer_min: int, umstiege: int, losgehen: "HH:MM", ankunft: "HH:MM",
+#           linien: [{typ: tram|bus|s_bahn|regionalbahn, linie: str}]}
+#          | null (mit oepnv_hinweis), wenn keine sinnvolle Verbindung
+
+entfernungen:
+  - id: aes
+    name: Albert-Einstein-Schule
+    fuss: {km: 16.8, min: 224}
+    rad: {km: 22.2, min: 111}
+    auto: {km: 16.3, min: 23, min_berufsverkehr: 34}
+    oepnv:
+      dauer_min: 66
+      umstiege: 3
+      losgehen: "06:29"
+      ankunft: "07:35"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "R"}
+        - {typ: bus, linie: "MX"}
+        - {typ: bus, linie: "MO3"}
+  - id: ass
+    name: Albert-Schweitzer-Schule
+    fuss: {km: 15.5, min: 206}
+    rad: {km: 17.5, min: 88}
+    auto: {km: 16.9, min: 20, min_berufsverkehr: 30}
+    oepnv:
+      dauer_min: 72
+      umstiege: 3
+      losgehen: "06:29"
+      ankunft: "07:41"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "671"}
+        - {typ: bus, linie: "679"}
+        - {typ: bus, linie: "672"}
+  - id: ads
+    name: Albrecht-Dürer-Schule
+    fuss: {km: 10.5, min: 140}
+    rad: {km: 11.5, min: 58}
+    auto: {km: 11.9, min: 14, min_berufsverkehr: 21}
+    oepnv:
+      dauer_min: 50
+      umstiege: 1
+      losgehen: "06:43"
+      ankunft: "07:33"
+      linien:
+        - {typ: bus, linie: "R"}
+        - {typ: regionalbahn, linie: "RB75"}
+  - id: bas
+    name: Bernhard-Adelung-Schule
+    fuss: {km: 4.9, min: 65}
+    rad: {km: 5.3, min: 26}
+    auto: {km: 5.1, min: 11, min_berufsverkehr: 16}
+    oepnv:
+      dauer_min: 29
+      umstiege: 1
+      losgehen: "07:12"
+      ankunft: "07:41"
+      linien:
+        - {typ: tram, linie: "8"}
+        - {typ: bus, linie: "H"}
+  - id: dkss
+    name: Dr.-Kurt-Schumacher-Schule
+    fuss: {km: 17.6, min: 235}
+    rad: {km: 18.5, min: 92}
+    auto: {km: 19.4, min: 23, min_berufsverkehr: 34}
+    oepnv:
+      dauer_min: 58
+      umstiege: 1
+      losgehen: "06:49"
+      ankunft: "07:47"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "NHX"}
+  - id: ess
+    name: Edith-Stein-Schule
+    fuss: {km: 2.0, min: 26}
+    rad: {km: 2.6, min: 13}
+    auto: {km: 2.0, min: 5, min_berufsverkehr: 8}
+    oepnv: null
+    oepnv_hinweis: keine sinnvolle Verbindung, Fußweg ist schneller
+  - id: ews
+    name: Eichwaldschule
+    fuss: {km: 30.9, min: 412}
+    rad: {km: 32.3, min: 162}
+    auto: {km: 31.8, min: 33, min_berufsverkehr: 50}
+    oepnv:
+      dauer_min: 73
+      umstiege: 3
+      losgehen: "06:09"
+      ankunft: "07:22"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: tram, linie: "6"}
+        - {typ: regionalbahn, linie: "RB75"}
+        - {typ: bus, linie: "BG3"}
+  - id: elo
+    name: Eleonorenschule
+    fuss: {km: 3.6, min: 48}
+    rad: {km: 3.5, min: 18}
+    auto: {km: 3.5, min: 6, min_berufsverkehr: 9}
+    oepnv:
+      dauer_min: 23
+      umstiege: 0
+      losgehen: "07:19"
+      ankunft: "07:42"
+      linien:
+        - {typ: tram, linie: "1"}
+  - id: eks
+    name: Erich-Kästner-Schule Stadtteilschule Kranichstein
+    fuss: {km: 7.3, min: 98}
+    rad: {km: 9.2, min: 46}
+    auto: {km: 8.4, min: 15, min_berufsverkehr: 22}
+    oepnv:
+      dauer_min: 36
+      umstiege: 1
+      losgehen: "07:12"
+      ankunft: "07:48"
+      linien:
+        - {typ: tram, linie: "8"}
+        - {typ: tram, linie: "5"}
+  - id: ers
+    name: Ernst-Reuter-Schule
+    fuss: {km: 23.9, min: 318}
+    rad: {km: 25.6, min: 128}
+    auto: {km: 24.4, min: 24, min_berufsverkehr: 36}
+    oepnv:
+      dauer_min: 79
+      umstiege: 4
+      losgehen: "06:09"
+      ankunft: "07:28"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: tram, linie: "6"}
+        - {typ: regionalbahn, linie: "RB75"}
+        - {typ: regionalbahn, linie: "RB86"}
+        - {typ: bus, linie: "GU1"}
+  - id: fcs
+    name: Freie Comenius Schule
+    fuss: {km: 7.4, min: 99}
+    rad: {km: 8.5, min: 43}
+    auto: {km: 8.2, min: 14, min_berufsverkehr: 21}
+    oepnv:
+      dauer_min: 40
+      umstiege: 2
+      losgehen: "06:59"
+      ankunft: "07:39"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: regionalbahn, linie: "RB61"}
+        - {typ: tram, linie: "4"}
+  - id: fms
+    name: Freie Montessori-Schule Darmstadt
+    fuss: {km: 2.8, min: 38}
+    rad: {km: 3.3, min: 16}
+    auto: {km: 3.0, min: 5, min_berufsverkehr: 8}
+    oepnv:
+      dauer_min: 18
+      umstiege: 1
+      losgehen: "07:32"
+      ankunft: "07:50"
+      linien:
+        - {typ: tram, linie: "8"}
+        - {typ: bus, linie: "R"}
+  - id: fws
+    name: Freie Waldorfschule Darmstadt
+    fuss: {km: 4.1, min: 55}
+    rad: {km: 4.2, min: 21}
+    auto: {km: 3.9, min: 7, min_berufsverkehr: 10}
+    oepnv:
+      dauer_min: 20
+      umstiege: 0
+      losgehen: "07:27"
+      ankunft: "07:47"
+      linien:
+        - {typ: tram, linie: "1"}
+  - id: fes
+    name: Friedrich-Ebert-Schule
+    fuss: {km: 7.6, min: 101}
+    rad: {km: 9.6, min: 48}
+    auto: {km: 9.1, min: 10, min_berufsverkehr: 15}
+    oepnv:
+      dauer_min: 41
+      umstiege: 1
+      losgehen: "07:07"
+      ankunft: "07:48"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: bus, linie: "P"}
+  - id: gbs
+    name: Georg-Büchner-Schule
+    fuss: {km: 3.0, min: 40}
+    rad: {km: 3.5, min: 17}
+    auto: {km: 3.0, min: 8, min_berufsverkehr: 12}
+    oepnv:
+      dauer_min: 27
+      umstiege: 2
+      losgehen: "07:19"
+      ankunft: "07:46"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: bus, linie: "R"}
+        - {typ: tram, linie: "5"}
+  - id: gcls
+    name: Georg-Christoph-Lichtenberg-Schule
+    fuss: {km: 10.3, min: 138}
+    rad: {km: 10.0, min: 50}
+    auto: {km: 11.2, min: 17, min_berufsverkehr: 26}
+    oepnv:
+      dauer_min: 42
+      umstiege: 2
+      losgehen: "06:59"
+      ankunft: "07:41"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: bus, linie: "R"}
+        - {typ: bus, linie: "O"}
+  - id: gms
+    name: Georg-Müller-Schule
+    fuss: {km: 4.7, min: 63}
+    rad: {km: 4.9, min: 24}
+    auto: {km: 4.8, min: 8, min_berufsverkehr: 12}
+    oepnv:
+      dauer_min: 31
+      umstiege: 0
+      losgehen: "07:13"
+      ankunft: "07:44"
+      linien:
+        - {typ: bus, linie: "R"}
+  - id: ghs
+    name: Gerhart-Hauptmann-Schule
+    fuss: {km: 7.1, min: 94}
+    rad: {km: 7.4, min: 37}
+    auto: {km: 7.6, min: 13, min_berufsverkehr: 20}
+    oepnv:
+      dauer_min: 29
+      umstiege: 1
+      losgehen: "07:19"
+      ankunft: "07:48"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: tram, linie: "4"}
+  - id: goethe
+    name: Goetheschule Dieburg
+    fuss: {km: 17.1, min: 228}
+    rad: {km: 19.3, min: 97}
+    auto: {km: 19.2, min: 19, min_berufsverkehr: 28}
+    oepnv:
+      dauer_min: 53
+      umstiege: 1
+      losgehen: "06:49"
+      ankunft: "07:42"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "671"}
+  - id: gut
+    name: Gutenbergschule
+    fuss: {km: 3.5, min: 47}
+    rad: {km: 3.7, min: 19}
+    auto: {km: 3.4, min: 6, min_berufsverkehr: 9}
+    oepnv:
+      dauer_min: 15
+      umstiege: 0
+      losgehen: "07:27"
+      ankunft: "07:42"
+      linien:
+        - {typ: tram, linie: "1"}
+  - id: hws
+    name: Hessenwaldschule
+    fuss: {km: 12.2, min: 162}
+    rad: {km: 14.9, min: 75}
+    auto: {km: 15.1, min: 16, min_berufsverkehr: 24}
+    oepnv:
+      dauer_min: 62
+      umstiege: 2
+      losgehen: "06:39"
+      ankunft: "07:41"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: s_bahn, linie: "S6"}
+        - {typ: bus, linie: "WE1"}
+  - id: jss
+    name: Joachim-Schumann-Schule
+    fuss: {km: 30.4, min: 405}
+    rad: {km: 32.7, min: 164}
+    auto: {km: 30.9, min: 32, min_berufsverkehr: 48}
+    oepnv:
+      dauer_min: 72
+      umstiege: 3
+      losgehen: "06:09"
+      ankunft: "07:21"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: tram, linie: "6"}
+        - {typ: regionalbahn, linie: "RB75"}
+        - {typ: bus, linie: "BG2"}
+  - id: jws
+    name: Justin-Wagner-Schule
+    fuss: {km: 9.6, min: 128}
+    rad: {km: 10.5, min: 52}
+    auto: {km: 11.2, min: 16, min_berufsverkehr: 24}
+    oepnv:
+      dauer_min: 38
+      umstiege: 1
+      losgehen: "07:09"
+      ankunft: "07:47"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "RH"}
+  - id: lio
+    name: Justus-Liebig-Schule
+    fuss: {km: 3.4, min: 46}
+    rad: {km: 3.6, min: 18}
+    auto: {km: 3.5, min: 7, min_berufsverkehr: 10}
+    oepnv:
+      dauer_min: 24
+      umstiege: 0
+      losgehen: "07:19"
+      ankunft: "07:43"
+      linien:
+        - {typ: tram, linie: "1"}
+  - id: luo
+    name: Lichtenbergschule
+    fuss: {km: 1.0, min: 14}
+    rad: {km: 1.1, min: 5}
+    auto: {km: 1.4, min: 3, min_berufsverkehr: 4}
+    oepnv: null
+    oepnv_hinweis: keine sinnvolle Verbindung, Fußweg ist schneller
+  - id: lgg
+    name: Ludwig-Georgs-Gymnasium
+    fuss: {km: 3.0, min: 40}
+    rad: {km: 3.3, min: 17}
+    auto: {km: 3.4, min: 6, min_berufsverkehr: 9}
+    oepnv:
+      dauer_min: 18
+      umstiege: 0
+      losgehen: "07:29"
+      ankunft: "07:47"
+      linien:
+        - {typ: tram, linie: "7"}
+  - id: mpg
+    name: Max-Planck-Gymnasium
+    fuss: {km: 24.0, min: 320}
+    rad: {km: 27.5, min: 137}
+    auto: {km: 24.9, min: 24, min_berufsverkehr: 36}
+    oepnv:
+      dauer_min: 74
+      umstiege: 4
+      losgehen: "06:09"
+      ankunft: "07:23"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: tram, linie: "6"}
+        - {typ: regionalbahn, linie: "RB75"}
+        - {typ: regionalbahn, linie: "RB86"}
+        - {typ: bus, linie: "GA"}
+  - id: mbs
+    name: Melibokusschule
+    fuss: {km: 13.6, min: 181}
+    rad: {km: 18.5, min: 92}
+    auto: {km: 15.6, min: 17, min_berufsverkehr: 26}
+    oepnv:
+      dauer_min: 41
+      umstiege: 1
+      losgehen: "07:07"
+      ankunft: "07:48"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: tram, linie: "6"}
+  - id: mws
+    name: Mornewegschule
+    fuss: {km: 2.0, min: 27}
+    rad: {km: 1.9, min: 10}
+    auto: {km: 2.1, min: 4, min_berufsverkehr: 6}
+    oepnv:
+      dauer_min: 13
+      umstiege: 0
+      losgehen: "07:32"
+      ankunft: "07:45"
+      linien:
+        - {typ: tram, linie: "8"}
+  - id: obs
+    name: Otzbergschule
+    fuss: {km: 22.8, min: 305}
+    rad: {km: 24.4, min: 122}
+    auto: {km: 28.8, min: 27, min_berufsverkehr: 40}
+    oepnv:
+      dauer_min: 70
+      umstiege: 1
+      losgehen: "05:42"
+      ankunft: "06:52"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: regionalbahn, linie: "RB81"}
+  - id: ptid
+    name: Private Tagesschule in Dieburg
+    fuss: {km: 18.8, min: 251}
+    rad: {km: 20.2, min: 101}
+    auto: {km: 21.7, min: 21, min_berufsverkehr: 32}
+    oepnv:
+      dauer_min: 60
+      umstiege: 1
+      losgehen: "06:29"
+      ankunft: "07:29"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: bus, linie: "671"}
+  - id: sbs
+    name: Sabine-Ball-Schule
+    fuss: {km: 3.3, min: 45}
+    rad: {km: 3.7, min: 19}
+    auto: {km: 4.2, min: 8, min_berufsverkehr: 12}
+    oepnv:
+      dauer_min: 36
+      umstiege: 2
+      losgehen: "07:12"
+      ankunft: "07:48"
+      linien:
+        - {typ: tram, linie: "8"}
+        - {typ: bus, linie: "R"}
+        - {typ: bus, linie: "K"}
+  - id: schuldorf
+    name: Schuldorf Bergstraße
+    fuss: {km: 9.5, min: 127}
+    rad: {km: 11.2, min: 56}
+    auto: {km: 11.4, min: 12, min_berufsverkehr: 18}
+    oepnv:
+      dauer_min: 28
+      umstiege: 1
+      losgehen: "07:17"
+      ankunft: "07:45"
+      linien:
+        - {typ: tram, linie: "7"}
+        - {typ: tram, linie: "6"}
+  - id: aue
+    name: Schule auf der Aue
+    fuss: {km: 21.4, min: 286}
+    rad: {km: 22.0, min: 110}
+    auto: {km: 24.7, min: 23, min_berufsverkehr: 34}
+    oepnv:
+      dauer_min: 63
+      umstiege: 2
+      losgehen: "06:39"
+      ankunft: "07:42"
+      linien:
+        - {typ: tram, linie: "1"}
+        - {typ: regionalbahn, linie: "RB75"}
+        - {typ: bus, linie: "ME"}
+  - id: szm
+    name: Schulzentrum Marienhöhe
+    fuss: {km: 1.5, min: 20}
+    rad: {km: 1.4, min: 7}
+    auto: {km: 1.8, min: 4, min_berufsverkehr: 6}
+    oepnv:
+      dauer_min: 17
+      umstiege: 0
+      losgehen: "07:27"
+      ankunft: "07:44"
+      linien:
+        - {typ: tram, linie: "1"}
+  - id: sts
+    name: Stadtteilschule Arheilgen
+    fuss: {km: 7.2, min: 97}
+    rad: {km: 7.9, min: 39}
+    auto: {km: 7.2, min: 14, min_berufsverkehr: 21}
+    oepnv:
+      dauer_min: 34
+      umstiege: 0
+      losgehen: "07:12"
+      ankunft: "07:46"
+      linien:
+        - {typ: tram, linie: "8"}
+  - id: viko
+    name: Viktoriaschule
+    fuss: {km: 2.7, min: 36}
+    rad: {km: 2.9, min: 15}
+    auto: {km: 2.9, min: 6, min_berufsverkehr: 9}
+    oepnv:
+      dauer_min: 29
+      umstiege: 0
+      losgehen: "07:21"
+      ankunft: "07:50"
+      linien:
+        - {typ: tram, linie: "7"}
+  - id: wls
+    name: Wilhelm-Leuschner-Schule
+    fuss: {km: 1.9, min: 26}
+    rad: {km: 2.2, min: 11}
+    auto: {km: 1.9, min: 3, min_berufsverkehr: 4}
+    oepnv:
+      dauer_min: 23
+      umstiege: 1
+      losgehen: "07:23"
+      ankunft: "07:46"
+      linien:
+        - {typ: bus, linie: "R"}
+        - {typ: bus, linie: "H"}
