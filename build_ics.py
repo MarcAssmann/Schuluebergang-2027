@@ -101,10 +101,9 @@ def kurzname(s: dict) -> str:
 
 def beschreibung(s: dict, t: dict, meta: dict) -> str:
     z = []
-    z.append(f"{t['art']} – {kurzname(s)}")
-    zeit = f"{t['wochentag']}, {t['datum']:%d.%m.%Y}, {t['beginn']}"
-    zeit += f"–{t['ende']} Uhr" if t.get("ende") else " Uhr (Endzeit nicht angegeben)"
-    z.append(zeit)
+    z.append(kurzname(s))
+    if not t.get("ende"):
+        z.append(f"Endzeit nicht angegeben (eingetragen: {STANDARDDAUER.seconds // 3600} h)")
     if t.get("zeit_hinweis"):
         z.append(f"Zeit: {t['zeit_hinweis']}")
     if t.get("ort"):
@@ -163,7 +162,7 @@ def vevent(s: dict, t: dict, meta: dict, dtstamp: str) -> list[str]:
     start = zeitpunkt(t["datum"], t["beginn"])
     ende = zeitpunkt(t["datum"], t["ende"]) if t.get("ende") else start + STANDARDDAUER
     fmt = "%Y%m%dT%H%M%S"
-    summary = f"{t['art']} – {kurzname(s)}"
+    summary = f"{s['name']} – {t['art']}"
     if t.get("anmeldung_erforderlich"):
         summary += " (Anmeldung erforderlich)"
     kategorien = [
