@@ -11,6 +11,8 @@ Alle haben die Broschüre des Staatlichen Schulamts als PDF bekommen [Informatio
 
 ## 📊 Excel-Tabelle zur Schulauswahl
 
+**Im Browser ansehen (Google Drive):** [Ordner „Schulübergang 2027“](https://drive.google.com/drive/folders/1jnJpQTp-PRAkDxzzJ4vu1YOtQegWVa4c?usp=sharing). Dort die Datei anklicken, dann öffnet sie sich ohne Excel direkt im Browser bzw. in der Google-Drive-App. Über „Öffnen mit → Google Tabellen“ funktionieren auch die Filter.
+
 **Download:** [Schulauswahl_Darmstadt_2027-2028.xlsx](https://marcassmann.github.io/Schuluebergang-2027/Schulauswahl_Darmstadt_2027-2028.xlsx)
 
 Die Datei hat drei Blätter:
@@ -67,6 +69,7 @@ Wer einen Fehler findet, sagt bitte Bescheid, dann wird er korrigiert.
 - `schulen_2026-2027.yaml`: strukturierte Daten aus dem PDF, die Quelle für alles andere
 - `build_excel.py`: erzeugt die Excel-Tabelle
 - `build_ics.py`: erzeugt die beiden Kalenderdateien
+- `deploy_drive.py`: kopiert die Excel-Tabelle in den geteilten Google-Drive-Ordner
 - `Entfernungen_der_Schulen_von_der_Haltestelle_Lincoln-Siedlung.yml`: Schulwege (OpenStreetMap/OSRM, Fahrplandaten über Transitous)
 
 ```sh

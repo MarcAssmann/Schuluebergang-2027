@@ -12,6 +12,7 @@ Private Recherche zur Wahl einer weiterführenden Schule (Übergang Klasse 4 →
   - Felder: DTSTART/DTEND mit TZID Europe/Berlin (VTIMEZONE eingebettet), LOCATION (Schulname, Raum außer „Schulgelände“, Adresse; „Online“; externe Orte über `EXTERNE_ORTE`, z.B. Pfälzer Schloss; MPG → Adresse Schulgebäude), URL (Homepage), CATEGORIES (Typ, Schulform, privat/öffentlich, Stadt/Landkreis), CONTACT (Telefon, E-Mail).
   - Beschreibung beginnt mit Schulname (Kürzel) und Zusatzinfos zum Termin (Ort, Endzeit fehlt, zeit_hinweis, Anmeldung, Hinweise) – Datum/Uhrzeit/Art nicht wiederholen; danach alle übrigen Schulinfos.
   - Kein ORGANIZER (Clients zeigen es sonst als Einladung), keine Erinnerungen. UID `<id>-<YYYYMMDDTHHMM>@schuluebergang-2027.local`, in beiden Dateien identisch.
+- `deploy_drive.py` – kopiert die Excel-Datei (nur diese, keine Kalender) nach `My Drive/Shared/Schulübergang 2027` im lokal eingebundenen Google Drive (Google Drive for Desktop); überschreibt in place (`shutil.copyfile`), damit Datei-ID und Freigabelink erhalten bleiben. Optionales Argument: Zielordner.
 - `Schulauswahl_Darmstadt_2027-2028.xlsx` – kann manuell bearbeitet sein → vor dem Überschreiben mit `git status`/`git diff` prüfen, ob es uncommittete Änderungen gibt.
 
 ## YAML-Schema (`schulen_2026-2027.yaml`)
