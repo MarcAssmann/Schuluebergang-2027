@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Erzeugt aus schulen_2026-2027.yaml eine iCalendar-Datei (RFC 5545) mit allen Terminen.
 
-Aufruf: .venv/bin/python build_ics.py [ausgabe.ics]
+Erzeugt zwei Dateien: nur Schulen der Stadt Darmstadt und alle Schulen (Stadt + Landkreis).
+
+Aufruf: .venv/bin/python build_ics.py [zielverzeichnis]
 """
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -11,7 +13,13 @@ import yaml
 
 BASE = Path(__file__).resolve().parent
 QUELLE = BASE / "schulen_2026-2027.yaml"
-ZIEL = BASE / "Schultermine_Darmstadt_2026-2027.ics"
+# Dateiname, Kalendername, Regionsbeschreibung, Filter
+KALENDER = [
+    ("Schultermine_Stadt_Darmstadt_2026-2027.ics", "Schulen Stadt Darmstadt",
+     "Stadt Darmstadt", lambda s: s["stadt_darmstadt"]),
+    ("Schultermine_alle_Schulen_2026-2027.ics", "Alle Schulen Darmstadt & Landkreis",
+     None, lambda s: True),
+]
 
 STANDARDDAUER = timedelta(hours=2)
 TZID = "Europe/Berlin"
@@ -194,35 +202,40 @@ def vevent(s: dict, t: dict, meta: dict, dtstamp: str) -> list[str]:
     return lines
 
 
-def main() -> None:
-    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ZIEL
-    data = yaml.safe_load(QUELLE.read_text(encoding="utf-8"))
-    meta, schulen = data["meta"], data["schulen"]
-    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-
-    events = sorted(
-        ((t["datum"], t["beginn"], s, t) for s in schulen for t in s.get("termine", [])),
-        key=lambda x: (x[0], x[1], x[2]["name"]),
-    )
-
+def kalender(events: list, meta: dict, name: str, region: str, dtstamp: str) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Schulübergang 2027//build_ics.py//DE",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{esc('Weiterführende Schulen – Infotermine ' + meta['schuljahr_veranstaltungen'])}",
-        f"X-WR-CALDESC:{esc(meta['untertitel'] + ', ' + meta['region'] + ' (Übergang ' + meta['uebergang'] + ')')}",
+        f"X-WR-CALNAME:{esc(name + ' – Infotermine ' + meta['schuljahr_veranstaltungen'])}",
+        f"X-WR-CALDESC:{esc(meta['untertitel'] + ', ' + region + ' (Übergang ' + meta['uebergang'] + ')')}",
         f"X-WR-TIMEZONE:{TZID}",
         *VTIMEZONE,
     ]
     for _, _, s, t in events:
         lines += vevent(s, t, meta, dtstamp)
     lines.append("END:VCALENDAR")
+    return "".join(f"{part}\r\n" for line in lines for part in fold(line))
 
-    out = "".join(f"{part}\r\n" for line in lines for part in fold(line))
-    ziel.write_text(out, encoding="utf-8", newline="")
-    print(f"{len(events)} Termine → {ziel.name}")
+
+def main() -> None:
+    zielverzeichnis = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE
+    data = yaml.safe_load(QUELLE.read_text(encoding="utf-8"))
+    meta, schulen = data["meta"], data["schulen"]
+    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+    alle = sorted(
+        ((t["datum"], t["beginn"], s, t) for s in schulen for t in s.get("termine", [])),
+        key=lambda x: (x[0], x[1], x[2]["name"]),
+    )
+    for dateiname, name, region, filt in KALENDER:
+        events = [e for e in alle if filt(e[2])]
+        ziel = zielverzeichnis / dateiname
+        out = kalender(events, meta, name, region or meta["region"], dtstamp)
+        ziel.write_text(out, encoding="utf-8", newline="")
+        print(f"{len(events)} Termine → {ziel.name}")
 
 
 if __name__ == "__main__":
