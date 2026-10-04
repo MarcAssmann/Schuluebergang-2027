@@ -7,6 +7,11 @@ Private Recherche zur Wahl einer weiterführenden Schule (Übergang Klasse 4 →
 - `26-27_Mit Karten_Informationsveranstaltungen oder Tage der offenen Tür.pdf` – Quelle: Broschüre des Staatlichen Schulamts (Schulbeschreibungen S. 5–42, Termine S. 43–47).
 - `schulen_2026-2027.yaml` – **maßgebliche strukturierte Datenquelle**, von Hand aus dem PDF extrahiert und geprüft. Weitere Ausgaben (Excel, Kalender) sollen hieraus erzeugt werden.
 - `build_excel.py` – erzeugt aus der YAML `Schulauswahl_Darmstadt_2027-2028.xlsx` für die Eltern der Klasse (Blätter Schulen mit Filtern, Steckbriefe, Anleitung; Spaltenaufbau vom Nutzer per Hand in Excel festgelegt – Änderungen am Layout zuerst in Excel abstimmen und dann ins Skript übernehmen). Grüne Schulweg-Spalten nur ab der öffentlichen Haltestelle Lincoln-Siedlung aus `Entfernungen_der_Schulen_von_der_Haltestelle_Lincoln-Siedlung.yml` (gitignored; fehlt die Datei, entfallen die Spalten). Enthält bewusst keine Wege ab Privatadressen (Freiligrathstr.) und keine Bewertungen.
+- `build_ics.py` – erzeugt aus der YAML zwei iCalendar-Dateien (RFC 5545, ohne Zusatzbibliothek): `Schultermine_Stadt_Darmstadt_2026-2027.ics` (nur `stadt_darmstadt: true`) und `Schultermine_alle_Schulen_2026-2027.ics` (Stadt + Landkreis). Optionales Argument: Zielverzeichnis.
+  - Titel: `<Name der Schule> – <art>` (ohne Kürzel), ggf. „(Anmeldung erforderlich)“.
+  - Felder: DTSTART/DTEND mit TZID Europe/Berlin (VTIMEZONE eingebettet), LOCATION (Schulname, Raum außer „Schulgelände“, Adresse; „Online“; externe Orte über `EXTERNE_ORTE`, z.B. Pfälzer Schloss; MPG → Adresse Schulgebäude), URL (Homepage), CATEGORIES (Typ, Schulform, privat/öffentlich, Stadt/Landkreis), CONTACT (Telefon, E-Mail).
+  - Beschreibung beginnt mit Schulname (Kürzel) und Zusatzinfos zum Termin (Ort, Endzeit fehlt, zeit_hinweis, Anmeldung, Hinweise) – Datum/Uhrzeit/Art nicht wiederholen; danach alle übrigen Schulinfos.
+  - Kein ORGANIZER (Clients zeigen es sonst als Einladung), keine Erinnerungen. UID `<id>-<YYYYMMDDTHHMM>@schuluebergang-2027.local`, in beiden Dateien identisch.
 - `Schulauswahl_Darmstadt_2027-2028.xlsx` – kann manuell bearbeitet sein → vor dem Überschreiben mit `git status`/`git diff` prüfen, ob es uncommittete Änderungen gibt.
 
 ## YAML-Schema (`schulen_2026-2027.yaml`)
@@ -69,4 +74,4 @@ schulen:                      # 38 Einträge, alphabetisch wie im PDF
 
 - macOS; `pdftotext` (poppler) ist vorhanden. Python-Umgebung: venv unter `.venv/` mit `openpyxl`, `pyyaml`, `pdftotext` (siehe `requirements.txt`) → Skripte mit `.venv/bin/python` ausführen. Neu anlegen: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`.
 - Nach Änderungen an der YAML validieren: parsebar, `id` eindeutig, `wochentag` passt zu `datum`, Zeiten sind Strings.
-- Kalender-Export: Termine ohne `ende` sinnvoll behandeln (z.B. Standarddauer 2 h), Zeitzone Europe/Berlin.
+- Kalender-Export: Termine ohne `ende` bekommen 2 h Standarddauer (`STANDARDDAUER`), in der Beschreibung als „Endzeit nicht angegeben“ markiert. Nach YAML-Änderungen `.venv/bin/python build_ics.py` neu ausführen.
