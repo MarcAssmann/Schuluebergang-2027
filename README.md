@@ -15,8 +15,8 @@ Alle haben die Broschüre des Staatlichen Schulamts als PDF bekommen [Informatio
 
 Die Datei hat drei Blätter:
 
-- **Schulen**: eine Zeile pro Schule (38 Schulen) mit Schulform, Fremdsprachen, Oberstufe, G8/G9, Ganztag, Terminen und Kontaktdaten. Über die Pfeile in der Kopfzeile lässt sich filtern, z. B. „nur Gymnasien“, „nur Stadt Darmstadt“ oder „Latein als 2. Fremdsprache“.
-- **Steckbriefe**: der vollständige Text jeder Schule aus der Broschüre, gut zum Lesen und Ausdrucken.
+- **Schulen**: eine Zeile pro Schule (38 Schulen) mit Schulform, Fremdsprachen, Oberstufe, G8/G9, Ganztag, Terminen und Kontaktdaten. Über die Pfeile in der Kopfzeile lässt sich filtern, z. B. „nur Stadt Darmstadt“ oder „Latein als 2. Fremdsprache“.
+- **Steckbriefe**: der vollständige Text jeder Schule aus der Broschüre.
 - **Anleitung**: Erklärungen zu den Spalten, Filterbeispiele und die Schulformen (Gym, KGS, IGS, MSS …) kurz erklärt.
 
 **Geschätzte Schulwege:** Die grünen Spalten zeigen Strecke und Dauer **ab der Haltestelle „Darmstadt Lincoln-Siedlung“** (Tram 1/7/8) mit Bus & Bahn, Fahrrad, zu Fuß und Auto. Die Zeit für den eigenen Weg von zu Hause zur Haltestelle bitte dazurechnen. Grundlage:
@@ -24,8 +24,6 @@ Die Datei hat drei Blätter:
 - Bus & Bahn: späteste Verbindung mit Ankunft bis 7:50 Uhr laut Fahrplan an einem normalen Dienstag. Schulbusse und Verstärkerfahrten fehlen eventuell, daher bitte in der RMV-App gegenprüfen.
 - Fahrrad und zu Fuß: Strecke laut OpenStreetMap, gerechnet im Kindertempo (12 km/h bzw. 4,5 km/h), ohne Ampeln und Steigungen.
 - Auto: Fahrzeit bei freier Straße plus eine grobe Schätzung für den Berufsverkehr.
-
-Die Tabelle enthält bewusst **keine Bewertungen** der Schulen.
 
 ## 📅 Kalender mit allen Terminen
 
