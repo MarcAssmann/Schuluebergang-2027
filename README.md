@@ -2,7 +2,7 @@
 
 Für die Eltern und Familien unserer 4. Klasse, die für das **Schuljahr 2027/2028** eine weiterführende Schule suchen.
 
-Alle haben die Broschüre des Staatlichen Schulamts als PDF bekommen („Informationsveranstaltungen oder Tage der offenen Tür 2026/2027“). Die Inhalte daraus gibt es hier in zwei zusätzlichen Formen:
+Alle haben die Broschüre des Staatlichen Schulamts als PDF bekommen [Informationsveranstaltungen oder Tage der offenen Tür 2026/2027](https://marcassmann.github.io/Schuluebergang-2027/26-27_Mit%20Karten_Informationsveranstaltungen%20oder%20Tage%20der%20offenen%20Tür.pdf). Die Inhalte daraus gibt es hier in zwei zusätzlichen Formen:
 
 - als **Excel-Tabelle**, um Schulen zu vergleichen und zu filtern, mit geschätzten Schulwegen
 - als **Kalenderdateien**, damit man keinen Infoabend und keinen Tag der offenen Tür verpasst
